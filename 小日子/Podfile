@@ -3,3 +3,4 @@ pod "SVProgressHUD"
 pod "MJRefresh"
 pod "AMap2DMap"
 pod "AMapSearch"
+pod 'SDWebImage', '~> 3.7.5'
