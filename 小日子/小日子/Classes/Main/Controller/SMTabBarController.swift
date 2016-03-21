@@ -12,7 +12,7 @@ class SMTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+       
         initTabBarController()
         self.setValue(SMTabBar(), forKey: "tabBar")
     }

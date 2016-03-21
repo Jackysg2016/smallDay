@@ -9,37 +9,34 @@
 import UIKit
 
 class SMMeiTianModel: NSObject,DictModelProtocol {
-    var feel: String?
-    /// 分享url地址
-    var shareURL: String?
-    var note: String?
-    var questionURL: String?
-    /// 电话
-    var telephone: String?
+    /// 位置坐标
+    var position: String?
     /// 标签
     var tag: String?
-    /// 编号
+    /// 数据id
     var id: Int = -1
-    /// 标题
-    var title:String?
-    /// 详情
+    /// 图片url
+    var img: String?
+    /// 主标题
+    var title: String?
+    /// 说明
     var detail: String?
-    /// cellTitle
-    var feeltitle: String?
-    /// 城市
-    var city: String?
+    /// 详细页名称
+    var name: String?
+    /// 详细页内容
+    var content: String?
+    /// 分享url
+    var shareURL: String?
+    /// 猜你喜欢内容
+    var more: [SMGuessLikeModel]?
     /// 地址
     var address: String?
-    /// 店详情店名
-    var remark: String?
-    /// 顶部图片数组
-    var imgs: [String]?
-    /// 猜你喜欢
-    var more: [SMGuessLikeModel]?
-    /// cell内容
-    var mobileURL: String?
-    /// 位置
-    var position: String?
+    /// 店id
+    var shop_id: Int = -1
+    /// 城市名
+    var city: String?
+
+    
     
     // 辅助模型
     /// 标记是否需要显示距离

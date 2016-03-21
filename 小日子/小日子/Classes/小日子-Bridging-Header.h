@@ -5,3 +5,4 @@
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <MJRefresh.h>
 #import "UIImageView+WebCache.h"
+#import "RegExCategories.h"

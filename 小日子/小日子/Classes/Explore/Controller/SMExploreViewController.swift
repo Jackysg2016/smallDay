@@ -158,7 +158,7 @@ extension SMExploreViewController: SMExporeNavTitleViewDelegate,UIScrollViewDele
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if tableView == leftTableView {
-            if everyDayArray[section].meiJiArray?.count > 0 {
+            if everyDayArray[section].themes?.count > 0 {
                 return 2
             }
             
@@ -173,7 +173,7 @@ extension SMExploreViewController: SMExporeNavTitleViewDelegate,UIScrollViewDele
           
             if indexPath.row == 1 {
                 let cell = SMExploreWithMidTitleCell.exploreWithMidTitleCell(tableView)
-                 cell.model = everyDayArray[indexPath.section].meiJiArray!.first
+                 cell.model = everyDayArray[indexPath.section].themes!.first
                 return cell
             }else {
                   let cell = SMExploreWithTopTitleCell.exploreWithTopTitleCell(tableView)
@@ -211,6 +211,19 @@ extension SMExploreViewController: SMExporeNavTitleViewDelegate,UIScrollViewDele
             self.navigationController?.pushViewController(meijiDetailVc, animated: true)
             }
         }
+        else {
+            if indexPath.row == 1 {
+                let meijiDetailVc = SMMeiJiDetailController()
+                let model = everyDayArray[indexPath.section].themes!.first
+                meijiDetailVc.meijiModel = model
+                self.navigationController?.pushViewController(meijiDetailVc, animated: true)
+            }else {
+                let meiTianDetailVc = SMMeiTianDetailController()
+                let model = everyDayArray[indexPath.section].shops![indexPath.row] as SMMeiTianModel
+                meiTianDetailVc.meiTianModel = model
+                self.navigationController?.pushViewController(meiTianDetailVc, animated: true)
+            }
+        }
     }
     
     
@@ -224,7 +237,6 @@ extension SMExploreViewController: SMExporeNavTitleViewDelegate,UIScrollViewDele
             if index == 0 {
                 leftTableView?.reloadData()
                 navTitleView?.bottomViewScrollAtButton(index)
-                
             }
             else if index == 1 {
                 rightTableView?.reloadData()

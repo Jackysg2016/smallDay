@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00EB0989C3B40A933332E1EB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B71C878F5221380971748042 /* libPods.a */; };
+		270E8B131C9FCDD500991510 /* RegExCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 270E8B121C9FCDD400991510 /* RegExCategories.m */; };
 		2739059B1C9296920082F041 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2739058D1C9296920082F041 /* Constraint.swift */; };
 		2739059C1C9296920082F041 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2739058E1C9296920082F041 /* ConstraintAttributes.swift */; };
 		2739059D1C9296920082F041 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2739058F1C9296920082F041 /* ConstraintDescription.swift */; };
@@ -25,14 +26,12 @@
 		273B5D1C1C97FF4B00B6B3FB /* SwiftDictModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273B5D1B1C97FF4B00B6B3FB /* SwiftDictModel.swift */; };
 		273D979F1C99339B0065E915 /* SMWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273D979E1C99339B0065E915 /* SMWebView.swift */; };
 		273D97A11C99346B0065E915 /* SMMeiJiDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273D97A01C99346B0065E915 /* SMMeiJiDetailController.swift */; };
-		27539C2C1C966B840088720A /* 798 in Resources */ = {isa = PBXBuildFile; fileRef = 27539C221C966B840088720A /* 798 */; };
 		27539C2D1C966B840088720A /* Classify in Resources */ = {isa = PBXBuildFile; fileRef = 27539C231C966B840088720A /* Classify */; };
 		27539C2E1C966B840088720A /* Details in Resources */ = {isa = PBXBuildFile; fileRef = 27539C241C966B840088720A /* Details */; };
-		27539C2F1C966B840088720A /* events in Resources */ = {isa = PBXBuildFile; fileRef = 27539C251C966B840088720A /* events */; };
 		27539C301C966B840088720A /* Experience in Resources */ = {isa = PBXBuildFile; fileRef = 27539C261C966B840088720A /* Experience */; };
 		27539C311C966B840088720A /* More in Resources */ = {isa = PBXBuildFile; fileRef = 27539C271C966B840088720A /* More */; };
 		27539C321C966B840088720A /* Nears in Resources */ = {isa = PBXBuildFile; fileRef = 27539C281C966B840088720A /* Nears */; };
-		27539C331C966B840088720A /* themes in Resources */ = {isa = PBXBuildFile; fileRef = 27539C291C966B840088720A /* themes */; };
+		27539C331C966B840088720A /* meiJis in Resources */ = {isa = PBXBuildFile; fileRef = 27539C291C966B840088720A /* meiJis */; };
 		27539C341C966B840088720A /* 三里屯 in Resources */ = {isa = PBXBuildFile; fileRef = 27539C2A1C966B840088720A /* 三里屯 */; };
 		27539C351C966B840088720A /* 南锣鼓巷 in Resources */ = {isa = PBXBuildFile; fileRef = 27539C2B1C966B840088720A /* 南锣鼓巷 */; };
 		27539C391C966BB00088720A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27539C361C966BB00088720A /* Color+Extension.swift */; };
@@ -51,6 +50,8 @@
 		276A46651C92649700C0B5D1 /* SMTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276A46601C92649700C0B5D1 /* SMTabBar.swift */; };
 		276A46671C9264E600C0B5D1 /* SMGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276A46661C9264E600C0B5D1 /* SMGuideController.swift */; };
 		276A46691C92651E00C0B5D1 /* SMGuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276A46681C92651E00C0B5D1 /* SMGuideCell.swift */; };
+		277B27F41C9BFB87003C4C50 /* SMMeiTianDetailBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B27F31C9BFB87003C4C50 /* SMMeiTianDetailBarView.swift */; };
+		277B41911C9A4B230017E7EE /* SMErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B41901C9A4B230017E7EE /* SMErrorView.swift */; };
 		2793A97A1C92A10A00406BDA /* SMAppVersionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793A9791C92A10A00406BDA /* SMAppVersionTool.swift */; };
 		2793A97D1C92AA9400406BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793A97B1C92AA9400406BDA /* AppDelegate.swift */; };
 		2793A97E1C92AA9400406BDA /* GlobalConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793A97C1C92AA9400406BDA /* GlobalConstant.swift */; };
@@ -59,6 +60,8 @@
 		2793A9941C92B35600406BDA /* SMNavItemButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793A9931C92B35600406BDA /* SMNavItemButton.swift */; };
 		2793A99D1C92C84100406BDA /* SMCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793A99C1C92C84100406BDA /* SMCityViewController.swift */; };
 		2793A99F1C92CB7100406BDA /* SMCityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793A99E1C92CB7100406BDA /* SMCityCell.swift */; };
+		279BFC4F1C9A9CB70050C682 /* SMMeiTianDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BFC4E1C9A9CB70050C682 /* SMMeiTianDetailController.swift */; };
+		279BFC511C9AA6130050C682 /* meiTians in Resources */ = {isa = PBXBuildFile; fileRef = 279BFC501C9AA6130050C682 /* meiTians */; };
 		279CD4B41C94130000DCCFE7 /* SMExporeNavTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CD4B31C94130000DCCFE7 /* SMExporeNavTitleView.swift */; };
 		27E4861D1C93BA88003EA33F /* SMCitiHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E4861C1C93BA88003EA33F /* SMCitiHeaderView.swift */; };
 		27E4861F1C93BBE8003EA33F /* SMCityFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E4861E1C93BBE8003EA33F /* SMCityFooterView.swift */; };
@@ -88,6 +91,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		270E8B111C9FCDD400991510 /* RegExCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegExCategories.h; sourceTree = "<group>"; };
+		270E8B121C9FCDD400991510 /* RegExCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegExCategories.m; sourceTree = "<group>"; };
 		2739058D1C9296920082F041 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
 		2739058E1C9296920082F041 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
 		2739058F1C9296920082F041 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
@@ -106,14 +111,12 @@
 		273B5D1B1C97FF4B00B6B3FB /* SwiftDictModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftDictModel.swift; sourceTree = "<group>"; };
 		273D979E1C99339B0065E915 /* SMWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMWebView.swift; sourceTree = "<group>"; };
 		273D97A01C99346B0065E915 /* SMMeiJiDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMMeiJiDetailController.swift; sourceTree = "<group>"; };
-		27539C221C966B840088720A /* 798 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 798; sourceTree = "<group>"; };
 		27539C231C966B840088720A /* Classify */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Classify; sourceTree = "<group>"; };
 		27539C241C966B840088720A /* Details */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Details; sourceTree = "<group>"; };
-		27539C251C966B840088720A /* events */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = events; sourceTree = "<group>"; };
 		27539C261C966B840088720A /* Experience */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Experience; sourceTree = "<group>"; };
 		27539C271C966B840088720A /* More */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = More; sourceTree = "<group>"; };
 		27539C281C966B840088720A /* Nears */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nears; sourceTree = "<group>"; };
-		27539C291C966B840088720A /* themes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = themes; sourceTree = "<group>"; };
+		27539C291C966B840088720A /* meiJis */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = meiJis; sourceTree = "<group>"; };
 		27539C2A1C966B840088720A /* 三里屯 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "三里屯"; sourceTree = "<group>"; };
 		27539C2B1C966B840088720A /* 南锣鼓巷 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "南锣鼓巷"; sourceTree = "<group>"; };
 		27539C361C966BB00088720A /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 		276A46601C92649700C0B5D1 /* SMTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMTabBar.swift; sourceTree = "<group>"; };
 		276A46661C9264E600C0B5D1 /* SMGuideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGuideController.swift; sourceTree = "<group>"; };
 		276A46681C92651E00C0B5D1 /* SMGuideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGuideCell.swift; sourceTree = "<group>"; };
+		277B27F31C9BFB87003C4C50 /* SMMeiTianDetailBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMMeiTianDetailBarView.swift; sourceTree = "<group>"; };
+		277B41901C9A4B230017E7EE /* SMErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMErrorView.swift; sourceTree = "<group>"; };
 		2793A9791C92A10A00406BDA /* SMAppVersionTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMAppVersionTool.swift; sourceTree = "<group>"; };
 		2793A97B1C92AA9400406BDA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2793A97C1C92AA9400406BDA /* GlobalConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstant.swift; sourceTree = "<group>"; };
@@ -141,6 +146,8 @@
 		2793A9931C92B35600406BDA /* SMNavItemButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNavItemButton.swift; sourceTree = "<group>"; };
 		2793A99C1C92C84100406BDA /* SMCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCityViewController.swift; sourceTree = "<group>"; };
 		2793A99E1C92CB7100406BDA /* SMCityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCityCell.swift; sourceTree = "<group>"; };
+		279BFC4E1C9A9CB70050C682 /* SMMeiTianDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMMeiTianDetailController.swift; sourceTree = "<group>"; };
+		279BFC501C9AA6130050C682 /* meiTians */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = meiTians; sourceTree = "<group>"; };
 		279CD4B31C94130000DCCFE7 /* SMExporeNavTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMExporeNavTitleView.swift; sourceTree = "<group>"; };
 		27E4861C1C93BA88003EA33F /* SMCitiHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCitiHeaderView.swift; sourceTree = "<group>"; };
 		27E4861E1C93BBE8003EA33F /* SMCityFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCityFooterView.swift; sourceTree = "<group>"; };
@@ -219,14 +226,13 @@
 		27539C211C966B840088720A /* CustomData */ = {
 			isa = PBXGroup;
 			children = (
-				27539C221C966B840088720A /* 798 */,
+				279BFC501C9AA6130050C682 /* meiTians */,
 				27539C231C966B840088720A /* Classify */,
 				27539C241C966B840088720A /* Details */,
-				27539C251C966B840088720A /* events */,
 				27539C261C966B840088720A /* Experience */,
 				27539C271C966B840088720A /* More */,
 				27539C281C966B840088720A /* Nears */,
-				27539C291C966B840088720A /* themes */,
+				27539C291C966B840088720A /* meiJis */,
 				27539C2A1C966B840088720A /* 三里屯 */,
 				27539C2B1C966B840088720A /* 南锣鼓巷 */,
 			);
@@ -302,6 +308,7 @@
 				276A46601C92649700C0B5D1 /* SMTabBar.swift */,
 				27539C3D1C9695D60088720A /* SMTableRefreshView.swift */,
 				273D979E1C99339B0065E915 /* SMWebView.swift */,
+				277B41901C9A4B230017E7EE /* SMErrorView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -394,6 +401,7 @@
 				2793A9911C92ADD200406BDA /* SMExploreViewController.swift */,
 				2793A99C1C92C84100406BDA /* SMCityViewController.swift */,
 				273D97A01C99346B0065E915 /* SMMeiJiDetailController.swift */,
+				279BFC4E1C9A9CB70050C682 /* SMMeiTianDetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -421,6 +429,7 @@
 				27539C4D1C96A9C50088720A /* SMExploreWithTopTitleCell.xib */,
 				27539C501C96BD1F0088720A /* SMExploreWithMidTitleCell.swift */,
 				27539C511C96BD1F0088720A /* SMExploreWithMidTitleCell.xib */,
+				277B27F31C9BFB87003C4C50 /* SMMeiTianDetailBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -459,6 +468,8 @@
 		2793A99B1C92B67400406BDA /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				270E8B111C9FCDD400991510 /* RegExCategories.h */,
+				270E8B121C9FCDD400991510 /* RegExCategories.m */,
 				27539C361C966BB00088720A /* Color+Extension.swift */,
 				27539C371C966BB00088720A /* String+Extension.swift */,
 				27539C381C966BB00088720A /* UIView+Extension.swift */,
@@ -644,18 +655,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				27539C341C966B840088720A /* 三里屯 in Resources */,
+				279BFC511C9AA6130050C682 /* meiTians in Resources */,
 				27539C321C966B840088720A /* Nears in Resources */,
 				27539C4F1C96A9C50088720A /* SMExploreWithTopTitleCell.xib in Resources */,
 				273905A31C9296920082F041 /* Info.plist in Resources */,
-				27539C2C1C966B840088720A /* 798 in Resources */,
 				27539C531C96BD1F0088720A /* SMExploreWithMidTitleCell.xib in Resources */,
 				27539C351C966B840088720A /* 南锣鼓巷 in Resources */,
 				27539C2D1C966B840088720A /* Classify in Resources */,
 				27539C311C966B840088720A /* More in Resources */,
-				27539C2F1C966B840088720A /* events in Resources */,
 				27E9C9FD1C9142C300F1A76C /* author@2x.png in Resources */,
 				27539C301C966B840088720A /* Experience in Resources */,
-				27539C331C966B840088720A /* themes in Resources */,
+				27539C331C966B840088720A /* meiJis in Resources */,
 				27539C2E1C966B840088720A /* Details in Resources */,
 				27E9C9D41C91428200F1A76C /* Assets.xcassets in Resources */,
 				27E9C9FB1C9142BB00F1A76C /* glass.wav in Resources */,
@@ -732,6 +742,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2739059B1C9296920082F041 /* Constraint.swift in Sources */,
+				270E8B131C9FCDD500991510 /* RegExCategories.m in Sources */,
 				27539C391C966BB00088720A /* Color+Extension.swift in Sources */,
 				273905A71C9296920082F041 /* ViewController+SnapKit.swift in Sources */,
 				2739059C1C9296920082F041 /* ConstraintAttributes.swift in Sources */,
@@ -743,7 +754,9 @@
 				273905A21C9296920082F041 /* EdgeInsets.swift in Sources */,
 				27539C4E1C96A9C50088720A /* SMExploreWithTopTitleCell.swift in Sources */,
 				279CD4B41C94130000DCCFE7 /* SMExporeNavTitleView.swift in Sources */,
+				277B41911C9A4B230017E7EE /* SMErrorView.swift in Sources */,
 				27E9C9CF1C91428200F1A76C /* ViewController.swift in Sources */,
+				277B27F41C9BFB87003C4C50 /* SMMeiTianDetailBarView.swift in Sources */,
 				273B5D1C1C97FF4B00B6B3FB /* SwiftDictModel.swift in Sources */,
 				273905A11C9296920082F041 /* Debugging.swift in Sources */,
 				2793A9941C92B35600406BDA /* SMNavItemButton.swift in Sources */,
@@ -770,6 +783,7 @@
 				27539C571C96C68E0088720A /* SMMeiJiModel.swift in Sources */,
 				273905A41C9296920082F041 /* LayoutConstraint.swift in Sources */,
 				27539C521C96BD1F0088720A /* SMExploreWithMidTitleCell.swift in Sources */,
+				279BFC4F1C9A9CB70050C682 /* SMMeiTianDetailController.swift in Sources */,
 				2739059D1C9296920082F041 /* ConstraintDescription.swift in Sources */,
 				27E4861F1C93BBE8003EA33F /* SMCityFooterView.swift in Sources */,
 				2739059E1C9296920082F041 /* ConstraintItem.swift in Sources */,

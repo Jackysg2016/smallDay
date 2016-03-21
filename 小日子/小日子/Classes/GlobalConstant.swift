@@ -8,6 +8,7 @@
 
 import UIKit
 
+public let NavigationH: CGFloat = 64
 //MARK:-tabBarItemTitle字体大小                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 public let tabBarItemTitleFont = UIFont.systemFontOfSize(12)
 

@@ -25,7 +25,7 @@ class SMExploreWithMidTitleCell: UITableViewCell {
     var model: SMMeiJiModel?{
         didSet {
             mainTitleLabel.text = model?.title
-            subTitleLabel.text = model!.keywords
+            subTitleLabel.text = model!.tag
             cellImageView.sd_setImageWithURL(NSURL(string: model!.img!)!, placeholderImage: UIImage(named: "quesheng")!)
         }
     }

@@ -12,30 +12,42 @@ class SMGuessLikeModel: NSObject{
     /// 标题
     var title: String?
     /// 图片
-    var imgs: [String]?
+    var img: String?
     /// 地址
     var address: String?
+    /// 位置坐标
+    var position: String?
     
-//    //MARK:- 根据字典转成模型
-//    init(dict: [String: AnyObject]) {
-//        super.init()
-//        setValuesForKeysWithDictionary(dict)
-//    }
-//
-//    required init() {
-//        fatalError("init() has not been implemented")
-//    }
-//    
-//    //MARK:- 重写处理不存在的key
-//    override func setValue(value: AnyObject?, forUndefinedKey key: String) {
-//        print(key)
-//    }
-//    
-//    let properties = ["title","imgs","address"]
-//    override var description: String {
-//        
-//        let dict = self.dictionaryWithValuesForKeys(properties)
-//        return "\(dict)"
-//    }
+    /// 美辑 id
+    var id: Int = -1
+    
+    /// 城市名
+    var city: String?
+    
+    /// 标签
+    var tag: String?
+    
+    /// 店名
+    var name: String?
+    
+/*
+    "position": "30.245972,120.174998",
+    
+    "title": "最具男子气的茶馆",
+    
+    "img": "http://pic.huodongjia.com/event/2015-10-26/event147283.jpg",
+    
+    "address": "上城区河坊街184号(近吴山广场)",
+    
+    "id": 132153,
+    
+    "city": "杭州",
+    
+    "tag": "惬意,茶坊",
+    
+    "name": "太极茶道苑(河坊街店)",
+    
+    "classify_type": 0
+    */
 
 }

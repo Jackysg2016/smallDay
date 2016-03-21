@@ -72,8 +72,9 @@ class SMExporeNavTitleView: UIView {
     }
     //MARK:- 底部view的滑动
     func bottomViewScrollAtButton(index : Int) {
+        weak var weakSelf = self
         UIView.animateWithDuration(0.1) { () -> Void in
-            self.bottomView.frame.origin.x = CGFloat(index) * self.bottomView.width
+            weakSelf!.bottomView.frame.origin.x = CGFloat(index) * self.bottomView.width
         }
     }
 }

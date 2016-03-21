@@ -19,6 +19,8 @@ class SMMeiJiDetailController: UIViewController {
         webView.frame = view.bounds
         progressView.frame =  CGRectMake(0, 42, screenW, 2)
         navigationController?.navigationBar.addSubview(progressView)
+        webView.addSubview(errorViw)
+        errorViw.delegate = self
     }
     
     override func didReceiveMemoryWarning() {
@@ -66,18 +68,20 @@ class SMMeiJiDetailController: UIViewController {
         }
     }
     
+    var request: NSURLRequest?
+    
     var meijiModel: SMMeiJiModel? {
         didSet {
-            if (meijiModel?.hasweb == 1 ) {
-                let url_str = meijiModel!.meiJiurl
+            
+                let url_str = meijiModel!.theme_url
                 if url_str != nil {
                     let url = NSURL(string: url_str!)
-                    let request = NSURLRequest(URL: url!)
-                    webView.loadRequest(request)
+                    request = NSURLRequest(URL: url!)
+                    webView.loadRequest(request!)
                 }else {
                     
                 }
-            }
+            
         }
     }
     
@@ -95,7 +99,14 @@ class SMMeiJiDetailController: UIViewController {
         progressView.trackTintColor = UIColor.clearColor()
         return progressView
     }()
-
+    
+    var errorViw :SMErrorView = {
+        let errorView = SMErrorView()
+        errorView.frame = CGRectMake(0,screenH / 2 - 50, screenW, 50)
+        errorView.hidden = true
+        
+        return errorView
+    }()
     
     func shareClick() {
         
@@ -103,10 +114,11 @@ class SMMeiJiDetailController: UIViewController {
     
 }
 
-extension SMMeiJiDetailController: UIWebViewDelegate {
+extension SMMeiJiDetailController: UIWebViewDelegate, SMErrorViewDelegate {
     
     func webViewDidStartLoad(webView: UIWebView) {
         count = 0
+        errorViw.hidden = true
     }
     
     func webViewDidFinishLoad(webView: UIWebView) {
@@ -115,7 +127,13 @@ extension SMMeiJiDetailController: UIWebViewDelegate {
     
     func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
         print(error)
+        errorViw.hidden = false
         SVProgressHUD.showErrorWithStatus("网络加载失败！")
         count = -1
+    }
+    
+    func tryButtonClick(errorView: SMErrorView, buton: UIButton) {
+        webView.loadRequest(request!)
+        print("tryButtonClick")
     }
 }

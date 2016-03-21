@@ -1,0 +1,242 @@
+//
+//  SMMeiTianDetailController.swift
+//  小日子
+//
+//  Created by mike on 16/3/17.
+//  Copyright © 2016年 MK. All rights reserved.
+//
+
+import UIKit
+
+public let topImageHeight: CGFloat = 225//顶部图片高度
+public let detailBarViewHeight: CGFloat = 45//中间tabBar高度
+
+class SMMeiTianDetailController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.clipsToBounds = true
+         view.backgroundColor = viewBackgroundColor
+        SVProgressHUD.showWithStatus("正在加载中")
+        setupSubView()
+        setupNavView()
+
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.hidden = true
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.navigationBar.hidden = false
+    }
+
+    func setupSubView() {
+       view.addSubview(webView)
+//       view.addSubview(detailScrollView)
+       view.addSubview(topImageView)
+       view.addSubview(tabScrollView)
+        
+        
+    }
+    
+    func setupNavView() {
+        view.addSubview(customNav)
+        view.addSubview(backBtn)
+        view.addSubview(likeBtn)
+        view.addSubview(shareBtn)
+        
+    }
+    
+    //MARK:- 点击返回
+    func backBtnClick() {
+        navigationController?.popViewControllerAnimated(true)
+    }
+    //MARK:- 点击分享
+    func shareBtnClick() {
+        
+    }
+    
+    //MARK:- 点击收藏
+    func likeBtnClick() {
+        likeBtn.selected = !likeBtn.selected
+    }
+    
+    private lazy var isLoadFinsih = false
+    //MARK:- 自定义导航view
+    lazy var customNav: UIView = {
+        let customNav = UIView(frame: CGRectMake(0, 0, screenW, NavigationH))
+        customNav.backgroundColor = UIColor.whiteColor()
+        customNav.alpha = 0.0
+        return customNav
+    }()
+    
+    //MARK:- 返回按钮
+    lazy var backBtn: UIButton = {
+       let backBtn = UIButton()
+        backBtn.frame = CGRectMake(-7, 20, 44, 44)
+        backBtn.setImage(UIImage(named: "back_0"), forState: .Normal)
+        backBtn.setImage(UIImage(named: "back_2"), forState: .Normal)
+        backBtn.addTarget(self , action: "backBtnClick", forControlEvents: .TouchUpInside)
+        
+        return backBtn
+    }()
+    //MARK:- 分享按钮
+    lazy var shareBtn: UIButton = {
+        let shareBtn = UIButton()
+        shareBtn.frame = CGRectMake(screenW - 54, 20, 44, 44)
+        shareBtn.setImage(UIImage(named: "share_0"), forState: .Normal)
+        shareBtn.setImage(UIImage(named: "share_2"), forState: .Normal)
+        shareBtn.addTarget(self , action: "shareBtnClick", forControlEvents: .TouchUpInside)
+        
+        return shareBtn
+    }()
+    //MARK:- 收藏按钮
+    lazy var likeBtn: UIButton = {
+        let likeBtn = UIButton()
+        likeBtn.frame = CGRectMake(screenW - 105, 20, 44, 44)
+        likeBtn.setImage(UIImage(named: "collect_0"), forState: .Normal)
+        likeBtn.setImage(UIImage(named: "collect_2"), forState: .Selected)
+        likeBtn.addTarget(self , action: "likeBtnClick", forControlEvents: .TouchUpInside)
+        
+        return likeBtn
+    }()
+    
+    
+    //MARK:- TABBAR选项view
+    lazy var tabScrollView: SMMeiTianDetailBarView = {
+        let tabScrollView = SMMeiTianDetailBarView(frame: CGRectMake(0, topImageHeight, self.view.width, detailBarViewHeight), leftTitle: "店 · 发现", rightTile: "店 · 详情")
+        tabScrollView.backgroundColor = viewBackgroundColor
+        self.view.addSubview(tabScrollView)
+        return tabScrollView
+    }()
+    
+    //MARK:- 左边webView
+    lazy var webView: UIWebView = {
+     let webView = UIWebView()
+        webView.frame = self.view.bounds
+        webView.scrollView.contentInset = UIEdgeInsets(top: topImageHeight - 20 + detailBarViewHeight, left: 0, bottom: 0, right: 0)
+        webView.scrollView.showsHorizontalScrollIndicator = false
+        webView.backgroundColor = viewBackgroundColor
+        webView.paginationBreakingMode = UIWebPaginationBreakingMode.Column//设置此属性，webView按行显示，默认为按页显示
+        webView.delegate = self
+        webView.scrollView.delegate = self
+        return webView
+    }()
+    
+    //MARK:- 右边scrollView
+    lazy var detailScrollView: UIScrollView = {
+        let detailScrollView = UIScrollView(frame: self.view.bounds)
+        detailScrollView.contentInset = UIEdgeInsets(top: topImageHeight + detailBarViewHeight, left: 0, bottom: 0, right: 0)
+        detailScrollView.showsHorizontalScrollIndicator = false
+        detailScrollView.backgroundColor = viewBackgroundColor
+        detailScrollView.alwaysBounceVertical = true
+        detailScrollView.hidden = true
+        detailScrollView.delegate = self
+        detailScrollView.setContentOffset(CGPoint(x: 0, y: -(topImageHeight + detailBarViewHeight)), animated: false)
+        return detailScrollView
+        
+    }()
+    
+    //MARK:- 顶部图片
+    lazy var topImageView: UIImageView = {
+       let topImageView = UIImageView(frame: CGRectMake(0, 0, screenW, topImageHeight))
+        topImageView.image = UIImage(named: "quesheng")
+        topImageView.contentMode = .ScaleToFill
+        topImageView.clipsToBounds = true
+        return topImageView
+    }()
+    
+    var meiTianModel: SMMeiTianModel? {
+        didSet {
+            
+            detailScrollView.hidden = true
+            if let imgStr = (meiTianModel?.img)  {
+                topImageView.sd_setImageWithURL(NSURL(string: imgStr), placeholderImage: UIImage(named: "quesheng"))
+            }
+            var htmlSrt = meiTianModel?.content
+            
+            if htmlSrt != nil {
+                var titleStr: String?
+                
+                if meiTianModel?.title != nil {
+                    titleStr = String(format: "<p style='font-size:20px;'> %@</p>", meiTianModel!.title!)
+                }
+                
+                if meiTianModel?.tag != nil {
+                    titleStr = titleStr?.stringByAppendingFormat("<p style='font-size:13px; color: gray';>%@</p>", meiTianModel!.tag!)
+                }
+                
+                if titleStr != nil {
+                    let newStr: NSMutableString = NSMutableString(string: htmlSrt!)
+                    newStr.insertString(titleStr!, atIndex: 31)
+                    htmlSrt = newStr as String
+                }
+                let newStr = NSMutableString.changeHeigthAndWidthWithSrting(NSMutableString(string: htmlSrt!))
+                webView.loadHTMLString(newStr as String, baseURL: nil)
+                webView.hidden = false
+            }
+            
+        }
+    }
+
+}
+
+extension SMMeiTianDetailController: UIWebViewDelegate, UIScrollViewDelegate, SMMeiTianDetailBarViewDelegate {
+    
+    //MARK: - 点击切换 选项卡按钮
+    func meiTainDetailBarViewDidButton(meiTainDetailBarView: SMMeiTianDetailBarView, button: UIButton, type: SMMeiTianDetailBarViewType) {
+        if type == SMMeiTianDetailBarViewType.Left {
+            print("左边")
+        }else {
+            print("右边")
+        }
+    }
+    
+    func webViewDidFinishLoad(webView: UIWebView) {
+        webView.stringByEvaluatingJavaScriptFromString("document.getElementsByTagName('body')[0].style.background='#F5F5F5';")
+        SVProgressHUD.dismiss()
+        
+    }
+    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        let offsetY = scrollView.contentOffset.y
+        //往上偏移距离刚好等于顶部图片的高度和导航条的高度，则导航条透明度为1
+        customNav.alpha = 1 + (offsetY + NavigationH + detailBarViewHeight) / (topImageHeight - NavigationH)//往上移动的距离
+        print("offsetY:\(offsetY)")
+        if offsetY  >= -(NavigationH + detailBarViewHeight)  {//偏移距离小于或者等于导航条的高度，则，改变下面按钮 图片
+            backBtn.setImage(UIImage(named: "back_1"), forState: .Normal)
+            likeBtn.setImage(UIImage(named: "collect_1"), forState: .Normal)
+            shareBtn.setImage(UIImage(named: "share_1"), forState: .Normal)
+        } else if offsetY < -(NavigationH + detailBarViewHeight)  {
+            backBtn.setImage(UIImage(named: "back_0"), forState: .Normal)
+            likeBtn.setImage(UIImage(named: "collect_0"), forState: .Normal)
+            shareBtn.setImage(UIImage(named: "share_0"), forState: .Normal)
+        }
+        // 顶部imageView的跟随动画
+        if offsetY <= -(topImageHeight + detailBarViewHeight) {// 恢复或者下拉是放大
+//            let sca: CGFloat = 1 + (-offsetY - topImageHeight)/topImageHeight
+//            print("sca: \(sca)")
+//            topImageView.transform = CGAffineTransformMakeScale(sca, sca)
+            topImageView.frame.origin.y = 0
+            topImageView.frame.size.height = -offsetY - detailBarViewHeight
+            topImageView.frame.size.width = screenW - offsetY - topImageHeight
+            topImageView.frame.origin.x = (0 + topImageHeight + offsetY) * 0.5
+            print(topImageView.frame)
+        } else {//向上移动
+            topImageView.frame.origin.y = -offsetY - (topImageHeight + detailBarViewHeight)
+            
+        }
+        
+        // 处理tabScrollView
+        if offsetY >= -(detailBarViewHeight + NavigationH) {//当偏移位置的y小于tabScrollView的高度加导航view高度，则y 就是导航条的高度
+            tabScrollView.frame = CGRect(x: 0, y: NavigationH, width: screenW, height: detailBarViewHeight)
+        } else {//tabScrollView的y 等于顶部imageView的的最大y值
+            tabScrollView.frame = CGRect(x: 0, y: CGRectGetMaxY(topImageView.frame), width: screenW, height: detailBarViewHeight)
+        }
+
+    }
+
+}

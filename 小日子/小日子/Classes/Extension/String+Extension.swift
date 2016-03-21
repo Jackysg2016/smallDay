@@ -28,6 +28,7 @@ extension  String {
         return newStr.substringToIndex(offset + 1)
     }
    
+    /// 根据字符返回字字符串的size
     func textSizeWithFont(font: UIFont, constrainedToSize size:CGSize) -> CGSize {
         
         var textSize:CGSize!
@@ -52,5 +53,62 @@ extension  String {
         
         return textSize
         
+    }
+    
+    /// 判断是否是邮箱
+    func validateEmail() -> Bool {
+        let emailRegex: String = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}"
+        let emailTest: NSPredicate = NSPredicate(format: "SELF MATCHES %@", emailRegex)
+        return emailTest.evaluateWithObject(self)
+    }
+    
+    /// 判断是否是手机号
+    func validateMobile() -> Bool {
+        let phoneRegex: String = "^((13[0-9])|(15[^4,\\D])|(18[0,0-9])|(17[0,0-9]))\\d{8}$"
+        let phoneTest = NSPredicate(format: "SELF MATCHES %@", phoneRegex)
+        return phoneTest.evaluateWithObject(self)
+    }
+    
+
+}
+
+extension NSMutableString {
+    
+    class func changeHeigthAndWidthWithSrting(searchStr: NSMutableString) -> NSMutableString {
+        var mut = [CGFloat]()
+        var mutH = [CGFloat]()
+        let imageW = screenW - 16
+        let rxHeight = NSRegularExpression(pattern: "(?<= height=\")\\d*")
+        let rxWidth = NSRegularExpression(pattern: "(?<=width=\")\\d*")
+        let widthArray = rxWidth.matches(searchStr as String) as! [String]
+        
+        for width  in widthArray {
+            Int(width)!
+            mut.append(imageW/CGFloat(Int(width)!))
+        }
+        
+        var widthMatches = rxWidth.matchesInString(searchStr as String, options: NSMatchingOptions(rawValue: 0), range: NSMakeRange(0, searchStr.length))
+        
+        for var i = widthMatches.count - 1; i >= 0; i-- {
+            let widthMatch = widthMatches[i] as NSTextCheckingResult
+            searchStr.replaceCharactersInRange(widthMatch.range, withString: "\(imageW)")
+        }
+        
+        let newString = searchStr.mutableCopy() as! NSMutableString
+        
+        let heightArray = rxHeight.matches(newString as String) as! [String]
+        for i in 0..<mut.count {
+            mutH.append(mut[i] * CGFloat(Int(heightArray[i])!))
+        }
+        
+        var matches = rxHeight.matchesInString(newString as String, options: NSMatchingOptions(rawValue: 0), range: NSMakeRange(0, newString.length))
+        
+        for var i = matches.count - 1; i >= 0; i--
+        {
+            let match = matches[i] as NSTextCheckingResult
+            newString.replaceCharactersInRange(match.range, withString: "\(mutH[i])")
+        }
+        
+        return newString
     }
 }

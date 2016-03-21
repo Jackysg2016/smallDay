@@ -24,7 +24,10 @@ class BaseViewController: UIViewController {
     func setupLeftItemBtn() {
          leftItemBtn = SMNavItemButton()
         leftItemBtn!.titleLabel?.font = navItemFont
-        let currentCity = NSUserDefaults.standardUserDefaults().objectForKey(cityKey) as? String
+        var currentCity = NSUserDefaults.standardUserDefaults().objectForKey(cityKey) as? String
+        if currentCity == nil {
+            currentCity = "北京"
+        }
         leftItemBtn!.setTitle(currentCity, forState: .Normal)
         leftItemBtn!.setTitleColor(UIColor.blackColor(), forState: .Normal)
         leftItemBtn!.setImage(UIImage(named: "home_down"), forState: .Normal)

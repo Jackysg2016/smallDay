@@ -10,7 +10,7 @@ import UIKit
 
 class SMEveryDayModel: NSObject,DictModelProtocol {
 
-    
+    var day_word: String?
     var date : NSString? {
         willSet {
             if let tmpDate = newValue {
@@ -58,15 +58,15 @@ class SMEveryDayModel: NSObject,DictModelProtocol {
             self.date = newValue
         }
     }
-    var meiJiArray: [SMMeiJiModel ]?
-    var meiTianArray: [SMMeiTianModel]?
+    var themes: [SMMeiJiModel ]?
+    var shops: [SMMeiTianModel]?
     
     // 辅助属性 为了优化 每个模型只计算一次
     var month: String?
     var day: String?
     
     static func customClassMapping() -> [String : String]? {
-        return ["meiJiArray" : "\(SMMeiJiModel.self)", "meiTianArray" : "\(SMMeiTianModel.self)"]
+        return ["themes" : "\(SMMeiJiModel.self)", "shops" : "\(SMMeiTianModel.self)"]
     }
     
 //    init(dict : [String:AnyObject]) {
@@ -116,7 +116,7 @@ class SMEveryDayData: NSObject,DictModelProtocol {
     var list: [SMEveryDayModel]?
     
     class func loadExploreDataForMeiTian(competion:(data: SMEveryDayData?, error: NSError?) ->()) {
-        let path = NSBundle.mainBundle().pathForResource("events", ofType: nil)
+        let path = NSBundle.mainBundle().pathForResource("meiTians", ofType: nil)
         let data = NSData(contentsOfFile: path!)
         
         if data != nil {

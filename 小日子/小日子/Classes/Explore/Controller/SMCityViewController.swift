@@ -122,7 +122,7 @@ class SMCityViewController: UICollectionViewController {
         collectionView!.backgroundColor = UIColor.colorWithRGB(247, g: 247, b: 247, alpha: 1.0)
         collectionView?.alwaysBounceVertical = true
         collectionView?.contentInset = UIEdgeInsetsMake(0, 0, 50, 0)
-        collectionView?.selectItemAtIndexPath(NSIndexPath(forItem: 1, inSection: 0), animated: true, scrollPosition: UICollectionViewScrollPosition.None)
+        collectionView?.selectItemAtIndexPath(NSIndexPath(forItem: 0, inSection: 0), animated: true, scrollPosition: UICollectionViewScrollPosition.None)
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "取消", style: UIBarButtonItemStyle.Plain, target: self, action: "cancel")
         self.collectionView?.registerClass(SMCityCell.self , forCellWithReuseIdentifier: reuseIdentifier)
         self.collectionView?.registerClass(SMCitiHeaderView.self , forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: cityHeaderIdentifier)
@@ -144,7 +144,7 @@ class SMCityViewController: UICollectionViewController {
                 return indexPath
             }
         }
-         return NSIndexPath(forItem: 1, inSection: 0)
+         return NSIndexPath(forItem: 0, inSection: 0)
     }
     
     func cancel(){

@@ -24,12 +24,12 @@ class SMExploreWithTopTitleCell: UITableViewCell {
     //MARK: -设置cell数据
     var model: SMEveryDayModel? {
         didSet {
-            cellTitleLabel.text = model?.meiTianArray?.last?.feeltitle
-            mainTitleLabel.text = model?.meiTianArray?.last?.title
-            subTitleLabel.text = model?.meiTianArray?.last?.address
+            cellTitleLabel.text = model?.day_word
+            mainTitleLabel.text = model?.shops?.first?.title
+            subTitleLabel.text = model?.shops?.first?.address
             dayLabel.text = model?.day
             monthLabel.text = model?.month
-            if let imageURL = NSURL(string: (model?.meiTianArray?.last?.imgs!.last!)!) {
+            if let imageURL = NSURL(string: (model?.shops?.first?.img!)!) {
                 cellImageView.sd_setImageWithURL(imageURL, placeholderImage: UIImage(named: "quesheng")!)
             }
 

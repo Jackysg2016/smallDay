@@ -27,7 +27,7 @@ class SMGuideCell: UICollectionViewCell {
             make.width.equalTo((enterBtn.currentBackgroundImage?.size.width)!)
             make.height.equalTo((enterBtn.currentBackgroundImage?.size.height)!)
             make.centerX.equalTo(self.snp_centerX)
-            make.bottom.equalTo(self.snp_bottom).offset(-40)
+            make.bottom.equalTo(self.snp_bottom).offset(-35)
         })
     }
     
