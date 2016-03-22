@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SMShareViewController" customModule="小日子" customModuleProvider="target">
+            <connections>
+                <outlet property="parentView" destination="s2I-VQ-eP2" id="mFo-vg-VVN"/>
+                <outlet property="shareView" destination="dMF-g0-F1d" id="qYy-hb-ukC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s2I-VQ-eP2" userLabel="parentView">
+                    <rect key="frame" x="0.0" y="385" width="600" height="215"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDA-1I-eIh">
+                            <rect key="frame" x="200" y="155" width="200" height="50"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <state key="normal" title="取消" backgroundImage="kkk">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="dismissVc:" destination="-1" eventType="touchUpInside" id="riN-Uj-pBq"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分享至" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qo7-0R-82M">
+                            <rect key="frame" x="276" y="10" width="48" height="20"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dMF-g0-F1d">
+                            <rect key="frame" x="0.0" y="40" width="600" height="95"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="xDA-1I-eIh" secondAttribute="bottom" constant="10" id="53F-1e-O0K"/>
+                        <constraint firstItem="xDA-1I-eIh" firstAttribute="centerX" secondItem="s2I-VQ-eP2" secondAttribute="centerX" id="Hzo-AJ-yZW"/>
+                        <constraint firstItem="dMF-g0-F1d" firstAttribute="top" secondItem="qo7-0R-82M" secondAttribute="bottom" constant="10" id="I7B-Ou-aV5"/>
+                        <constraint firstItem="dMF-g0-F1d" firstAttribute="leading" secondItem="s2I-VQ-eP2" secondAttribute="leading" id="KcT-Ws-PNC"/>
+                        <constraint firstItem="xDA-1I-eIh" firstAttribute="top" secondItem="dMF-g0-F1d" secondAttribute="bottom" constant="20" id="Kho-us-zZx"/>
+                        <constraint firstAttribute="height" constant="215" id="b9u-n0-3tr"/>
+                        <constraint firstItem="qo7-0R-82M" firstAttribute="centerX" secondItem="s2I-VQ-eP2" secondAttribute="centerX" id="bi0-9f-rDW"/>
+                        <constraint firstAttribute="trailing" secondItem="dMF-g0-F1d" secondAttribute="trailing" id="cEh-EX-yQo"/>
+                        <constraint firstItem="qo7-0R-82M" firstAttribute="top" secondItem="s2I-VQ-eP2" secondAttribute="top" constant="10" id="hNR-N8-2fa"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="s2I-VQ-eP2" secondAttribute="trailing" id="FPk-sM-VCb"/>
+                <constraint firstAttribute="bottom" secondItem="s2I-VQ-eP2" secondAttribute="bottom" id="KHo-lj-EI4"/>
+                <constraint firstItem="s2I-VQ-eP2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="j66-VL-Xgi"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="315" y="359"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="kkk" width="200" height="50"/>
+    </resources>
+</document>

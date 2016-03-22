@@ -109,7 +109,11 @@ class SMMeiJiDetailController: UIViewController {
     }()
     
     func shareClick() {
-        
+        let shareVc = SMShareViewController()
+        self.definesPresentationContext = true; //self is presenting view controller
+        shareVc.view.backgroundColor = UIColor.clearColor()
+        shareVc.modalPresentationStyle = .OverCurrentContext;
+        self.presentViewController(shareVc, animated: true, completion: nil )
     }
     
 }

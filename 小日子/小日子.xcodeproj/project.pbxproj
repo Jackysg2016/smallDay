@@ -60,6 +60,19 @@
 		2793A9941C92B35600406BDA /* SMNavItemButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793A9931C92B35600406BDA /* SMNavItemButton.swift */; };
 		2793A99D1C92C84100406BDA /* SMCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793A99C1C92C84100406BDA /* SMCityViewController.swift */; };
 		2793A99F1C92CB7100406BDA /* SMCityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793A99E1C92CB7100406BDA /* SMCityCell.swift */; };
+		279B16061CA0ED3200FADB89 /* SMGuessLikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B16051CA0ED3200FADB89 /* SMGuessLikeView.swift */; };
+		279B16081CA0ED5200FADB89 /* SMGuessLikeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279B16071CA0ED5200FADB89 /* SMGuessLikeView.xib */; };
+		279B160A1CA0F38600FADB89 /* SMMoreGuessLikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B16091CA0F38600FADB89 /* SMMoreGuessLikeView.swift */; };
+		279B160C1CA0F39900FADB89 /* SMMoreGuessLikeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279B160B1CA0F39900FADB89 /* SMMoreGuessLikeView.xib */; };
+		279B16151CA132A300FADB89 /* SMDetailTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B16131CA132A300FADB89 /* SMDetailTableHeaderView.swift */; };
+		279B16161CA132A300FADB89 /* SMDetailTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279B16141CA132A300FADB89 /* SMDetailTableHeaderView.xib */; };
+		279B16181CA13C0B00FADB89 /* SMMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B16171CA13C0B00FADB89 /* SMMineViewController.swift */; };
+		279B161E1CA13D3700FADB89 /* SMShareModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B161D1CA13D3700FADB89 /* SMShareModel.swift */; };
+		279B16211CA142A100FADB89 /* SMShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B161F1CA142A100FADB89 /* SMShareViewController.swift */; };
+		279B16221CA142A100FADB89 /* SMShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279B16201CA142A100FADB89 /* SMShareViewController.xib */; };
+		279B16241CA1451800FADB89 /* SMShareScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B16231CA1451800FADB89 /* SMShareScrollView.swift */; };
+		279B16261CA1455B00FADB89 /* SMShareButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B16251CA1455B00FADB89 /* SMShareButtonModel.swift */; };
+		279B16281CA1483C00FADB89 /* SMShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B16271CA1483C00FADB89 /* SMShareButton.swift */; };
 		279BFC4F1C9A9CB70050C682 /* SMMeiTianDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279BFC4E1C9A9CB70050C682 /* SMMeiTianDetailController.swift */; };
 		279BFC511C9AA6130050C682 /* meiTians in Resources */ = {isa = PBXBuildFile; fileRef = 279BFC501C9AA6130050C682 /* meiTians */; };
 		279CD4B41C94130000DCCFE7 /* SMExporeNavTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279CD4B31C94130000DCCFE7 /* SMExporeNavTitleView.swift */; };
@@ -146,6 +159,19 @@
 		2793A9931C92B35600406BDA /* SMNavItemButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNavItemButton.swift; sourceTree = "<group>"; };
 		2793A99C1C92C84100406BDA /* SMCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCityViewController.swift; sourceTree = "<group>"; };
 		2793A99E1C92CB7100406BDA /* SMCityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMCityCell.swift; sourceTree = "<group>"; };
+		279B16051CA0ED3200FADB89 /* SMGuessLikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGuessLikeView.swift; sourceTree = "<group>"; };
+		279B16071CA0ED5200FADB89 /* SMGuessLikeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMGuessLikeView.xib; sourceTree = "<group>"; };
+		279B16091CA0F38600FADB89 /* SMMoreGuessLikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMMoreGuessLikeView.swift; sourceTree = "<group>"; };
+		279B160B1CA0F39900FADB89 /* SMMoreGuessLikeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMMoreGuessLikeView.xib; sourceTree = "<group>"; };
+		279B16131CA132A300FADB89 /* SMDetailTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMDetailTableHeaderView.swift; sourceTree = "<group>"; };
+		279B16141CA132A300FADB89 /* SMDetailTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMDetailTableHeaderView.xib; sourceTree = "<group>"; };
+		279B16171CA13C0B00FADB89 /* SMMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMMineViewController.swift; sourceTree = "<group>"; };
+		279B161D1CA13D3700FADB89 /* SMShareModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMShareModel.swift; sourceTree = "<group>"; };
+		279B161F1CA142A100FADB89 /* SMShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMShareViewController.swift; sourceTree = "<group>"; };
+		279B16201CA142A100FADB89 /* SMShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMShareViewController.xib; sourceTree = "<group>"; };
+		279B16231CA1451800FADB89 /* SMShareScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMShareScrollView.swift; sourceTree = "<group>"; };
+		279B16251CA1455B00FADB89 /* SMShareButtonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMShareButtonModel.swift; sourceTree = "<group>"; };
+		279B16271CA1483C00FADB89 /* SMShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMShareButton.swift; sourceTree = "<group>"; };
 		279BFC4E1C9A9CB70050C682 /* SMMeiTianDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMMeiTianDetailController.swift; sourceTree = "<group>"; };
 		279BFC501C9AA6130050C682 /* meiTians */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = meiTians; sourceTree = "<group>"; };
 		279CD4B31C94130000DCCFE7 /* SMExporeNavTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMExporeNavTitleView.swift; sourceTree = "<group>"; };
@@ -242,6 +268,7 @@
 		276A46551C92649700C0B5D1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				279B16191CA13CDC00FADB89 /* Share */,
 				27539C4B1C969A030088720A /* 小日子-Bridging-Header.h */,
 				2793A97B1C92AA9400406BDA /* AppDelegate.swift */,
 				2793A97C1C92AA9400406BDA /* GlobalConstant.swift */,
@@ -420,6 +447,8 @@
 		2793A98A1C92AC8200406BDA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				279B16131CA132A300FADB89 /* SMDetailTableHeaderView.swift */,
+				279B16141CA132A300FADB89 /* SMDetailTableHeaderView.xib */,
 				2793A9931C92B35600406BDA /* SMNavItemButton.swift */,
 				2793A99E1C92CB7100406BDA /* SMCityCell.swift */,
 				27E4861C1C93BA88003EA33F /* SMCitiHeaderView.swift */,
@@ -430,6 +459,10 @@
 				27539C501C96BD1F0088720A /* SMExploreWithMidTitleCell.swift */,
 				27539C511C96BD1F0088720A /* SMExploreWithMidTitleCell.xib */,
 				277B27F31C9BFB87003C4C50 /* SMMeiTianDetailBarView.swift */,
+				279B16051CA0ED3200FADB89 /* SMGuessLikeView.swift */,
+				279B16071CA0ED5200FADB89 /* SMGuessLikeView.xib */,
+				279B16091CA0F38600FADB89 /* SMMoreGuessLikeView.swift */,
+				279B160B1CA0F39900FADB89 /* SMMoreGuessLikeView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -447,6 +480,7 @@
 		2793A98C1C92AC8200406BDA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				279B16171CA13C0B00FADB89 /* SMMineViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -475,6 +509,43 @@
 				27539C381C966BB00088720A /* UIView+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		279B16191CA13CDC00FADB89 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				279B161A1CA13CDC00FADB89 /* Controller */,
+				279B161B1CA13CDC00FADB89 /* Model */,
+				279B161C1CA13CDC00FADB89 /* View */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		279B161A1CA13CDC00FADB89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				279B161F1CA142A100FADB89 /* SMShareViewController.swift */,
+				279B16201CA142A100FADB89 /* SMShareViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		279B161B1CA13CDC00FADB89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				279B161D1CA13D3700FADB89 /* SMShareModel.swift */,
+				279B16251CA1455B00FADB89 /* SMShareButtonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		279B161C1CA13CDC00FADB89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				279B16231CA1451800FADB89 /* SMShareScrollView.swift */,
+				279B16271CA1483C00FADB89 /* SMShareButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		27E9C9C01C91428200F1A76C = {
@@ -657,15 +728,19 @@
 				27539C341C966B840088720A /* 三里屯 in Resources */,
 				279BFC511C9AA6130050C682 /* meiTians in Resources */,
 				27539C321C966B840088720A /* Nears in Resources */,
+				279B16161CA132A300FADB89 /* SMDetailTableHeaderView.xib in Resources */,
 				27539C4F1C96A9C50088720A /* SMExploreWithTopTitleCell.xib in Resources */,
 				273905A31C9296920082F041 /* Info.plist in Resources */,
 				27539C531C96BD1F0088720A /* SMExploreWithMidTitleCell.xib in Resources */,
 				27539C351C966B840088720A /* 南锣鼓巷 in Resources */,
 				27539C2D1C966B840088720A /* Classify in Resources */,
+				279B16221CA142A100FADB89 /* SMShareViewController.xib in Resources */,
 				27539C311C966B840088720A /* More in Resources */,
 				27E9C9FD1C9142C300F1A76C /* author@2x.png in Resources */,
 				27539C301C966B840088720A /* Experience in Resources */,
+				279B16081CA0ED5200FADB89 /* SMGuessLikeView.xib in Resources */,
 				27539C331C966B840088720A /* meiJis in Resources */,
+				279B160C1CA0F39900FADB89 /* SMMoreGuessLikeView.xib in Resources */,
 				27539C2E1C966B840088720A /* Details in Resources */,
 				27E9C9D41C91428200F1A76C /* Assets.xcassets in Resources */,
 				27E9C9FB1C9142BB00F1A76C /* glass.wav in Resources */,
@@ -749,8 +824,13 @@
 				2793A99F1C92CB7100406BDA /* SMCityCell.swift in Sources */,
 				276A46691C92651E00C0B5D1 /* SMGuideCell.swift in Sources */,
 				276A46621C92649700C0B5D1 /* SMNavigationController.swift in Sources */,
+				279B16211CA142A100FADB89 /* SMShareViewController.swift in Sources */,
+				279B16261CA1455B00FADB89 /* SMShareButtonModel.swift in Sources */,
 				27539C3A1C966BB00088720A /* String+Extension.swift in Sources */,
+				279B161E1CA13D3700FADB89 /* SMShareModel.swift in Sources */,
 				27E4861D1C93BA88003EA33F /* SMCitiHeaderView.swift in Sources */,
+				279B16151CA132A300FADB89 /* SMDetailTableHeaderView.swift in Sources */,
+				279B16181CA13C0B00FADB89 /* SMMineViewController.swift in Sources */,
 				273905A21C9296920082F041 /* EdgeInsets.swift in Sources */,
 				27539C4E1C96A9C50088720A /* SMExploreWithTopTitleCell.swift in Sources */,
 				279CD4B41C94130000DCCFE7 /* SMExporeNavTitleView.swift in Sources */,
@@ -758,10 +838,12 @@
 				27E9C9CF1C91428200F1A76C /* ViewController.swift in Sources */,
 				277B27F41C9BFB87003C4C50 /* SMMeiTianDetailBarView.swift in Sources */,
 				273B5D1C1C97FF4B00B6B3FB /* SwiftDictModel.swift in Sources */,
+				279B16241CA1451800FADB89 /* SMShareScrollView.swift in Sources */,
 				273905A11C9296920082F041 /* Debugging.swift in Sources */,
 				2793A9941C92B35600406BDA /* SMNavItemButton.swift in Sources */,
 				2793A97D1C92AA9400406BDA /* AppDelegate.swift in Sources */,
 				273D97A11C99346B0065E915 /* SMMeiJiDetailController.swift in Sources */,
+				279B16281CA1483C00FADB89 /* SMShareButton.swift in Sources */,
 				2793A99D1C92C84100406BDA /* SMCityViewController.swift in Sources */,
 				2793A97E1C92AA9400406BDA /* GlobalConstant.swift in Sources */,
 				276A46631C92649700C0B5D1 /* SMTabBarController.swift in Sources */,
@@ -782,10 +864,12 @@
 				27539C3E1C9695D60088720A /* SMTableRefreshView.swift in Sources */,
 				27539C571C96C68E0088720A /* SMMeiJiModel.swift in Sources */,
 				273905A41C9296920082F041 /* LayoutConstraint.swift in Sources */,
+				279B16061CA0ED3200FADB89 /* SMGuessLikeView.swift in Sources */,
 				27539C521C96BD1F0088720A /* SMExploreWithMidTitleCell.swift in Sources */,
 				279BFC4F1C9A9CB70050C682 /* SMMeiTianDetailController.swift in Sources */,
 				2739059D1C9296920082F041 /* ConstraintDescription.swift in Sources */,
 				27E4861F1C93BBE8003EA33F /* SMCityFooterView.swift in Sources */,
+				279B160A1CA0F38600FADB89 /* SMMoreGuessLikeView.swift in Sources */,
 				2739059E1C9296920082F041 /* ConstraintItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

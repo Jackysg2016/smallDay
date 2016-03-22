@@ -16,28 +16,34 @@ class SMMeiTianDetailController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.clipsToBounds = true
-         view.backgroundColor = viewBackgroundColor
-        SVProgressHUD.showWithStatus("正在加载中")
+        view.backgroundColor = viewBackgroundColor
         setupSubView()
         setupNavView()
-
+        SVProgressHUD.showWithStatus("正在加载中")
     }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.navigationBar.hidden = true
+        navigationItem.leftBarButtonItem = nil
     }
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         navigationController?.navigationBar.hidden = false
     }
+    
 
     func setupSubView() {
+        
+//      view.addSubview(detailScrollView)
+
        view.addSubview(webView)
-//       view.addSubview(detailScrollView)
+       view.addSubview(tableView)
        view.addSubview(topImageView)
        view.addSubview(tabScrollView)
+       view.addSubview(coverView)
+
         
         
     }
@@ -56,7 +62,11 @@ class SMMeiTianDetailController: UIViewController {
     }
     //MARK:- 点击分享
     func shareBtnClick() {
-        
+        let shareVc = SMShareViewController()
+        self.definesPresentationContext = true; //self is presenting view controller
+        shareVc.view.backgroundColor = UIColor.clearColor()
+        shareVc.modalPresentationStyle = .OverCurrentContext;
+        self.presentViewController(shareVc, animated: true, completion: nil )
     }
     
     //MARK:- 点击收藏
@@ -65,6 +75,9 @@ class SMMeiTianDetailController: UIViewController {
     }
     
     private lazy var isLoadFinsih = false
+    private var moreGuessLikeViewArray = [SMMoreGuessLikeView]()
+    private var lastOffset: CGPoint?
+    
     //MARK:- 自定义导航view
     lazy var customNav: UIView = {
         let customNav = UIView(frame: CGRectMake(0, 0, screenW, NavigationH))
@@ -104,11 +117,19 @@ class SMMeiTianDetailController: UIViewController {
         return likeBtn
     }()
     
+    lazy var coverView: UIView = {
+        let coverView = UIView()
+        coverView.frame = CGRectMake(0, topImageHeight + detailBarViewHeight, screenW, screenH - NavigationH)
+        coverView.backgroundColor = UIColor.whiteColor()
+        return coverView
+    }()
+    
     
     //MARK:- TABBAR选项view
     lazy var tabScrollView: SMMeiTianDetailBarView = {
         let tabScrollView = SMMeiTianDetailBarView(frame: CGRectMake(0, topImageHeight, self.view.width, detailBarViewHeight), leftTitle: "店 · 发现", rightTile: "店 · 详情")
         tabScrollView.backgroundColor = viewBackgroundColor
+        tabScrollView.delegate = self
         self.view.addSubview(tabScrollView)
         return tabScrollView
     }()
@@ -122,22 +143,37 @@ class SMMeiTianDetailController: UIViewController {
         webView.backgroundColor = viewBackgroundColor
         webView.paginationBreakingMode = UIWebPaginationBreakingMode.Column//设置此属性，webView按行显示，默认为按页显示
         webView.delegate = self
+                webView.scrollView.setContentOffset(CGPoint(x: 0, y: -(topImageHeight + detailBarViewHeight)), animated: false)
         webView.scrollView.delegate = self
         return webView
     }()
     
-    //MARK:- 右边scrollView
+    //MARK:- 底部scrollView
     lazy var detailScrollView: UIScrollView = {
         let detailScrollView = UIScrollView(frame: self.view.bounds)
-        detailScrollView.contentInset = UIEdgeInsets(top: topImageHeight + detailBarViewHeight, left: 0, bottom: 0, right: 0)
+//        detailScrollView.contentInset = UIEdgeInsets(top: topImageHeight + detailBarViewHeight, left: 0, bottom: 0, right: 0)
+        detailScrollView.contentSize = CGSizeMake(screenW * 2, 0)
         detailScrollView.showsHorizontalScrollIndicator = false
         detailScrollView.backgroundColor = viewBackgroundColor
         detailScrollView.alwaysBounceVertical = true
-        detailScrollView.hidden = true
         detailScrollView.delegate = self
-        detailScrollView.setContentOffset(CGPoint(x: 0, y: -(topImageHeight + detailBarViewHeight)), animated: false)
+        detailScrollView.pagingEnabled = true
+//        detailScrollView.setContentOffset(CGPoint(x: 0, y: -(topImageHeight + detailBarViewHeight)), animated: false)
         return detailScrollView
         
+    }()
+    
+    lazy var tableView: UITableView = {
+       let tableView = UITableView(frame: self.view.bounds, style: .Plain)
+        tableView.contentInset = UIEdgeInsets(top: topImageHeight  + detailBarViewHeight, left: 0, bottom: 0, right: 0)
+        tableView.backgroundColor = UIColor.colorWithRGB(245, g: 245, b: 245, alpha: 1.0)
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.hidden = true
+        let view = SMDetailTableHeaderView.detailTableHeaderViewFromXib()
+        view.frame = CGRectMake(0, 0, screenW, 80)
+        tableView.tableHeaderView = view
+        return tableView
     }()
     
     //MARK:- 顶部图片
@@ -149,9 +185,11 @@ class SMMeiTianDetailController: UIViewController {
         return topImageView
     }()
     
+    lazy var guessLikeView: SMGuessLikeView = SMGuessLikeView.guessLikeViewFromXib()
+    
     var meiTianModel: SMMeiTianModel? {
         didSet {
-            
+
             detailScrollView.hidden = true
             if let imgStr = (meiTianModel?.img)  {
                 topImageView.sd_setImageWithURL(NSURL(string: imgStr), placeholderImage: UIImage(named: "quesheng"))
@@ -174,9 +212,24 @@ class SMMeiTianDetailController: UIViewController {
                     newStr.insertString(titleStr!, atIndex: 31)
                     htmlSrt = newStr as String
                 }
-                let newStr = NSMutableString.changeHeigthAndWidthWithSrting(NSMutableString(string: htmlSrt!))
-                webView.loadHTMLString(newStr as String, baseURL: nil)
-                webView.hidden = false
+
+            }
+            let newStr = NSMutableString.changeHeigthAndWidthWithSrting(NSMutableString(string: htmlSrt!))
+            webView.loadHTMLString(newStr as String, baseURL: nil)
+            webView.hidden = false
+            
+            if meiTianModel?.more?.count > 0 {
+                webView.scrollView.addSubview(guessLikeView)
+                guessLikeView.hidden = false
+                for  moreModel  in (meiTianModel?.more)! {
+                    let moreGuessView = SMMoreGuessLikeView.moreGuessLikeViewFromXib()
+                    moreGuessView.moreModel = moreModel
+                    webView.scrollView.addSubview(moreGuessView)
+                    moreGuessLikeViewArray.append(moreGuessView)
+                    
+                }
+            }else {
+                guessLikeView.hidden = true
             }
             
         }
@@ -184,20 +237,48 @@ class SMMeiTianDetailController: UIViewController {
 
 }
 
-extension SMMeiTianDetailController: UIWebViewDelegate, UIScrollViewDelegate, SMMeiTianDetailBarViewDelegate {
+extension SMMeiTianDetailController: UIWebViewDelegate, UIScrollViewDelegate, SMMeiTianDetailBarViewDelegate,UITableViewDataSource,UITableViewDelegate {
     
     //MARK: - 点击切换 选项卡按钮
     func meiTainDetailBarViewDidButton(meiTainDetailBarView: SMMeiTianDetailBarView, button: UIButton, type: SMMeiTianDetailBarViewType) {
         if type == SMMeiTianDetailBarViewType.Left {
+            webView.hidden = false
+            tableView.hidden = true
+            tableView.setContentOffset(CGPoint(x: 0, y: -(topImageHeight + detailBarViewHeight)), animated: false)
+
             print("左边")
         }else {
+            webView.hidden = true
+            tableView.hidden = false
+            webView.scrollView.setContentOffset(CGPoint(x: 0, y: -(topImageHeight + detailBarViewHeight)), animated: false)
+
             print("右边")
         }
     }
     
+    func webViewDidStartLoad(webView: UIWebView) {
+        coverView.hidden = false
+    }
+    
     func webViewDidFinishLoad(webView: UIWebView) {
         webView.stringByEvaluatingJavaScriptFromString("document.getElementsByTagName('body')[0].style.background='#F5F5F5';")
+        coverView.hidden = true
         SVProgressHUD.dismiss()
+        
+        guessLikeView.frame = CGRect(x: 0, y: webView.scrollView.contentSize.height, width: screenW, height: 50)
+        if !guessLikeView.hidden {
+            webView.scrollView.contentSize.height += 50
+        }
+        for var i = 0; i < moreGuessLikeViewArray.count; i++ {
+            let moreGuessLikeView = moreGuessLikeViewArray [i]
+            if i == 0 {
+                moreGuessLikeView.frame = CGRect(x: 0, y: webView.scrollView.contentSize.height, width: screenW, height: 240)
+                webView.scrollView.contentSize.height += 240
+            }else {
+            moreGuessLikeView.frame = CGRect(x: 0, y: webView.scrollView.contentSize.height + 5, width: screenW, height: 240)
+            webView.scrollView.contentSize.height += 240 + 5
+            }
+        }
         
     }
     
@@ -224,7 +305,7 @@ extension SMMeiTianDetailController: UIWebViewDelegate, UIScrollViewDelegate, SM
             topImageView.frame.size.height = -offsetY - detailBarViewHeight
             topImageView.frame.size.width = screenW - offsetY - topImageHeight
             topImageView.frame.origin.x = (0 + topImageHeight + offsetY) * 0.5
-            print(topImageView.frame)
+//            print(topImageView.frame)
         } else {//向上移动
             topImageView.frame.origin.y = -offsetY - (topImageHeight + detailBarViewHeight)
             
@@ -238,5 +319,21 @@ extension SMMeiTianDetailController: UIWebViewDelegate, UIScrollViewDelegate, SM
         }
 
     }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 2
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .Default, reuseIdentifier: "ID")
+        cell.backgroundColor = UIColor.colorWithRGB(245, g: 245, b: 245, alpha: 1.0)
+        if indexPath.row == 0 {
+        cell.textLabel?.text = "店铺电话："
+        }else {
+        cell.textLabel?.text = "店铺地址："
+        }
+        return cell
+    }
+    
 
 }
