@@ -30,3 +30,6 @@ public let cityKey = "SMCity"
 
 //MARK:- 城市改变通知key
 public let changeCityNotificationName = "changeCityNotificationName"
+
+/// 高德地图KEY
+public let GaoDeAPPKey = "e79aa9ad875e0302ef3f038b319a1de1"

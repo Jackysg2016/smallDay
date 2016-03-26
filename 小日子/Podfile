@@ -1,6 +1,6 @@
 platform :ios, ‘8.0’
 pod "SVProgressHUD"
 pod "MJRefresh"
-pod "AMap2DMap"
-pod "AMapSearch"
 pod 'SDWebImage', '~> 3.7.5'
+pod 'AMap2DMap'
+pod 'AMapSearch'

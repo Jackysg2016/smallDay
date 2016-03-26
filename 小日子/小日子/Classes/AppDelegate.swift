@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         NSThread.sleepForTimeInterval(1.0)
         setupWindow()
+        setupLocationManager()
         return true
     }
     
@@ -53,6 +54,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let navItemDict: Dictionary<String, AnyObject> = [NSFontAttributeName: navItemFont, NSForegroundColorAttributeName:UIColor.blackColor()]
         UIBarButtonItem.appearance().setTitleTextAttributes(navItemDict, forState: .Normal)
+    }
+    
+    //MARK: -用户位置信息
+    func setupLocationManager() {
+        UserInfoManager.sharedUserInfoManager.startUserlocation()
+        MAMapServices.sharedServices().apiKey = GaoDeAPPKey
     }
 
 }

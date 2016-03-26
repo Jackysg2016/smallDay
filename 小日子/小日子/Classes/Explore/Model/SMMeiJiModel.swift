@@ -71,6 +71,7 @@ class SMMeiJiData: NSObject ,DictModelProtocol{
         }
     }
     
+    
     static func customClassMapping() -> [String : String]? {
         return ["list":"\(SMMeiJiModel.self)"]
     }

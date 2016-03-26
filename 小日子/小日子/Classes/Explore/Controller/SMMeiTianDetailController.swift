@@ -33,10 +33,8 @@ class SMMeiTianDetailController: UIViewController {
         navigationController?.navigationBar.hidden = false
     }
     
-
+    //MARK: - 设置子控件
     func setupSubView() {
-        
-//      view.addSubview(detailScrollView)
 
        view.addSubview(webView)
        view.addSubview(tableView)
@@ -47,7 +45,7 @@ class SMMeiTianDetailController: UIViewController {
         
         
     }
-    
+    //MARK: - 设置导航条
     func setupNavView() {
         view.addSubview(customNav)
         view.addSubview(backBtn)
@@ -119,7 +117,7 @@ class SMMeiTianDetailController: UIViewController {
     
     lazy var coverView: UIView = {
         let coverView = UIView()
-        coverView.frame = CGRectMake(0, topImageHeight + detailBarViewHeight, screenW, screenH - NavigationH)
+        coverView.frame = CGRectMake(0, 0, screenW, screenH)
         coverView.backgroundColor = UIColor.whiteColor()
         return coverView
     }()
@@ -151,18 +149,16 @@ class SMMeiTianDetailController: UIViewController {
     //MARK:- 底部scrollView
     lazy var detailScrollView: UIScrollView = {
         let detailScrollView = UIScrollView(frame: self.view.bounds)
-//        detailScrollView.contentInset = UIEdgeInsets(top: topImageHeight + detailBarViewHeight, left: 0, bottom: 0, right: 0)
         detailScrollView.contentSize = CGSizeMake(screenW * 2, 0)
         detailScrollView.showsHorizontalScrollIndicator = false
         detailScrollView.backgroundColor = viewBackgroundColor
         detailScrollView.alwaysBounceVertical = true
         detailScrollView.delegate = self
         detailScrollView.pagingEnabled = true
-//        detailScrollView.setContentOffset(CGPoint(x: 0, y: -(topImageHeight + detailBarViewHeight)), animated: false)
         return detailScrollView
         
     }()
-    
+    //MARK: - 右边的tableview
     lazy var tableView: UITableView = {
        let tableView = UITableView(frame: self.view.bounds, style: .Plain)
         tableView.contentInset = UIEdgeInsets(top: topImageHeight  + detailBarViewHeight, left: 0, bottom: 0, right: 0)
@@ -282,6 +278,7 @@ extension SMMeiTianDetailController: UIWebViewDelegate, UIScrollViewDelegate, SM
         
     }
     
+    //MARK: - 下拉上啦，顶部图片和tabbar选项，导航条变化设置
     func scrollViewDidScroll(scrollView: UIScrollView) {
         let offsetY = scrollView.contentOffset.y
         //往上偏移距离刚好等于顶部图片的高度和导航条的高度，则导航条透明度为1

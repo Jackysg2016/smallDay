@@ -14,6 +14,23 @@ class SMMeiJiDetailController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNav()
+        setupSub()
+       
+       
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+        // Dispose of any resources that can be recreated.
+    }
+    
+    //MARK: - 设置导航条
+    func setupNav() {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "share_1")?.imageWithRenderingMode(.AlwaysOriginal), style: .Plain, target: self, action: "shareClick")
+    }
+    //MARK: - 设置子控件
+    func setupSub() {
         view.addSubview(webView)
         webView.delegate = self
         webView.frame = view.bounds
@@ -23,22 +40,9 @@ class SMMeiJiDetailController: UIViewController {
         errorViw.delegate = self
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        
-        // Dispose of any resources that can be recreated.
-    }
-    
-    func setupNav() {
-        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "share_1")?.imageWithRenderingMode(.AlwaysOriginal), style: .Plain, target: self, action: "shareClick")
-    }
-    
+    //MARK: - 模拟进度条加载进度
     var count : Int = 0 {
         didSet {
-//            if (self.isMJRefresh) {
-//                self.progressView.hidden = YES;
-//                return;
-//            }
             if count == 0 {
                 self.progressView.hidden = false;
                 UIView.animateWithDuration(0.8, animations: { () -> Void in
@@ -108,6 +112,7 @@ class SMMeiJiDetailController: UIViewController {
         return errorView
     }()
     
+    //MARK: - 分享点击
     func shareClick() {
         let shareVc = SMShareViewController()
         self.definesPresentationContext = true; //self is presenting view controller

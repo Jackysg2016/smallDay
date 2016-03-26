@@ -19,14 +19,15 @@ class SMExploreViewController: BaseViewController {
         //        view.backgroundColor = viewBackgroundColor
         self.automaticallyAdjustsScrollViewInsets = false//设置不需要自动调整
         
-        setupNavTitleView()
+        setupNav()
         setupParentScrollView()
         setupLeftTableView()
         setupRightTableView()
     }
     
     //MARK:- 设置导航中间view
-    func setupNavTitleView() {
+    func setupNav() {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "附近", style: .Plain, target: self, action: "nearClick")
         navTitleView = SMExporeNavTitleView(leftBtnName: "美天", rightBtnName: "美辑")
         navTitleView!.delegate = self
         navTitleView!.frame = CGRectMake(0, 0, 120, 44)
@@ -88,6 +89,11 @@ class SMExploreViewController: BaseViewController {
         rightTableView?.mj_footer.hidden = true
         parentScrollView?.addSubview(rightTableView!)
         
+    }
+    
+    func nearClick() {
+        let nearVc = SMNearViewController()
+        self.navigationController?.pushViewController(nearVc, animated: true)
     }
     
      //MARK:-  美天 tableview  下拉下载数据

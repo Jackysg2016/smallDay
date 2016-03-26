@@ -128,6 +128,7 @@ class SMEveryDayData: NSObject,DictModelProtocol {
         }
     }
     
+    
     static func customClassMapping() -> [String : String]? {
         return ["list" : "\(SMEveryDayModel.self)"]
     }

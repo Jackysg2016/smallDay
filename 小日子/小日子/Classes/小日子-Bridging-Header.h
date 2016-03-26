@@ -6,3 +6,5 @@
 #import <MJRefresh.h>
 #import "UIImageView+WebCache.h"
 #import "RegExCategories.h"
+#import <CoreLocation/CoreLocation.h>
+#import <MAMapKit/MAMapKit.h>
