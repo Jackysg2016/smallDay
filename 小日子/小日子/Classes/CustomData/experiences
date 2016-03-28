@@ -1,0 +1,2058 @@
+{
+
+"msg": "Request is successful",
+
+"head": [
+{
+
+"feel": "香艳指数",
+
+"shareURL": "http://api.xiaorizi.me/app/share-135019.html",
+
+"id": 135019,
+
+"adurl": "http://pic.huodongjia.com/event/2016-03-26/event178967.jpg",
+
+"title": "徽州文化游学《茶•花•器•曲》",
+
+"questionURL": "http://api.xiaorizi.me/app/q-135019.html",
+
+"detail": "这是一场《茶•花•器•曲》的徽州文化行\r\n&nbsp;徽州地区，简称“徽”，古称歙州，又名新安。\r\n数千年间，处于城垒般群山环抱中的徽州地域，犹如一座巨大的丹炉，不断汲取着各种营养，熔炼着独特的地域文化，最终形成了璀璨、辉煌的徽州文化。“一生痴绝处，无梦到徽州”，这是明代戏剧家汤显祖留下的千古绝唱，一辈子想去人间仙境，可做梦也没想到人间仙境原来在徽州。",
+
+"mobileURL": "http://api.xiaorizi.me/app/app-135019.html",
+},
+{
+
+"feel": "香艳指数",
+
+"shareURL": "http://api.xiaorizi.me/app/share-132493.html",
+
+"id": 132493,
+
+"adurl": "http://pic.huodongjia.com/event/2015-11-18/event151612.jpg",
+
+"title": "一位老太太的优雅生活锦囊",
+
+"questionURL": "http://api.xiaorizi.me/app/q-132493.html",
+
+"detail": "电影《我在伊朗长大》是一个伊朗女孩的成长自传，改编自伊朗女插画家MarjaneSatrapi的同名漫画。她的画风简洁粗犷，故事却丰满细腻，哪怕在描述最恐怖的政治迫害时，也穿插着或童趣搞笑、或飞扬叛逆的生活细节。\r\n在对女性格外严苛的伊朗，Marjane还能成长为这么一个自由大胆的女插画师，多亏她那宽容开明的豪门家庭。\r\n她结婚时，她的父亲对她未来的丈夫提了三个要求：",
+
+"mobileURL": "http://api.xiaorizi.me/app/app-132493.html",
+},
+{
+
+"feel": "活动指数",
+
+"shareURL": "http://api.xiaorizi.me/app/share-129164.html",
+
+"id": 129164,
+
+"adurl": "http://pic.huodongjia.com/event/2015-12-03/event156106.jpg",
+
+"title": "小日子里的美好",
+
+"questionURL": "http://api.xiaorizi.me/app/q-129164.html",
+
+"detail": "",
+
+"mobileURL": "http://api.xiaorizi.me/app/app-129164.html",
+}
+],
+
+"code": 1,
+
+
+
+
+"list": [
+{
+
+"feel": "香艳指数",
+
+"shareURL": "http://api.xiaorizi.me/app/share-134963.html",
+
+"telephone": "15902060719",
+
+"tag": "书画,纯质",
+
+"sponsor": {
+
+},
+
+"id": 134963,
+
+"adurl": "",
+
+"startdate": 1458698400.0,
+
+"title": "零基础自助绘画",
+
+"eventtype": 2,
+
+"feelnum": 10,
+
+"questionURL": "",
+
+"detail": "城市快生活喧嚣热闹，生存之上，生活之下使每天奔波忙碌的你渐渐褪去了生活的色彩，然而今天，可是你以后生命中最年轻的一天，有什么理由，不去珍惜不去热爱呢？\r\n我们的生活需要色彩，我们的内心需要表达，C+，让你重新找回生活的色彩，用画画表达自己，发现生活。\r\n只要你有一颗热爱生活的心，并且对绘画有兴趣，C+会针对你的绘画程度推荐适合的画题及全程提供绘画指导，帮助你发掘自己的艺术天分。",
+
+"note": "",
+
+"feeltitle": "",
+
+"events": [
+
+],
+
+"more": [
+{
+
+"title": "只为享受一份随性和放松 ",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 20:30:00",
+
+"price_type": 0,
+
+"money": 60.0,
+
+"sale": 60.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "素描/速写",
+
+"start_date": "2016-03-16 17:24:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 20:30:00",
+
+"price_type": 2,
+
+"money": 158.0,
+
+"sale": 99.0,
+
+"number": 100,
+
+"discount": 0.63,
+
+"property": "油画",
+
+"start_date": "2016-03-16 17:24:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 20:30:00",
+
+"price_type": 0,
+
+"money": 169.0,
+
+"sale": 169.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "油画大框",
+
+"start_date": "2016-03-16 17:24:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 20:30:00",
+
+"price_type": 2,
+
+"money": 260.0,
+
+"sale": 180.0,
+
+"number": 100,
+
+"discount": 0.69,
+
+"property": "雕塑",
+
+"start_date": "2016-03-16 17:24:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"address": "黄埔区大沙地黄埔东路1号东城国际29楼2913室",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-16/event176700.jpg"
+],
+
+"position": "113.455389,23.106642",
+
+"id": 134831
+
+},
+{
+
+"title": "著名茶人端云斌、林思冶：邀您结伴游云南古茶山",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-03-30 23:00:00",
+
+"price_type": 0,
+
+"money": 3800.0,
+
+"sale": 3800.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "四天三晚",
+
+"start_date": "2016-03-26 18:31:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"address": "景洪市区",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-26/event179112.jpg"
+],
+
+"position": "100.927296,22.111486",
+
+"id": 135053
+
+}
+],
+
+"city": "广州",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-12-30 10:00:00",
+
+"price_type": 0,
+
+"money": 89.0,
+
+"sale": 89.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "24*30油画框",
+
+"start_date": "2016-03-23 19:43:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-12-30 10:00:00",
+
+"price_type": 0,
+
+"money": 139.0,
+
+"sale": 139.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "30*40油画框",
+
+"start_date": "2016-03-23 19:43:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-12-30 10:00:00",
+
+"price_type": 0,
+
+"money": 169.0,
+
+"sale": 169.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "40*50油画框",
+
+"start_date": "2016-03-23 19:43:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"allshops": [
+{
+
+"position_gcj02": ",",
+
+"position": "113.317475811,23.1268377545",
+
+"title": "C+STUDIO",
+
+"address": "天河区华强路3号富力盈力大厦南塔史丹尼国际公寓9层911室",
+
+"city": "广州"
+
+}
+],
+
+"address": "天河区华强路3号富力盈力大厦南塔史丹尼国际公寓9层911室",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-23/event178278.JPG"
+],
+
+"islongtime": 0,
+
+"remark": "C+STUDIO",
+
+"enddate": 1483191000.0,
+
+"mobileURL": "<body><p>城市快生活喧嚣热闹，生存之上，生活之下使每天奔波忙碌的你渐渐褪去了生活的色彩，然而今天，可是你以后生命中最年轻的一天，有什么理由，不去珍惜不去热爱呢？</p><p>我们的生活需要色彩，我们的内心需要表达，C+，让你重新找回生活的色彩，用画画表达自己，发现生活。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-23/event178285.JPG\" height=\"480\" src=\"http://pic.huodongjia.com/event/2016-03-23/event178285.JPG\" width=\"800\"></img></p><p>只要你有一颗热爱生活的心，并且对绘画有兴趣，C+会针对你的绘画程度推荐适合的画题及全程提供绘画指导，帮助你发掘自己的艺术天分。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-23/event178284.JPG\" height=\"573\" src=\"http://pic.huodongjia.com/event/2016-03-23/event178284.JPG\" width=\"800\"></img></p><p>C+已准备一切绘画所需，色系齐全的颜料及全套绘画工具，更有百余幅彩图供参考选择，当然，C+更鼓励自由创作哦。</p><p>画室另附长期VIP小班绘画课程，欢迎各位同学咨询。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-23/event178283.JPG\" height=\"508\" src=\"http://pic.huodongjia.com/event/2016-03-23/event178283.JPG\" width=\"800\"></img></p><p>或许可以画一幅画，任性地添上喜爱的颜色，送给劳劳碌碌的自己；</p><p>或许可以画一幅画，描画出珍贵的情谊，送给最麻吉的朋友；</p><p>或许可以画一幅画，画出那些甜蜜的爱意，送给最心爱的他/她；</p><p>或许你对画画很有经验，或许你对画画一窍不通，只要你想找一个舒适的地方静静地享受手作之美，那么我们提供的自助绘画服务就很适合你。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-23/event178282.JPG\" height=\"1200\" src=\"http://pic.huodongjia.com/event/2016-03-23/event178282.JPG\" width=\"800\"></img></p><p>我们已为你准备好：</p><p>-全套作画工具（带上你对绘画的热情，C+已准备好干净齐全的工具）</p><p>-各类参考画题（C+鼓励自带或自助创作，C+给你免费作画指导）</p><p>-不吵不闹的音乐</p><p>-清新的海洋味香薰</p><p>-特供饮品</p><p>-3~4小时漫漫时光</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-23/event178280.JPG\" height=\"1200\" src=\"http://pic.huodongjia.com/event/2016-03-23/event178280.JPG\" width=\"800\"></img></p><p>费用(以上收费包括画布，颜料，绘画工具，围裙及一杯饮品)</p><p>A：24cm X 30cm /￥89</p><p>B:30cm X 40cm /￥139</p><p>C:40cm X 50cm /￥169</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-23/event178279.JPG\" height=\"1277\" src=\"http://pic.huodongjia.com/event/2016-03-23/event178279.JPG\" width=\"800\"></img>​</p><p><strong>地址：</strong>天河区华强路3号富力盈力大厦南塔史丹尼国际公寓9层911室</p><p><strong>时间：</strong>3月23日-12月31日 每天 10:00-21:30</p><p><strong>联系方式：</strong>15902060719（请提前1天联系）</p><p></p></body>",
+
+"cat": {
+
+"name": "",
+
+"img": "",
+
+"id": ""
+
+},
+
+"eid": 134963,
+
+"position": "113.317475811,23.1268377545"
+
+},
+{
+
+"feel": "香艳指数",
+
+"shareURL": "http://api.xiaorizi.me/app/share-135053.html",
+
+"telephone": "13911687400",
+
+"tag": "纯质,远足",
+
+"sponsor": {
+
+},
+
+"id": 135053,
+
+"adurl": "",
+
+"startdate": 1460073600.0,
+
+"title": "著名茶人端云斌、林思冶：邀您结伴游云南古茶山",
+
+"eventtype": 2,
+
+"feelnum": 10,
+
+"questionURL": "",
+
+"detail": "云南的古树春茶采茶季即将开始，很多朋友希望能跟我们一起亲赴云南采茶游学。对于一个爱茶人来说，春茶是一年到头最好的茶，在春天拜访古茶山，可以呼吸新鲜空气舒活筋骨，还可以买到正宗的古树茶，也是一大幸事。\r\n本次游学亮点：领略古树茶园与万亩生态茶园风光;动手体验普洱茶的传统手工艺制作和参观现代机械化生产线;力邀普洱茶专家，著名茶人端云斌先生及新生代茶人代表林思冶为您揭开普洱山头茶的神秘面纱。\r\n\r\n西双版纳/勐海---西双版纳接机，前往勐海，时间早可安排中途游览南糯山，住勐海国威大酒店(五星级)。",
+
+"note": "",
+
+"feeltitle": "",
+
+"events": [
+
+],
+
+"more": [
+{
+
+"title": "零基础自助绘画",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-12-30 10:00:00",
+
+"price_type": 0,
+
+"money": 89.0,
+
+"sale": 89.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "24*30油画框",
+
+"start_date": "2016-03-23 19:43:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-12-30 10:00:00",
+
+"price_type": 0,
+
+"money": 139.0,
+
+"sale": 139.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "30*40油画框",
+
+"start_date": "2016-03-23 19:43:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-12-30 10:00:00",
+
+"price_type": 0,
+
+"money": 169.0,
+
+"sale": 169.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "40*50油画框",
+
+"start_date": "2016-03-23 19:43:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"address": "天河区华强路3号富力盈力大厦南塔史丹尼国际公寓9层911室",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-23/event178278.JPG"
+],
+
+"position": "113.323983,23.132704",
+
+"id": 134963
+
+},
+{
+
+"title": "未曾到达的地方·羊芳涛个人作品展",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+
+],
+
+"currency_token": "RMB",
+
+"type": 1
+
+},
+
+"address": "广州市越秀区恤孤院路9号",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-02-19/event171603.jpg"
+],
+
+"position": "113.302827,23.125293",
+
+"id": 134341
+
+}
+],
+
+"city": "广州",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-03-30 23:00:00",
+
+"price_type": 0,
+
+"money": 3800.0,
+
+"sale": 3800.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "四天三晚",
+
+"start_date": "2016-03-26 18:31:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"allshops": [
+{
+
+"position_gcj02": ",",
+
+"position": "100.920843265,22.1051793402",
+
+"title": "集合地点",
+
+"address": "景洪市区",
+
+"city": "广州"
+
+}
+],
+
+"address": "景洪市区",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-26/event179112.jpg"
+],
+
+"islongtime": 0,
+
+"remark": "集合地点",
+
+"enddate": 1460368800.0,
+
+"mobileURL": "<body><p>云南的古树春茶采茶季即将开始，很多朋友希望能跟我们一起亲赴云南采茶游学。对于一个爱茶人来说，春茶是一年到头最好的茶，在春天拜访古茶山，可以呼吸新鲜空气舒活筋骨，还可以买到正宗的古树茶，也是一大幸事。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-26/event179107.png\" height=\"378\" src=\"http://pic.huodongjia.com/event/2016-03-26/event179107.png\" width=\"575\"></img></p><p>本次游学亮点：领略古树茶园与万亩生态茶园风光;动手体验普洱茶的传统手工艺制作和参观现代机械化生产线;力邀普洱茶专家，著名茶人端云斌先生及新生代茶人代表林思冶为您揭开普洱山头茶的神秘面纱。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-26/event179106.jpg\" height=\"426\" src=\"http://pic.huodongjia.com/event/2016-03-26/event179106.jpg\" width=\"640\"></img></p><p>D1 4月8日</p><p>西双版纳/勐海 ---西双版纳接机，前往勐海，时间早可安排中途游览南糯山，住勐海国威大酒店(五星级)。</p><p>D2 4月9日</p><p>景迈/勐海 ---早餐后前往景迈古茶山，下午返回勐海，住勐海国威大酒店(五星级)。</p><p>D3 4月10日</p><p>老班章/贺开/班盆/勐海 ---早餐后前往老班章村，沿途参观贺开，班盆，下午返回勐海，住勐海国威大酒店(五星级)。</p><p>D4 4月11日</p><p>勐海 ---早餐后前往合兴茶厂，茶马古道公园，午餐后前往机场返程。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-26/event179110.png\" height=\"387\" src=\"http://pic.huodongjia.com/event/2016-03-26/event179110.png\" width=\"576\"></img></p><p><strong>游学时间：</strong>2016年4月8日-11日</p><p><strong>游学导师：</strong></p><p>端云斌---云南著名茶人;高端普洱茶品牌“瑞昌祥”掌门人</p><p>林思冶---出生茶道世家;新生代茶人代表</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-26/event179109.png\" height=\"383\" src=\"http://pic.huodongjia.com/event/2016-03-26/event179109.png\" width=\"576\"></img></p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-26/event179111.png\" height=\"358\" src=\"http://pic.huodongjia.com/event/2016-03-26/event179111.png\" width=\"574\"></img>​</p><p><strong>游学费用：</strong>3800 元/人/四天三晚（含行程内车费、住宿、餐食、导游，以及茶青、老师授课等全部学习费用，不含往返机票）</p><p><strong>人数限定：</strong>仅限15人，以付费成功排序为准;</p><p><strong>报名时间：</strong>即日起至3月30日;额满即止;</p><p><strong>着装要求：</strong>带轻便的薄衣，薄外套，裤子宽松;胶底平跟鞋，自带防晒霜;</p><p><strong>联系电话：</strong>13911687400 何先生;</p></body>",
+
+"cat": {
+
+"name": "",
+
+"img": "",
+
+"id": ""
+
+},
+
+"eid": 135053,
+
+"position": "100.920843265,22.1051793402"
+
+},
+{
+
+"feel": "香艳指数",
+
+"shareURL": "http://api.xiaorizi.me/app/share-134337.html",
+
+"telephone": "13802729214",
+
+"tag": "酷炫,定制",
+
+"sponsor": {
+
+},
+
+"id": 134337,
+
+"adurl": "",
+
+"startdate": 1455949800.0,
+
+"title": "男女神养成：如何高调地参加一个复古派对",
+
+"eventtype": 2,
+
+"feelnum": 0,
+
+"questionURL": "",
+
+"detail": "念旧，是疑惑于当下因而选择坚守的一份优雅。复古不是过时和陈旧，它是一种成熟、历时不变的经典魅力，它不过是想借一件物品或某种生活方式，记着某个开始被人们淡忘的年代，无需古老到博物馆的珍藏级别，却悄悄保存着岁月的蛛丝马迹。\r\n来HICC，跟Eric老师一起跳出“岁月味道”\r\n——什么是SWINGDANCE？",
+
+"note": "",
+
+"feeltitle": "",
+
+"events": [
+
+],
+
+"more": [
+
+],
+
+"city": "广州",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-12-30 14:30:00",
+
+"price_type": 0,
+
+"money": 50.0,
+
+"sale": 50.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "单人",
+
+"start_date": "2016-02-24 19:38:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"allshops": [
+{
+
+"position_gcj02": ",",
+
+"position": "113.28758677,23.1356428441",
+
+"title": "HI创意美育中心",
+
+"address": "广州市环市东路370号正聚百货四楼",
+
+"city": "广州"
+
+}
+],
+
+"address": "广州市环市东路370号正聚百货四楼",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-02-18/event171560.jpg"
+],
+
+"islongtime": 0,
+
+"remark": "HI创意美育中心",
+
+"enddate": 1483173000.0,
+
+"mobileURL": "<body><html><head></head><body><p>念旧，是疑惑于当下因而选择坚守的一份优雅。复古不是过时和陈旧，它是一种成熟、历时不变的经典魅力，它不过是想借一件物品或某种生活方式，记着某个开始被人们淡忘的年代，无需古老到博物馆的珍藏级别，却悄悄保存着岁月的蛛丝马迹。</p><p>来HICC，跟Eric老师一起跳出“岁月味道”</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-18/event171559.jpg\" height=\"596\" src=\"http://pic.huodongjia.com/event/2016-02-18/event171559.jpg\" width=\"500\"></img>——什么是SWING DANCE？SWING DANCE摇摆舞是上世纪20年代在美国兴起的一种交谊舞蹈。还是没懂？</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-18/event171561.jpg\" height=\"750\" src=\"http://pic.huodongjia.com/event/2016-02-18/event171561.jpg\" width=\"500\"></img></p><p>——什么？你没有舞蹈基本功柔韧性也不怎么样？SWING DANCE即兴、自娱性强，不需循规蹈矩，无严格的动作规范，掌握常用的组合动作，即可自由发挥。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-18/event171562.jpg\" height=\"851\" src=\"http://pic.huodongjia.com/event/2016-02-18/event171562.jpg\" width=\"564\"></img></p><p>——Eric老师是谁？90后、摩羯座、8岁已开始国标拉丁学习，现已是国标舞国家级教师，曾代表中国参加德国柏林Salsa节《中国印象》，而且是代表团里最年轻的成员。</p><p>此外，Eric还常受邀作表演嘉宾出席全国各地各种节日嘉年华活动： CCTV获奖作品《战》、香港东亚运动会《芝加哥》、香港回归15周年表演、亚运会开幕式表演等。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-18/event171563.jpg\" height=\"269\" src=\"http://pic.huodongjia.com/event/2016-02-18/event171563.jpg\" width=\"451\"></img></p><p>——还没有一身华丽丽的跳舞衣裙？HELLO VINTAGE为你准备了复古品衣橱，各式复古服装饰品一一罗列。摇摆舞无论男士女士，必不可少的复古裙装和相应的配饰，在这里，垂手可得。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-18/event171564.jpg\" height=\"316\" src=\"http://pic.huodongjia.com/event/2016-02-18/event171564.jpg\" width=\"478\"></img>​</p><p>课程信息</p><p><strong>派对（体验课）时间：</strong>2016年2月20日开始，逢周六14:30-16:00</p><p><strong>课程地点：</strong>广州市环市东路370号正聚百货四楼（地铁五号线淘金站A出口，花园酒店旁）</p><p><strong>课程费用：</strong>50元/人</p><p><strong>联系方式：</strong>13802729214</p></body></html></body>",
+
+"cat": {
+
+"name": "",
+
+"img": "",
+
+"id": ""
+
+},
+
+"eid": 134337,
+
+"position": "113.28758677,23.1356428441"
+
+},
+{
+
+"feel": "香艳指数",
+
+"shareURL": "http://api.xiaorizi.me/app/share-134831.html",
+
+"telephone": "13500005557",
+
+"tag": "书画,幸福,惬意",
+
+"sponsor": {
+
+},
+
+"id": 134831,
+
+"adurl": "",
+
+"startdate": 1458135012.0,
+
+"title": "只为享受一份随性和放松 ",
+
+"eventtype": 2,
+
+"feelnum": 0,
+
+"questionURL": "",
+
+"detail": "放下手机，放下工作，放下感情，放下世俗压力，来奇妙自助画室，端起高脚杯，拿起画笔，做回李白，在微醺的状态下创作，挥洒你的灵感，每个人都是搞艺术的！还自己洒脱率性特别的一天。\r\n自助绘画，概念缘起于欧美。近几年风行香港台湾新加坡，受明星、白领、学生等阶层的追捧，已迅成风尚。其不限主题，无拘无束自由自在的绘画创作方式，使人能在情绪舒展的同时，摆脱压力和烦恼。无论有无基础，无论是否擅长绘画，不用担心画的好或差。只在放松身心的同时，找到原始的绘画冲动，探索自己创造性的一面，发掘自己的艺术天分。它不需要完美的技巧和严谨的画作，它透过每个人对事物对色彩的理解，寻找自我。&nbsp;\r\n在这里，什么都不需要带，带上你作画的冲动，来吧。&nbsp;",
+
+"note": "",
+
+"feeltitle": "",
+
+"events": [
+
+],
+
+"more": [
+{
+
+"title": "萌萌招财猫音乐盒粘土DIY",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-29 00:00:00",
+
+"price_type": 0,
+
+"money": 88.0,
+
+"sale": 88.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "单份",
+
+"start_date": "2016-02-24 19:38:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-29 00:00:00",
+
+"price_type": 0,
+
+"money": 142.0,
+
+"sale": 142.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "双份",
+
+"start_date": "2016-02-24 19:38:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"address": "天河北路233号中信广场1002A室",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-02-24/event172503.jpg"
+],
+
+"position": "116.343393,39.697267",
+
+"id": 134434
+
+},
+{
+
+"title": "零基础自助绘画",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-12-30 10:00:00",
+
+"price_type": 0,
+
+"money": 89.0,
+
+"sale": 89.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "24*30油画框",
+
+"start_date": "2016-03-23 19:43:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-12-30 10:00:00",
+
+"price_type": 0,
+
+"money": 139.0,
+
+"sale": 139.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "30*40油画框",
+
+"start_date": "2016-03-23 19:43:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-12-30 10:00:00",
+
+"price_type": 0,
+
+"money": 169.0,
+
+"sale": 169.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "40*50油画框",
+
+"start_date": "2016-03-23 19:43:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"address": "天河区华强路3号富力盈力大厦南塔史丹尼国际公寓9层911室",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-23/event178278.JPG"
+],
+
+"position": "113.323983,23.132704",
+
+"id": 134963
+
+}
+],
+
+"city": "广州",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 20:30:00",
+
+"price_type": 0,
+
+"money": 60.0,
+
+"sale": 60.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "素描/速写",
+
+"start_date": "2016-03-16 17:24:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 20:30:00",
+
+"price_type": 2,
+
+"money": 158.0,
+
+"sale": 99.0,
+
+"number": 100,
+
+"discount": 0.63,
+
+"property": "油画",
+
+"start_date": "2016-03-16 17:24:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 20:30:00",
+
+"price_type": 0,
+
+"money": 169.0,
+
+"sale": 169.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "油画大框",
+
+"start_date": "2016-03-16 17:24:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 20:30:00",
+
+"price_type": 2,
+
+"money": 260.0,
+
+"sale": 180.0,
+
+"number": 100,
+
+"discount": 0.69,
+
+"property": "雕塑",
+
+"start_date": "2016-03-16 17:24:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"allshops": [
+{
+
+"position_gcj02": ",",
+
+"position": "113.448831757,23.1009264906",
+
+"title": "奇妙自助画室",
+
+"address": "黄埔区大沙地黄埔东路1号东城国际29楼2913室",
+
+"city": "广州"
+
+}
+],
+
+"address": "黄埔区大沙地黄埔东路1号东城国际29楼2913室",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-16/event176700.jpg"
+],
+
+"islongtime": 0,
+
+"remark": "奇妙自助画室",
+
+"enddate": 1467289821.0,
+
+"mobileURL": "<body><html><head></head><body><p>放下手机，放下工作，放下感情，放下世俗压力，来奇妙自助画室，端起高脚杯，拿起画笔，做回李白，在微醺的状态下创作，挥洒你的灵感，每个人都是搞艺术的！还自己洒脱率性特别的一天。</p><p>自助绘画，概念缘起于欧美。近几年风行香港台湾新加坡，受明星、白领、学生等阶层的追捧，已迅成风尚。其不限主题，无拘无束自由自在的绘画创作方式，使人能在情绪舒展的同时，摆脱压力和烦恼。 无论有无基础，无论是否擅长绘画，不用担心画的好或差。只在放松身心的同时，找到原始的绘画冲动，探索自己创造性的一面，发掘自己的艺术天分。它不需要完美的技巧和严谨的画作，它透过每个人对事物对色彩的理解，寻找自我。 </p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-16/event176703.jpg\" height=\"1080\" src=\"http://pic.huodongjia.com/event/2016-03-16/event176703.jpg\" width=\"1080\"></img></p><p>在这里，什么都不需要带，带上你作画的冲动，来吧。 </p><p>这里提供让你释放艺术才情所需要的一切东西AND送风尚微起泡山葡萄酒饮用~ </p><p>全色系环保颜料及作画工具、材料，音乐，咖啡or tea，熏香以及全程专业摄影跟踪拍摄 ，你可自带参考图或自由创作，大象老师针对零基础绘画者进行免费指导（画前讲解和过程中的难点答疑）</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-16/event176705.jpg\" height=\"1080\" src=\"http://pic.huodongjia.com/event/2016-03-16/event176705.jpg\" width=\"1080\"></img></p><p>我们的童靴们有程序员，有医生，有律师，有嘻哈小伙，有创业勇士，有时尚界人士，有设计师，有建筑师，有自由职业，有大学生，有热爱手工的人们，有热爱宠物的姑娘们，有热爱运动和街舞的帅锅，还有需要放松自己身心的白领金领。</p><p>【大象老师】</p><p>美院雕塑系毕业，从事美术行业游戏美术3d绘画设计行业多年，曾供职于网易sohu百度等各大网络公司多年，自助画室一直是大象老师多年的梦想，发挥自己的能量让每一个对艺术望而却步的人贴近美领略艺术的真实。</p><p>【小肥老师】</p><p>自助画室摄影，时而冷酷时而话唠的独立摄影人，负责给前来创作的同学拍摄画画全程，心情好还送写真~</p><p>【环境】</p><p>二十九楼僻静陋室，有独立卫生间洗手间吸烟区，免费提供熏香，民谣，热茶，独立洗漱间，还有最重要的风尚微起泡山葡萄酒，画累了在阳台吹吹风，和志同道合的朋友们侃大山</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-16/event176706.jpg\" height=\"810\" src=\"http://pic.huodongjia.com/event/2016-03-16/event176706.jpg\" width=\"1080\"></img></p><p>【费用】</p><p>--素描、速写60元一节 --油画 99元一节 （原价158）【油画40*40标准框99元，50*60大框169元】--雕塑 180元一节  （原价260）山葡萄酒10元一杯，其他所有饮品都免费提供</p><p>【体验时间】3月15日 ~ 12月1日 每周二至周日 9:30-20:30</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-16/event176701.JPG\" height=\"720\" src=\"http://pic.huodongjia.com/event/2016-03-16/event176701.JPG\" width=\"1080\"></img>​</p></body></html></body>",
+
+"cat": {
+
+"name": "",
+
+"img": "",
+
+"id": ""
+
+},
+
+"eid": 134831,
+
+"position": "113.448831757,23.1009264906"
+
+},
+{
+
+"feel": "香艳指数",
+
+"shareURL": "http://api.xiaorizi.me/app/share-134434.html",
+
+"telephone": "020-38801032",
+
+"tag": "手作,惬意",
+
+"sponsor": {
+
+},
+
+"id": 134434,
+
+"adurl": "",
+
+"startdate": 1456363800.0,
+
+"title": "萌萌招财猫音乐盒粘土DIY",
+
+"eventtype": 2,
+
+"feelnum": 0,
+
+"questionURL": "",
+
+"detail": "招财猫（日文：招き猫英文：Luckycat）一说起源于1000多年前的中国，另外一说则起源于日本，是日本传统文化中常见的猫型偶像摆设，被视为一种招财招福的吉祥物，其历史可以追溯到四百多年前的江户。\r\n招财猫通常采用陶瓷制作，一般为白色，形态为其中一手高举至头顶，作出向人招来的手势。一般招财猫举左手表示招福；举右手则寓意招财；两只手同时举起，就代表“财”和“福”一起到来的意思。\r\n此外，招财猫胸前挂着的金铃，也有开运、招财、招福、缘起之意。不同颜色的招财猫代表了主人不同的愿望，表达了人类亘古不变的对幸福、美满、好运的希冀。",
+
+"note": "",
+
+"feeltitle": "",
+
+"events": [
+
+],
+
+"more": [
+{
+
+"title": "传统蜡染DIY",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-05-28 15:00:00",
+
+"price_type": 0,
+
+"money": 150.0,
+
+"sale": 150.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "单人",
+
+"start_date": "2016-03-24 18:34:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"address": "白云区 京溪路太阳城南门",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-23/event178275.jpg"
+],
+
+"position": "113.336769,23.187169",
+
+"id": 134962
+
+},
+{
+
+"title": "只为享受一份随性和放松 ",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 20:30:00",
+
+"price_type": 0,
+
+"money": 60.0,
+
+"sale": 60.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "素描/速写",
+
+"start_date": "2016-03-16 17:24:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 20:30:00",
+
+"price_type": 2,
+
+"money": 158.0,
+
+"sale": 99.0,
+
+"number": 100,
+
+"discount": 0.63,
+
+"property": "油画",
+
+"start_date": "2016-03-16 17:24:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 20:30:00",
+
+"price_type": 0,
+
+"money": 169.0,
+
+"sale": 169.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "油画大框",
+
+"start_date": "2016-03-16 17:24:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 20:30:00",
+
+"price_type": 2,
+
+"money": 260.0,
+
+"sale": 180.0,
+
+"number": 100,
+
+"discount": 0.69,
+
+"property": "雕塑",
+
+"start_date": "2016-03-16 17:24:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"address": "黄埔区大沙地黄埔东路1号东城国际29楼2913室",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-16/event176700.jpg"
+],
+
+"position": "113.455389,23.106642",
+
+"id": 134831
+
+}
+],
+
+"city": "广州",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-29 00:00:00",
+
+"price_type": 0,
+
+"money": 88.0,
+
+"sale": 88.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "单份",
+
+"start_date": "2016-02-24 19:38:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-29 00:00:00",
+
+"price_type": 0,
+
+"money": 142.0,
+
+"sale": 142.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "双份",
+
+"start_date": "2016-02-24 19:38:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"allshops": [
+{
+
+"position_gcj02": ",",
+
+"position": "116.336794385,39.6916178462",
+
+"title": "优活起航生态",
+
+"address": "天河北路233号中信广场1002A室",
+
+"city": "广州"
+
+}
+],
+
+"address": "天河北路233号中信广场1002A室",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-02-24/event172503.jpg"
+],
+
+"islongtime": 0,
+
+"remark": "优活起航生态",
+
+"enddate": 1467280800.0,
+
+"mobileURL": "<body><html><head></head><body><p>招财猫（日文：招き猫 英文：Lucky cat）一说起源于1000多年前的中国，另外一说则起源于日本，是日本传统文化中常见的猫型偶像摆设，被视为一种招财招福的吉祥物，其历史可以追溯到四百多年前的江户。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-24/event172497.jpg\" height=\"540\" src=\"http://pic.huodongjia.com/event/2016-02-24/event172497.jpg\" width=\"960\"></img></p><p>招财猫通常采用陶瓷制作，一般为白色，形态为其中一手高举至头顶，作出向人招来的手势。一般招财猫举左手表示招福；举右手则寓意招财；两只手同时举起，就代表“财”和“福”一起到来的意思。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-24/event172498.jpg\" height=\"810\" src=\"http://pic.huodongjia.com/event/2016-02-24/event172498.jpg\" width=\"1080\"></img></p><p>此外，招财猫胸前挂着的金铃，也有开运、招财、招福、缘起之意。不同颜色的招财猫代表了主人不同的愿望，表达了人类亘古不变的对幸福、美满、好运的希冀。</p><p class=\"para\" style=\"font-size: 14px; word-wrap: break-word; margin-bottom: 15px; text-indent: 28px; line-height: 24px; zoom: 1; font-family: arial, 宋体, sans-serif;\"></p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-24/event172500.jpg\" height=\"1280\" src=\"http://pic.huodongjia.com/event/2016-02-24/event172500.jpg\" width=\"960\"></img></p><p></p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-24/event172501.jpg\" height=\"640\" src=\"http://pic.huodongjia.com/event/2016-02-24/event172501.jpg\" width=\"852\"></img></p><p></p><p>DIY工具无需押金，店家提供的工具有：粘土、音乐盒底座、白乳胶，制作工具，成品立等可取</p><p>体验时长限制3小时</p><p>不提供包装盒</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-24/event172502.jpg\" height=\"810\" src=\"http://pic.huodongjia.com/event/2016-02-24/event172502.jpg\" width=\"1080\"></img>​</p><p><strong>费用：</strong>88元/份；142元/双份</p><p><strong>地址：</strong>天河北路233号中信广场1002A室</p><p><strong>时间：</strong>2016年2月25日 9:30-2016年6月30日 18:00</p><p><strong>联系方式：</strong>020-38801032（提前2小时电话预约)</p><p></p></body></html></body>",
+
+"cat": {
+
+"name": "",
+
+"img": "",
+
+"id": ""
+
+},
+
+"eid": 134434,
+
+"position": "116.336794385,39.6916178462"
+
+},
+{
+
+"feel": "香艳指数",
+
+"shareURL": "http://api.xiaorizi.me/app/share-134435.html",
+
+"telephone": "13316268756",
+
+"tag": "赏味,有趣",
+
+"sponsor": {
+
+},
+
+"id": 134435,
+
+"adurl": "",
+
+"startdate": 1456290000.0,
+
+"title": "做自己的咖啡师，探寻一颗豆子最原始的味道",
+
+"eventtype": 2,
+
+"feelnum": 0,
+
+"questionURL": "",
+
+"detail": "1.介绍咖啡器具2.讲解冲煮原理3.如何品尝咖啡4.实践3次手冲咖啡\r\n提供咖啡豆：哥伦比亚娜玲珑/危地马拉薇薇特南果/埃塞俄比亚耶加雪菲等&nbsp;（任选3种，可重复）\r\n\r\n\r\n1.介绍咖啡设备与工具2.espresso制作的讲解与实践3.奶泡制作的讲解与实践",
+
+"note": "",
+
+"feeltitle": "",
+
+"events": [
+
+],
+
+"more": [
+
+],
+
+"city": "广州",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-05-29 13:00:00",
+
+"price_type": 0,
+
+"money": 288.0,
+
+"sale": 288.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "精品手冲咖啡爱好课程",
+
+"start_date": "2016-02-24 19:37:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-05-29 13:00:00",
+
+"price_type": 0,
+
+"money": 388.0,
+
+"sale": 388.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "意式拉花咖啡爱好课程",
+
+"start_date": "2016-02-24 19:37:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"allshops": [
+{
+
+"position_gcj02": ",",
+
+"position": "113.287566798,23.1356427081",
+
+"title": "HiCC创意美育中心",
+
+"address": "广州市环市东路370号正佳环市中心正聚百货四楼",
+
+"city": "广州"
+
+}
+],
+
+"address": "广州市环市东路370号正佳环市中心正聚百货四楼",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-02-24/event172508.jpg"
+],
+
+"islongtime": 0,
+
+"remark": "HiCC创意美育中心",
+
+"enddate": 1464595200.0,
+
+"mobileURL": "<body><head></head><body><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-24/event172505.jpg\" height=\"761\" src=\"http://pic.huodongjia.com/event/2016-02-24/event172505.jpg\" width=\"510\"></img></p><p>［1］精品手冲咖啡爱好课程</p><p>课程课时：3小时／次</p><p>课程内容：</p><p>1. 介绍咖啡器具2. 讲解冲煮原理3. 如何品尝咖啡4. 实践3次手冲咖啡</p><p>提供咖啡豆：哥伦比亚娜玲珑/危地马拉薇薇特南果/埃塞俄比亚耶加雪菲 等 （任选3种，可重复）</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-24/event172504.jpg\" height=\"375\" src=\"http://pic.huodongjia.com/event/2016-02-24/event172504.jpg\" width=\"500\"></img>［2］意式咖啡爱好课程</p><p>课程课时：3小时／次</p><p>课程内容：</p><p>1. 介绍咖啡设备与工具2. espresso制作的讲解与实践3. 奶泡制作的讲解与实践</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-24/event172506.jpg\" height=\"1080\" src=\"http://pic.huodongjia.com/event/2016-02-24/event172506.jpg\" width=\"1080\"></img></p><p>咖啡导师Panny</p><p>来HICC跟他学习咖啡冲调课程,了解一颗咖啡豆的前世今生</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-24/event172507.jpg\" height=\"607\" src=\"http://pic.huodongjia.com/event/2016-02-24/event172507.jpg\" width=\"1080\"></img>​</p><p><strong>费用：</strong>288元/精品手冲咖啡爱好课程；388元/意式拉花咖啡爱好课程</p><p><strong>地址：</strong>广州市环市东路370号正佳环市中心正聚百货四楼（地铁五号线淘金站A出口，花园酒店旁）</p><p><strong>时间：</strong>2月24-5月30 每天 13:00-16:00</p><p><strong>联系方式：</strong>13316268756（请提前一天预约）</p></body></body>",
+
+"cat": {
+
+"name": "",
+
+"img": "",
+
+"id": ""
+
+},
+
+"eid": 134435,
+
+"position": "113.287566798,23.1356427081"
+
+},
+{
+
+"feel": "香艳指数",
+
+"shareURL": "http://api.xiaorizi.me/app/share-134962.html",
+
+"telephone": "13710285100",
+
+"tag": "手作,雅韵",
+
+"sponsor": {
+
+},
+
+"id": 134962,
+
+"adurl": "",
+
+"startdate": 1458716400.0,
+
+"title": "传统蜡染DIY",
+
+"eventtype": 2,
+
+"feelnum": 0,
+
+"questionURL": "",
+
+"detail": "你想为你的爱人和家人制作一份独一无二的礼物吗？你想让自己掌握多一门奇妙的手艺吗？\r\n\r\n你想为自己找些乐子，体验一下传统蜡染扎染手工艺的乐趣吗？可以来参加集艺坊的最新一期蜡染扎染DIY。\r\n活动内容：了解传统蜡染扎染的制作过程，了解他们的配色，图案，自己也可以开动脑筋画出喜欢的图案",
+
+"note": "",
+
+"feeltitle": "",
+
+"events": [
+
+],
+
+"more": [
+{
+
+"title": "DIY手工织布机：让我们一起玩毛线",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 00:00:00",
+
+"price_type": 0,
+
+"money": 66.0,
+
+"sale": 66.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "",
+
+"start_date": "2016-03-23 19:15:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"address": "西安市太白南路181号西部电子社区A座A区一楼",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-23/event178264.jpg"
+],
+
+"position": "108.917066,34.219838",
+
+"id": 134960
+
+},
+{
+
+"title": "把你的画变成精致的耳钉、胸针、领针、袖扣吧！",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 18:00:00",
+
+"price_type": 0,
+
+"money": 29.0,
+
+"sale": 29.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "非银质耳钉（铜、合金、防敏塑料）",
+
+"start_date": "2016-03-16 16:38:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 18:00:00",
+
+"price_type": 0,
+
+"money": 29.0,
+
+"sale": 29.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "胸针、领针、袖扣",
+
+"start_date": "2016-03-16 16:38:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-06-30 18:00:00",
+
+"price_type": 0,
+
+"money": 39.0,
+
+"sale": 39.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "银质耳钉",
+
+"start_date": "2016-03-16 16:38:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"address": "西安市太白南路181号西部电子社区A座A区一楼",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-16/event176687.png"
+],
+
+"position": "108.917066,34.219838",
+
+"id": 134829
+
+}
+],
+
+"city": "西安",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-05-28 15:00:00",
+
+"price_type": 0,
+
+"money": 150.0,
+
+"sale": 150.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "单人",
+
+"start_date": "2016-03-24 18:34:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"allshops": [
+{
+
+"position_gcj02": ",",
+
+"position": "113.330190753,23.1814622186",
+
+"title": "慢生活工作室",
+
+"address": "白云区 京溪路太阳城南门",
+
+"city": "西安"
+
+}
+],
+
+"address": "白云区 京溪路太阳城南门",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-23/event178275.jpg"
+],
+
+"islongtime": 0,
+
+"remark": "慢生活工作室",
+
+"enddate": 1464427800.0,
+
+"mobileURL": "<body><html><head></head><body><p>你想为你的爱人和家人制作一份独一无二的礼物吗？你想让自己掌握多一门奇妙的手艺吗？</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-23/event178276.jpg\" height=\"450\" src=\"http://pic.huodongjia.com/event/2016-03-23/event178276.jpg\" width=\"683\"></img></p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-23/event178277.jpg\" height=\"440\" src=\"http://pic.huodongjia.com/event/2016-03-23/event178277.jpg\" width=\"621\"></img>​</p><p>你想为自己找些乐子，体验一下传统蜡染扎染手工艺的乐趣吗？可以来参加集艺坊的最新一期蜡染扎染DIY。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-23/event178274.jpg\" height=\"248\" src=\"http://pic.huodongjia.com/event/2016-03-23/event178274.jpg\" width=\"440\"></img></p><p>活动内容：了解传统蜡染扎染的制作过程，了解他们的配色，图案，自己也可以开动脑筋画出喜欢的图案</p><p>① 蜡染工艺流程——点蜡、渲染、去蜡</p><p>② 扎染工艺流程——扎花、浸染去蜡</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-23/event178272.jpg\" height=\"449\" src=\"http://pic.huodongjia.com/event/2016-03-23/event178272.jpg\" width=\"603\"></img></p><p></p><p>蜡染的工艺会比扎染繁复，但是出来的效果更加耐看。好看精致是需要耐心和时间打磨的，在课堂中可以让你慢慢体味慢生活，回归古朴的舒适优雅。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-03-23/event178273.jpg\" height=\"450\" src=\"http://pic.huodongjia.com/event/2016-03-23/event178273.jpg\" width=\"689\"></img></p><p><strong>时间：</strong>3月23日-5月28日 每周六 15:00-17:30</p><p><strong>地址：</strong>白云区 京溪路太阳城南门 </p><p><strong>联系方式：</strong>13710285100（请提前1周预约）</p><p><strong>费用：</strong>￥150/人</p></body></html></body>",
+
+"cat": {
+
+"name": "",
+
+"img": "",
+
+"id": ""
+
+},
+
+"eid": 134962,
+
+"position": "113.330190753,23.1814622186"
+
+},
+{
+
+"feel": "香艳指数",
+
+"shareURL": "http://api.xiaorizi.me/app/share-134341.html",
+
+"telephone": "020-87659746",
+
+"tag": "展览,纯质",
+
+"sponsor": {
+
+},
+
+"id": 134341,
+
+"adurl": "",
+
+"startdate": 1456538400.0,
+
+"title": "未曾到达的地方·羊芳涛个人作品展",
+
+"eventtype": 2,
+
+"feelnum": 0,
+
+"questionURL": "",
+
+"detail": "青年艺术家羊芳涛毕业于广州美术学院版画系。版画专业背景使他在十二载专业创作经历中有着更全面更理性的思考，对材料媒介与技法的各自属性、文化内涵及相互关系也根据自己的探索与思考做了提炼和应用。\r\n\r\n本次展览是羊芳涛近年来的首次个展，精选出四十餘幅不同创作媒介的作品，包括布面丙烯、木制版画以及纸上水墨、水彩作品等。羊芳涛的作品充分反映了他对技艺技法在不同文化中的内涵的反思，从水墨与水彩的微妙应用到线条在绘画语言中的意义。\r\n\r\n他在作品中的场景刻画皆极富想象力，观者跟随艺术家的意识步伐，将会不自觉地沉醉于一个又一个未知的迷人瞬间，仿佛抵达未曾到达过的地方。",
+
+"note": "",
+
+"feeltitle": "",
+
+"events": [
+
+],
+
+"more": [
+{
+
+"title": "零基础自助绘画",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-12-30 10:00:00",
+
+"price_type": 0,
+
+"money": 89.0,
+
+"sale": 89.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "24*30油画框",
+
+"start_date": "2016-03-23 19:43:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-12-30 10:00:00",
+
+"price_type": 0,
+
+"money": 139.0,
+
+"sale": 139.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "30*40油画框",
+
+"start_date": "2016-03-23 19:43:00"
+
+},
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-12-30 10:00:00",
+
+"price_type": 0,
+
+"money": 169.0,
+
+"sale": 169.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "40*50油画框",
+
+"start_date": "2016-03-23 19:43:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"address": "天河区华强路3号富力盈力大厦南塔史丹尼国际公寓9层911室",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-23/event178278.JPG"
+],
+
+"position": "113.323983,23.132704",
+
+"id": 134963
+
+},
+{
+
+"title": "著名茶人端云斌、林思冶：邀您结伴游云南古茶山",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+{
+
+"back_money": 0.0,
+
+"end_date": "2016-03-30 23:00:00",
+
+"price_type": 0,
+
+"money": 3800.0,
+
+"sale": 3800.0,
+
+"number": 100,
+
+"discount": 1.0,
+
+"property": "四天三晚",
+
+"start_date": "2016-03-26 18:31:00"
+
+}
+],
+
+"type": 0,
+
+"currency_token": "RMB"
+
+},
+
+"address": "景洪市区",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-03-26/event179112.jpg"
+],
+
+"position": "100.927296,22.111486",
+
+"id": 135053
+
+}
+],
+
+"city": "广州",
+
+"price": {
+
+"price_currency": "￥",
+
+"list": [
+
+],
+
+"currency_token": "RMB",
+
+"type": 1
+
+},
+
+"allshops": [
+{
+
+"position_gcj02": ",",
+
+"position": "113.296389117,23.1190733143",
+
+"title": "逵园艺术馆",
+
+"address": "广州市越秀区恤孤院路9号",
+
+"city": "广州"
+
+}
+],
+
+"address": "广州市越秀区恤孤院路9号",
+
+"imgs": [
+"http://pic.huodongjia.com/event/2016-02-19/event171603.jpg"
+],
+
+"islongtime": 0,
+
+"remark": "逵园艺术馆",
+
+"enddate": 1459864800.0,
+
+"mobileURL": "<body><html><head></head><body><p>青年艺术家羊芳涛毕业于广州美术学院版画系。版画专业背景使他在十二载专业创作经历中有着更全面更理性的思考，对材料媒介与技法的各自属性、文化内涵及相互关系也根据自己的探索与思考做了提炼和应用。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-19/event171608.JPG\" height=\"540\" src=\"http://pic.huodongjia.com/event/2016-02-19/event171608.JPG\" width=\"800\"></img></p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-19/event171607.JPG\" height=\"594\" src=\"http://pic.huodongjia.com/event/2016-02-19/event171607.JPG\" width=\"800\"></img></p><p></p><p>本次展览是羊芳涛近年来的首次个展，精选出四十餘幅不同创作媒介的作品，包括布面丙烯、木制版画以及纸上水墨、水彩作品等。羊芳涛的作品充分反映了他对技艺技法在不同文化中的内涵的反思，从水墨与水彩的微妙应用到线条在绘画语言中的意义。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-19/event171606.JPG\" height=\"588\" src=\"http://pic.huodongjia.com/event/2016-02-19/event171606.JPG\" width=\"800\"></img></p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-19/event171605.JPG\" height=\"439\" src=\"http://pic.huodongjia.com/event/2016-02-19/event171605.JPG\" width=\"800\"></img></p><p></p><p>他在作品中的场景刻画皆极富想象力，观者跟随艺术家的意识步伐，将会不自觉地沉醉于一个又一个未知的迷人瞬间，仿佛抵达未曾到达过的地方。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-19/event171604.JPG\" height=\"577\" src=\"http://pic.huodongjia.com/event/2016-02-19/event171604.JPG\" width=\"800\"></img></p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-19/event171602.jpg\" height=\"540\" src=\"http://pic.huodongjia.com/event/2016-02-19/event171602.jpg\" width=\"800\"></img></p><p></p><p><strong>艺术家简介：</strong><strong>羊芳涛</strong></p><p>出生于广东汕头，2008年毕业于广州美术学院版画系。</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-19/event171599.jpg\" height=\"533\" src=\"http://pic.huodongjia.com/event/2016-02-19/event171599.jpg\" width=\"800\"></img></p><p><strong>主要展览</strong></p><p>2015 “小宇宙”群展，广州</p><p>2014 “Moy仔陪你”插画展，杭州</p><p>2012 “WE”联展，广州</p><p>2011 “Moyton！”个人插画展，广州</p><p>2011 “你还记得吗？”个人插画作品展，广州</p><p>2010  小洲艺术节，广州</p><p>2010  大声展，北京、上海</p><p></p><p><strong>艺术家 /</strong> Artist<strong>：</strong>羊芳涛 / Fitlea Yang</p><p><strong>策展人 /</strong> Curators<strong>：</strong>黄轶群、李听尘 / Kelvin Huang, Patricia Li</p><p><img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2016-02-19/event171600.jpg\" height=\"1199\" src=\"http://pic.huodongjia.com/event/2016-02-19/event171600.jpg\" width=\"800\"></img></p><p><strong>开幕：</strong>2016年2月27日 15:00</p><p><strong>展期 ：</strong>2016年2月27日-4月5日 10:00-22:00 </p><p><strong>地点：</strong>广州市越秀区恤孤院路9号·逵园艺术馆</p><p><strong>联系方式：</strong>020-87659746</p></body></html></body>",
+
+"cat": {
+
+"name": "",
+
+"img": "",
+
+"id": ""
+
+},
+
+"eid": 134341,
+
+"position": "113.296389117,23.1190733143"
+
+}
+]
+
+}

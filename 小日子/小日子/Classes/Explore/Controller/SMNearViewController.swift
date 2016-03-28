@@ -50,7 +50,7 @@ class SMNearViewController: UIViewController {
     //MARK:-  附近 tableview  下拉下载数据
     func loadData() {
         weak var weakSelf = self
-        let time = dispatch_time(DISPATCH_TIME_NOW,(Int64)(2 * NSEC_PER_SEC))
+        let time = dispatch_time(DISPATCH_TIME_NOW,(Int64)(1 * NSEC_PER_SEC))
         dispatch_after(time, dispatch_get_main_queue()) { () -> Void in
             SMNearShopModel.loadExploreDataForNear({ (data, error) -> () in
                 if error != nil {

@@ -100,7 +100,7 @@ class SMExploreViewController: BaseViewController {
     func leftTableViewLoadData() {
         
        weak var weakSelf = self
-        let time = dispatch_time(DISPATCH_TIME_NOW,(Int64)(2 * NSEC_PER_SEC))
+        let time = dispatch_time(DISPATCH_TIME_NOW,(Int64)(1 * NSEC_PER_SEC))
         dispatch_after(time, dispatch_get_main_queue()) { () -> Void in
             SMEveryDayData.loadExploreDataForMeiTian { (data, error) -> () in
                 if error != nil {
@@ -119,7 +119,7 @@ class SMExploreViewController: BaseViewController {
      //MARK:-  美辑 tableview  下拉下载数据
     func rightTableViewLoadData() {
         weak var weakSelf = self
-        let time = dispatch_time(DISPATCH_TIME_NOW,(Int64)(2 * NSEC_PER_SEC))
+        let time = dispatch_time(DISPATCH_TIME_NOW,(Int64)(1 * NSEC_PER_SEC))
         dispatch_after(time, dispatch_get_main_queue()) { () -> Void in
             SMMeiJiData.loadExploreDataForMeiJi({ (data, error) -> () in
                 if error != nil {

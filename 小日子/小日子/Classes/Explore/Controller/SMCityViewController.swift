@@ -144,7 +144,7 @@ class SMCityViewController: UICollectionViewController {
                 return indexPath
             }
         }
-         return NSIndexPath(forItem: 0, inSection: 0)
+         return NSIndexPath(forItem: 2, inSection: 0)
     }
     
     func cancel(){

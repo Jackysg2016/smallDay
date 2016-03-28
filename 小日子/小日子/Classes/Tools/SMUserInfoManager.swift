@@ -42,7 +42,15 @@ extension UserInfoManager: CLLocationManagerDelegate {
         userPosition = userPos.coordinate
         print(userPosition)
         locationManager.stopUpdatingLocation()
-        
+        let geoCoder = CLGeocoder()
+        geoCoder.reverseGeocodeLocation(userPos) { (placeMarkArray, error ) -> Void in
+            let placeMark = placeMarkArray?.first
+//            print(placeMark?.name)
+            let city = (placeMark?.locality)?.stringByReplacingOccurrencesOfString("市", withString: "")
+            print("当前城市：\(city)")
+            NSUserDefaults.standardUserDefaults().setObject(city, forKey: cityKey)
+            NSUserDefaults.standardUserDefaults().synchronize()
+        }
     }
     
 }

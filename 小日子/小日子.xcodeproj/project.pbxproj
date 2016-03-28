@@ -52,6 +52,15 @@
 		276A46691C92651E00C0B5D1 /* SMGuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276A46681C92651E00C0B5D1 /* SMGuideCell.swift */; };
 		277B27F41C9BFB87003C4C50 /* SMMeiTianDetailBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B27F31C9BFB87003C4C50 /* SMMeiTianDetailBarView.swift */; };
 		277B41911C9A4B230017E7EE /* SMErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277B41901C9A4B230017E7EE /* SMErrorView.swift */; };
+		277FD39E1CA8C4B2004CE1C6 /* experiences in Resources */ = {isa = PBXBuildFile; fileRef = 277FD39D1CA8C4B2004CE1C6 /* experiences */; };
+		277FD3A01CA8C5B3004CE1C6 /* SMExperienceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277FD39F1CA8C5B3004CE1C6 /* SMExperienceModel.swift */; };
+		277FD3A21CA8C67A004CE1C6 /* SMExperienDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277FD3A11CA8C67A004CE1C6 /* SMExperienDataModel.swift */; };
+		277FD3A41CA8D13E004CE1C6 /* SMExperienHeadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277FD3A31CA8D13E004CE1C6 /* SMExperienHeadModel.swift */; };
+		277FD3A81CA8D644004CE1C6 /* SMExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277FD3A71CA8D644004CE1C6 /* SMExperienceViewController.swift */; };
+		277FD3AA1CA8D85E004CE1C6 /* PageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277FD3A91CA8D85E004CE1C6 /* PageScrollView.swift */; };
+		277FD3AD1CA90B70004CE1C6 /* SMExperienceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277FD3AB1CA90B70004CE1C6 /* SMExperienceCell.swift */; };
+		277FD3AE1CA90B70004CE1C6 /* SMExperienceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 277FD3AC1CA90B70004CE1C6 /* SMExperienceCell.xib */; };
+		277FD3B01CA91D0A004CE1C6 /* SMExperienDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277FD3AF1CA91D0A004CE1C6 /* SMExperienDetailController.swift */; };
 		278327B01CA4DF13009E15D2 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278327AF1CA4DF13009E15D2 /* UIBarButtonItem+Extension.swift */; };
 		278327B21CA50818009E15D2 /* SMMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278327B11CA50818009E15D2 /* SMMapView.swift */; };
 		278327B51CA51D79009E15D2 /* SMNearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278327B31CA51D79009E15D2 /* SMNearCollectionViewCell.swift */; };
@@ -156,6 +165,15 @@
 		276A46681C92651E00C0B5D1 /* SMGuideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMGuideCell.swift; sourceTree = "<group>"; };
 		277B27F31C9BFB87003C4C50 /* SMMeiTianDetailBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMMeiTianDetailBarView.swift; sourceTree = "<group>"; };
 		277B41901C9A4B230017E7EE /* SMErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMErrorView.swift; sourceTree = "<group>"; };
+		277FD39D1CA8C4B2004CE1C6 /* experiences */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = experiences; sourceTree = "<group>"; };
+		277FD39F1CA8C5B3004CE1C6 /* SMExperienceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMExperienceModel.swift; sourceTree = "<group>"; };
+		277FD3A11CA8C67A004CE1C6 /* SMExperienDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMExperienDataModel.swift; sourceTree = "<group>"; };
+		277FD3A31CA8D13E004CE1C6 /* SMExperienHeadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMExperienHeadModel.swift; sourceTree = "<group>"; };
+		277FD3A71CA8D644004CE1C6 /* SMExperienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMExperienceViewController.swift; sourceTree = "<group>"; };
+		277FD3A91CA8D85E004CE1C6 /* PageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageScrollView.swift; sourceTree = "<group>"; };
+		277FD3AB1CA90B70004CE1C6 /* SMExperienceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMExperienceCell.swift; sourceTree = "<group>"; };
+		277FD3AC1CA90B70004CE1C6 /* SMExperienceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMExperienceCell.xib; sourceTree = "<group>"; };
+		277FD3AF1CA91D0A004CE1C6 /* SMExperienDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMExperienDetailController.swift; sourceTree = "<group>"; };
 		278327AF1CA4DF13009E15D2 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		278327B11CA50818009E15D2 /* SMMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMMapView.swift; sourceTree = "<group>"; };
 		278327B31CA51D79009E15D2 /* SMNearCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNearCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -262,6 +280,7 @@
 		27539C211C966B840088720A /* CustomData */ = {
 			isa = PBXGroup;
 			children = (
+				277FD39D1CA8C4B2004CE1C6 /* experiences */,
 				279BFC501C9AA6130050C682 /* meiTians */,
 				27539C281C966B840088720A /* Nears */,
 				27539C291C966B840088720A /* meiJis */,
@@ -398,6 +417,8 @@
 		2793A9841C92AC8200406BDA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				277FD3A71CA8D644004CE1C6 /* SMExperienceViewController.swift */,
+				277FD3AF1CA91D0A004CE1C6 /* SMExperienDetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -405,6 +426,9 @@
 		2793A9851C92AC8200406BDA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				277FD39F1CA8C5B3004CE1C6 /* SMExperienceModel.swift */,
+				277FD3A11CA8C67A004CE1C6 /* SMExperienDataModel.swift */,
+				277FD3A31CA8D13E004CE1C6 /* SMExperienHeadModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -412,6 +436,9 @@
 		2793A9861C92AC8200406BDA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				277FD3A91CA8D85E004CE1C6 /* PageScrollView.swift */,
+				277FD3AB1CA90B70004CE1C6 /* SMExperienceCell.swift */,
+				277FD3AC1CA90B70004CE1C6 /* SMExperienceCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -740,12 +767,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				277FD3AE1CA90B70004CE1C6 /* SMExperienceCell.xib in Resources */,
 				279BFC511C9AA6130050C682 /* meiTians in Resources */,
 				27539C321C966B840088720A /* Nears in Resources */,
 				2705B2321CA3CC3200E2490F /* SMNearViewCell.xib in Resources */,
 				279B16161CA132A300FADB89 /* SMDetailTableHeaderView.xib in Resources */,
 				27539C4F1C96A9C50088720A /* SMExploreWithTopTitleCell.xib in Resources */,
 				273905A31C9296920082F041 /* Info.plist in Resources */,
+				277FD39E1CA8C4B2004CE1C6 /* experiences in Resources */,
 				278327B61CA51D79009E15D2 /* SMNearCollectionViewCell.xib in Resources */,
 				27539C531C96BD1F0088720A /* SMExploreWithMidTitleCell.xib in Resources */,
 				279B16221CA142A100FADB89 /* SMShareViewController.xib in Resources */,
@@ -828,7 +857,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2739059B1C9296920082F041 /* Constraint.swift in Sources */,
+				277FD3AD1CA90B70004CE1C6 /* SMExperienceCell.swift in Sources */,
 				270E8B131C9FCDD500991510 /* RegExCategories.m in Sources */,
+				277FD3B01CA91D0A004CE1C6 /* SMExperienDetailController.swift in Sources */,
 				27539C391C966BB00088720A /* Color+Extension.swift in Sources */,
 				273905A71C9296920082F041 /* ViewController+SnapKit.swift in Sources */,
 				2739059C1C9296920082F041 /* ConstraintAttributes.swift in Sources */,
@@ -843,13 +874,16 @@
 				27539C3A1C966BB00088720A /* String+Extension.swift in Sources */,
 				278327B51CA51D79009E15D2 /* SMNearCollectionViewCell.swift in Sources */,
 				279B161E1CA13D3700FADB89 /* SMShareModel.swift in Sources */,
+				277FD3A01CA8C5B3004CE1C6 /* SMExperienceModel.swift in Sources */,
 				27E4861D1C93BA88003EA33F /* SMCitiHeaderView.swift in Sources */,
 				279B16151CA132A300FADB89 /* SMDetailTableHeaderView.swift in Sources */,
 				2705B2341CA3D29200E2490F /* SMUserInfoManager.swift in Sources */,
+				277FD3A81CA8D644004CE1C6 /* SMExperienceViewController.swift in Sources */,
 				279B16181CA13C0B00FADB89 /* SMMineViewController.swift in Sources */,
 				273905A21C9296920082F041 /* EdgeInsets.swift in Sources */,
 				27539C4E1C96A9C50088720A /* SMExploreWithTopTitleCell.swift in Sources */,
 				279CD4B41C94130000DCCFE7 /* SMExporeNavTitleView.swift in Sources */,
+				277FD3A41CA8D13E004CE1C6 /* SMExperienHeadModel.swift in Sources */,
 				277B41911C9A4B230017E7EE /* SMErrorView.swift in Sources */,
 				27E9C9CF1C91428200F1A76C /* ViewController.swift in Sources */,
 				277B27F41C9BFB87003C4C50 /* SMMeiTianDetailBarView.swift in Sources */,
@@ -868,6 +902,7 @@
 				273905A51C9296920082F041 /* SnapKit.swift in Sources */,
 				2793A97A1C92A10A00406BDA /* SMAppVersionTool.swift in Sources */,
 				2793A9901C92ACCE00406BDA /* BaseViewController.swift in Sources */,
+				277FD3AA1CA8D85E004CE1C6 /* PageScrollView.swift in Sources */,
 				273905A61C9296920082F041 /* View+SnapKit.swift in Sources */,
 				27539C591C96C6FE0088720A /* SMGuessLikeModel.swift in Sources */,
 				276A46651C92649700C0B5D1 /* SMTabBar.swift in Sources */,
@@ -889,6 +924,7 @@
 				27E4861F1C93BBE8003EA33F /* SMCityFooterView.swift in Sources */,
 				279B160A1CA0F38600FADB89 /* SMMoreGuessLikeView.swift in Sources */,
 				2739059E1C9296920082F041 /* ConstraintItem.swift in Sources */,
+				277FD3A21CA8C67A004CE1C6 /* SMExperienDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
