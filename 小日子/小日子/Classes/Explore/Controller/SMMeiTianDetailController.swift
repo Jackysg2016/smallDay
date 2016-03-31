@@ -16,6 +16,7 @@ class SMMeiTianDetailController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.clipsToBounds = true
+        self.automaticallyAdjustsScrollViewInsets = false
         view.backgroundColor = viewBackgroundColor
         setupSubView()
         setupNavView()
@@ -31,6 +32,7 @@ class SMMeiTianDetailController: UIViewController {
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         navigationController?.navigationBar.hidden = false
+        SVProgressHUD.dismiss()
     }
     
     //MARK: - 设置子控件
@@ -117,7 +119,7 @@ class SMMeiTianDetailController: UIViewController {
     
     lazy var coverView: UIView = {
         let coverView = UIView()
-        coverView.frame = CGRectMake(0, 0, screenW, screenH)
+        coverView.frame = CGRectMake(0, topImageHeight, screenW, screenH)
         coverView.backgroundColor = UIColor.whiteColor()
         return coverView
     }()
@@ -136,7 +138,7 @@ class SMMeiTianDetailController: UIViewController {
     lazy var webView: UIWebView = {
      let webView = UIWebView()
         webView.frame = self.view.bounds
-        webView.scrollView.contentInset = UIEdgeInsets(top: topImageHeight - 20 + detailBarViewHeight, left: 0, bottom: 0, right: 0)
+        webView.scrollView.contentInset = UIEdgeInsets(top: topImageHeight + detailBarViewHeight, left: 0, bottom: 0, right: 0)
         webView.scrollView.showsHorizontalScrollIndicator = false
         webView.backgroundColor = viewBackgroundColor
         webView.paginationBreakingMode = UIWebPaginationBreakingMode.Column//设置此属性，webView按行显示，默认为按页显示
@@ -165,6 +167,7 @@ class SMMeiTianDetailController: UIViewController {
         tableView.backgroundColor = UIColor.colorWithRGB(245, g: 245, b: 245, alpha: 1.0)
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.separatorStyle = .None
         tableView.hidden = true
         let view = SMDetailTableHeaderView.detailTableHeaderViewFromXib()
         view.frame = CGRectMake(0, 0, screenW, 80)
@@ -205,7 +208,7 @@ class SMMeiTianDetailController: UIViewController {
                 
                 if titleStr != nil {
                     let newStr: NSMutableString = NSMutableString(string: htmlSrt!)
-                    newStr.insertString(titleStr!, atIndex: 31)
+                    newStr.insertString(titleStr!, atIndex: 0)
                     htmlSrt = newStr as String
                 }
 
@@ -325,9 +328,9 @@ extension SMMeiTianDetailController: UIWebViewDelegate, UIScrollViewDelegate, SM
         let cell = UITableViewCell(style: .Default, reuseIdentifier: "ID")
         cell.backgroundColor = UIColor.colorWithRGB(245, g: 245, b: 245, alpha: 1.0)
         if indexPath.row == 0 {
-        cell.textLabel?.text = "店铺电话："
+        cell.textLabel?.text = "店铺电话：15889935512"
         }else {
-        cell.textLabel?.text = "店铺地址："
+        cell.textLabel?.text = "店铺地址：广州市天河区科韵路"
         }
         return cell
     }

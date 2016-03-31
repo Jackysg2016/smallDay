@@ -21,7 +21,7 @@ class SMTabBarController: UITabBarController {
     func initTabBarController() {
         createChildrenVc(SMExploreViewController() , title: "探店", imageName: "recommendation_1", selectedImageName: "recommendation_2")
         createChildrenVc(SMExperienceViewController(), title: "体验", imageName: "broadwood_1", selectedImageName: "broadwood_2")
-        createChildrenVc(ViewController(), title: "分类", imageName: "classification_1", selectedImageName: "classification_2")
+        createChildrenVc(SMDiscoverViewController(), title: "发现", imageName: "find_1", selectedImageName: "find_2")
         createChildrenVc(SMMineViewController(), title: "我的", imageName: "my_1", selectedImageName: "my_2")
     }
     

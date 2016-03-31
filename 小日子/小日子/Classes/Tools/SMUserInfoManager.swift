@@ -40,16 +40,18 @@ extension UserInfoManager: CLLocationManagerDelegate {
         
         let userPos = locations[0] as CLLocation
         userPosition = userPos.coordinate
-        print(userPosition)
         locationManager.stopUpdatingLocation()
         let geoCoder = CLGeocoder()
         geoCoder.reverseGeocodeLocation(userPos) { (placeMarkArray, error ) -> Void in
             let placeMark = placeMarkArray?.first
-//            print(placeMark?.name)
             let city = (placeMark?.locality)?.stringByReplacingOccurrencesOfString("市", withString: "")
             print("当前城市：\(city)")
-            NSUserDefaults.standardUserDefaults().setObject(city, forKey: cityKey)
-            NSUserDefaults.standardUserDefaults().synchronize()
+            let oldCity = NSUserDefaults.standardUserDefaults().objectForKey(cityKey) as? String
+            if oldCity == nil {
+                NSUserDefaults.standardUserDefaults().setObject(city, forKey: cityKey)
+                NSUserDefaults.standardUserDefaults().synchronize()
+                NSNotificationCenter.defaultCenter().postNotificationName(changeCityNotificationName, object: city)
+            }
         }
     }
     

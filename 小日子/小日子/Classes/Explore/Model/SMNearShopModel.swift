@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SMNearShopModel: NSObject {
+class SMNearShopModel: NSObject,DictModelProtocol {
     var msg: String?
     var code: Int = -1
     var list: [SMMeiTianModel]?

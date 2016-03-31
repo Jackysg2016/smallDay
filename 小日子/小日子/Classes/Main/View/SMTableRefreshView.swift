@@ -26,6 +26,6 @@ class SMTabelViewRefreshView: MJRefreshGifHeader {
             refreshStateImageArray.addObject(image!)
         }
         //正在刷新状态图片
-        setImages(refreshStateImageArray as [AnyObject], forState: MJRefreshState.Refreshing)
+        setImages(refreshStateImageArray as [AnyObject], duration: 2.0 , forState: MJRefreshState.Refreshing)
     }
 }

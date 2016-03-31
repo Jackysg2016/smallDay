@@ -31,5 +31,8 @@ public let cityKey = "SMCity"
 //MARK:- 城市改变通知key
 public let changeCityNotificationName = "changeCityNotificationName"
 
-/// 高德地图KEY
+//MARK:- 高德地图KEY
 public let GaoDeAPPKey = "e79aa9ad875e0302ef3f038b319a1de1"
+
+//MARK:- 文件缓存路径
+public let cachDataPath = NSSearchPathForDirectoriesInDomains(.CachesDirectory, .UserDomainMask, true).last!

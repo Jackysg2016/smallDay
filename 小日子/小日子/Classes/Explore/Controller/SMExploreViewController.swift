@@ -61,7 +61,7 @@ class SMExploreViewController: BaseViewController {
         leftTableView?.mj_header.beginRefreshing()
         weak var weakSelf = self
         leftTableView?.mj_footer = MJRefreshAutoNormalFooter(refreshingBlock: { () -> Void in
-            let time = dispatch_time(DISPATCH_TIME_NOW,(Int64)(2 * NSEC_PER_SEC))
+            let time = dispatch_time(DISPATCH_TIME_NOW,(Int64)(1 * NSEC_PER_SEC))
             dispatch_after(time, dispatch_get_main_queue()) { () -> Void in
                 weakSelf!.leftTableView?.mj_footer.state = MJRefreshState.NoMoreData
             }
@@ -81,7 +81,7 @@ class SMExploreViewController: BaseViewController {
         rightTableView?.mj_header.beginRefreshing()
         weak var weakSelf = self
         rightTableView?.mj_footer = MJRefreshAutoNormalFooter(refreshingBlock: { () -> Void in
-            let time = dispatch_time(DISPATCH_TIME_NOW,(Int64)(2 * NSEC_PER_SEC))
+            let time = dispatch_time(DISPATCH_TIME_NOW,(Int64)(1 * NSEC_PER_SEC))
             dispatch_after(time, dispatch_get_main_queue()) { () -> Void in
                 weakSelf!.rightTableView?.mj_footer.state = MJRefreshState.NoMoreData
             }

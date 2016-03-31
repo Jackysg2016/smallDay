@@ -1,0 +1,728 @@
+{
+
+"msg": "request success.",
+
+"list": [
+{
+
+"shop": [
+
+],
+
+"name": "oce生活概念馆",
+
+"more": [
+{
+
+"img": "http://pic.huodongjia.com/event/2015-08-28/event136054.jpg",
+
+"tag": "品味 极致 生活",
+
+"theme_type": 5,
+
+"title": "拿什么拯救你，我们的处女月",
+
+"classify_type": 2,
+
+"start_date": "2015-08-28",
+
+"theme_url": "http://api.xiaorizi.me/api/themedetail/?themeid=231",
+
+"content": "<p>总以为买上几个包包就能把自己变成女神，殊不知买包已经OUT啦，女神们去过的地，女神们品过的味，女神们讲过的话，才是真谛啊。跟着处女座去逛吃逛吃，他们那些因为追求极致而被黑的智慧总会让你恍然大悟，被黑是有道理的有谁比他们更懂生活么。</p>\r\n",
+
+"end_date": "",
+
+"theme_id": 231
+
+},
+{
+
+"id": 131872,
+
+"name": "Bydid Home",
+
+"tag": "有趣,雅韵,生活馆,家饰馆",
+
+"title": "传承古典美的新家居设计",
+
+"position": "22.543699,113.999478",
+
+"classify_type": 0,
+
+"address": "南山区OCT—LOFT创意园北区A5栋133号(近旧天堂)",
+
+"city": "深圳",
+
+"img": "http://pic.huodongjia.com/event/2015-10-16/event144193.JPG"
+
+},
+{
+
+"id": 132252,
+
+"name": "Angle cafe'自家烘焙咖啡馆",
+
+"tag": "温润,惬意,咖啡馆",
+
+"title": "我在街角的咖啡店等你",
+
+"position": "",
+
+"classify_type": 0,
+
+"address": "大安区瑞安街206号",
+
+"city": "台北",
+
+"img": "http://pic.huodongjia.com/event/2015-10-31/event148494.jpg"
+
+}
+],
+
+"tag": "乐活,幸福,纯质,惬意,咖啡馆,衣饰馆,杂货铺",
+
+"title": "风格即生活 舒适体验",
+
+"position": "81.67751,4.287332",
+
+"img": "http://pic.huodongjia.com/event/2015-07-23/event132349.jpg",
+
+"shop_id": 130699,
+
+"id": 130699,
+
+"detail": "生活馆以“风格即生活”为理念，将简洁的北欧风情延伸至服装甚至更多的领域，把自然灵感融入潮流时尚之中，摒弃花样繁复的设计，更多的心思着重于材质的精挑细选，工艺的至纯至真，把舒适体验放在首位。在貌似不经意的搭配之下，绽放出浑然天成的夺目光彩，简单即幸福。",
+
+"shareURL": "http://api.xiaorizi.me/app/share-130699.html",
+
+"share_url": "http://api.xiaorizi.me/app/share-130699.html",
+
+"classify_type": 0,
+
+"shop_time": "",
+
+"address": "天河区天河路230-232号万菱汇广场L1-L2层",
+
+"city": "广州",
+
+"content": "<body><p>oce生活概念馆，首家旗舰店坐落在广州万菱汇，有着将近4000平米的零售空间，全店以\"体验生活\"为核心，一改传统快时尚单调的购物模式，除了分区域陈列男女装和童装等服饰外，还有提供給小朋友玩乐的儿童游乐区、休闲咖啡区、书籍杂志阅读区、家居生活区与定期更新的艺术展览区，适合全家一起体验生活。<img alt=\"\" height=\"810\" src=\"http://pic.huodongjia.com/event/2015-07-23/event132326.JPG\" width=\"1080\"></img></p><p><img alt=\"\" height=\"810\" src=\"http://pic.huodongjia.com/event/2015-07-23/event132327.JPG\" width=\"1080\">oce, 即 Original Color Edition，以原色编织时尚，以自然点缀生活。源自北欧的简约主义，不需要过多的花样，回归自然的理念，展现出一种朴素、清新的原始之美，适合现代都市人进入新时代的取向与旋律。<img alt=\"\" height=\"763\" src=\"http://pic.huodongjia.com/event/2015-07-23/event132350.jpg\" width=\"1080\"><img alt=\"\" height=\"810\" src=\"http://pic.huodongjia.com/event/2015-07-23/event132328.JPG\" width=\"1080\"><img alt=\"\" height=\"677\" src=\"http://pic.huodongjia.com/event/2015-07-23/event132351.jpg\" width=\"1080\">此外，oce生活概念馆还将轻艺术概念融入了全店之中，无论是随处可见的装置艺术，还是橱窗设计、展览区域，无不呈现出清新朴素的北欧风情，客人可以尽享被艺术气息包围的全新体验。<img alt=\"\" height=\"810\" src=\"http://pic.huodongjia.com/event/2015-07-23/event132330.JPG\" width=\"1080\"><img alt=\"\" height=\"810\" src=\"http://pic.huodongjia.com/event/2015-07-23/event132331.JPG\" width=\"1080\">生活馆以“风格即生活”为理念，将简洁的北欧风情延伸至服装甚至更多的领域，把自然灵感融入潮流时尚之中，摒弃花样繁复的设计，更多的心思着重于材质的精挑细选，工艺的至纯至真，把舒适体验放在首位。在貌似不经意的搭配之下，绽放出浑然天成的夺目光彩。<img alt=\"\" data-cke-saved-src=\"http://pic.huodongjia.com/event/2015-07-23/event132332.JPG\" src=\"http://pic.huodongjia.com/event/2015-07-23/event132332.JPG\"><img alt=\"\" height=\"810\" src=\"http://pic.huodongjia.com/event/2015-07-23/event132333.JPG\" width=\"1080\"><img alt=\"\" height=\"810\" src=\"http://pic.huodongjia.com/event/2015-07-23/event132334.JPG\" width=\"1080\">oce 也基于体验生活的理念为每一位注重生活的人提供不同的服饰与家品。店长说oce生活概念馆努力做到沙发上的一个小小抱枕会让你心中温暖起来. 厨房里别致的餐具每天拿来煮饭是你最温馨的习惯. 从一个简单的玻璃杯中喝上一囗温热的水可以令你身心满足. 用自己喜欢的香味手工皂洗去一整天的疲惫，不管是皮肤或心情都调整到最轻松的状态。没有比忙碌了一天之后回到家里更畅怀，这里提供家一般的体验。<img alt=\"\" height=\"760\" src=\"http://pic.huodongjia.com/event/2015-07-23/event132352.jpg\" width=\"1080\">​</img></img></img></img></img></img></img></img></img></img></p><p><strong>oce生活概念馆</strong></p><p><strong>地址：</strong></p><p>广州市天河区天河路万菱汇广场 L1-L2层</p><p><strong>营业时间：</strong></p><p>10：00-22：00</p><p><strong>电话：</strong></p><p>020-37294902</p><p><strong>微信公众号：</strong></p><p>oce</p><p>​</p></body>",
+
+"phone": "020-37294902"
+
+},
+{
+
+"shop": [
+
+],
+
+"name": "广州方所",
+
+"more": [
+{
+
+"id": 132337,
+
+"name": "SIMPLEMILL朴坊",
+
+"tag": "幸福,有趣,杂货铺",
+
+"title": "童话王国的点滴暖光",
+
+"position": "29.529846,106.577024",
+
+"classify_type": 0,
+
+"address": "重庆市南岸区南坪协信星光广场B1-014",
+
+"city": "重庆",
+
+"img": "http://pic.huodongjia.com/event/2015-11-11/event149709.jpg"
+
+},
+{
+
+"id": 132032,
+
+"name": "南方重庆民宿",
+
+"tag": "温润,纯质,旅舍,好住",
+
+"title": "关于南方 关于重庆",
+
+"position": "29.530234,106.577096",
+
+"classify_type": 0,
+
+"address": "南岸区珊瑚路南坪万达广场银邸近地铁3号线南坪站",
+
+"city": "重庆",
+
+"img": "http://pic.huodongjia.com/event/2015-10-21/event146001.jpg"
+
+}
+],
+
+"tag": "乐活,雅韵,惬意,书吧,生活馆",
+
+"title": "一种文化平台，一种生活姿态",
+
+"position": "113.33234,23.134001",
+
+"img": "http://pic.huodongjia.com/event/2015-06-09/event127583.jpg",
+
+"shop_id": 130748,
+
+"id": 130748,
+
+"detail": "颇具小资风范的阅读书店，伴随着文化论坛、新书推介会、读者交流、画展等活动，或者应该说是一个文化场所吧，足够让你一天流连忘返的地方。",
+
+"shareURL": "http://api.xiaorizi.me/app/share-130748.html",
+
+"share_url": "http://api.xiaorizi.me/app/share-130748.html",
+
+"classify_type": 0,
+
+"shop_time": "",
+
+"address": "天河区天河路383号太古汇MU楼35号铺(近万菱汇)",
+
+"city": "广州",
+
+"content": "<body><p>方所的门面颇具特色，店内的营业员介绍，门面厚重的木质材料是柚木，且由一棵完整的树制作而成，保证了材质的一致性与纹路的和谐性。我们身未入，心却已被这浓浓的文化艺术气息重给沉醉了。</p><p><img alt=\"\" height=\"480\" src=\"http://pic.huodongjia.com/event/2015-06-09/event127568.jpg\" width=\"640\"></img></p><p>店内的书籍包罗万象，人文、艺术、设计、建筑类等，超过4万种港台书刊和近万种外文书让你一览眼福，并设有“方所推荐”、“媒体推荐”、“网络意见领袖推荐”等特色书架，游览其中不亦乐乎。</p><p><img alt=\"\" height=\"425\" src=\"http://pic.huodongjia.com/event/2015-06-09/event127570.jpg\" width=\"640\"></img></p><p>南朝文学家萧统曾说“定是常住，便成方所”，意在成为文人雅士、创意设计人员汇聚一起的家。我想“方所”的创立也应有此意吧。</p><p><img alt=\"\" height=\"640\" src=\"http://pic.huodongjia.com/event/2015-06-09/event127574.jpg\" width=\"640\"></img></p><p>在方所书店的玻璃门上，是诗人博尔赫斯的《南方》“从你的一个庭院，观看古老的星星；从阴影里的长凳，观看这些布散的小小亮点，我的无知还没有学会叫出他们的名字……”书店，应该是一个城市最具温度的地标。</p><p><img alt=\"\" height=\"413\" src=\"http://pic.huodongjia.com/event/2015-06-09/event127571.jpg\" width=\"640\"></img></p><p>而当你正在細心寻找属于自己的书的時候，飘来的阵阵咖啡香会让你恍惚置身咖啡厅。店内陈列的陶艺、服装、手工制品更像是一个个宣传美学的工艺品，每一件精品都让你体会到店主的用意，它不仅是一个书店那么简单。</p><p><img alt=\"\" height=\"384\" src=\"http://pic.huodongjia.com/event/2015-06-09/event127572.jpg\" width=\"640\"></img></p><p>方所为文人提供一个交流场所；为读者培育一方精神绿洲。每周推出的主题讲座，总能吸引不少爱好者提前一个小时前去等位排座；而不定期举办的展览也能给人耳目一新的感觉。生活总需要点意外，惊喜，方所就是能够满足这样的一个你。</p><p><img alt=\"\" height=\"399\" src=\"http://pic.huodongjia.com/event/2015-06-09/event127569.jpg\" width=\"600\"></img></p><p><strong>方所</strong></p><p><strong>地址：</strong> 天河区天河路383号太古汇MU楼35号铺(近万菱汇)  </p><p><strong>电话： </strong>020-38682327</p><p></p></body>",
+
+"phone": "020-38682327"
+
+},
+{
+
+"shop": [
+
+],
+
+"name": "1980cafe-wine",
+
+"more": [
+{
+
+"img": "http://pic.huodongjia.com/event/2015-09-18/event138873.jpg",
+
+"tag": "时间  历史 怀旧",
+
+"theme_type": 5,
+
+"title": "明月何时照我还",
+
+"classify_type": 2,
+
+"start_date": "2015-09-19",
+
+"theme_url": "http://api.xiaorizi.me/api/themedetail/?themeid=264",
+
+"content": "<p>大概总是这样子，时间易逝，人们还未曾意识到，旧的事物就离我们而去了。&ldquo;江畔何人初见月，江月何年初照人？人生代代无穷已，江月年年望相似。不知江月待何人，但见长江送流水&rdquo;，那民国的物件，80年代的记忆，数十年前的书店，保留的也只是一种对往昔的怀念吧。年年有中秋，天上明月永远都按时到来，我们在怀旧的时候，算不算是一对自我的慰藉？</p>\r\n\r\n<div class=\"para\">&nbsp;</div>\r\n\r\n<p>&nbsp;</p>\r\n",
+
+"end_date": "",
+
+"theme_id": 264
+
+},
+{
+
+"id": 131985,
+
+"name": "梦想空间私人影吧",
+
+"tag": "乐活,艺术空间",
+
+"title": "色彩斑斓的小房间",
+
+"position": "30.321393,120.339874",
+
+"classify_type": 0,
+
+"address": "江干区学林街1261号新元金沙城308号",
+
+"city": "杭州",
+
+"img": "http://pic.huodongjia.com/event/2015-10-20/event145521.jpg"
+
+},
+{
+
+"id": 132454,
+
+"name": "智慧店",
+
+"tag": "温润,幸福,纯质,生活馆",
+
+"title": "文艺生活智慧地过",
+
+"position": "24.444654,118.094081",
+
+"classify_type": 0,
+
+"address": "思明区大学路100号后门靠沙坡尾二楼",
+
+"city": "厦门",
+
+"img": "http://pic.huodongjia.com/event/2015-11-17/event151087.jpg"
+
+}
+],
+
+"tag": "温润,赏味,有趣,酷炫,咖啡馆,小酒馆",
+
+"title": "一杯鸡尾酒 回到80年代的记忆",
+
+"position": "113.324893,23.129416",
+
+"img": "http://pic.huodongjia.com/event/2015-08-10/event134349.jpg",
+
+"shop_id": 131207,
+
+"id": 131207,
+
+"detail": "1980cafe是一家以80年代为主题的咖啡店，店里的装修及每一件摆设，都包含着老板对80年代的回忆与执着。1980cafe除了环境特别外，店内的鸡尾酒也相对应那个年代的风云人物而特制的，让人一试难忘。在1980cafe，你可以找回久违的纯真与朴实，渐行渐远的八十年代记忆。",
+
+"shareURL": "http://api.xiaorizi.me/app/share-131207.html",
+
+"share_url": "http://api.xiaorizi.me/app/share-131207.html",
+
+"classify_type": 0,
+
+"shop_time": "",
+
+"address": "天河路六运二街21号",
+
+"city": "广州",
+
+"content": "<body><p>1980cafe是一家以80年代为主题的咖啡店，每一处的设计，摆设体现出作为设计师的用心，细腻，品位，让每一个人感受到浓浓的80年代情怀。走进1980cafe，仿佛回到了八十年代，每一件物件都能勾起属于那个年代的回忆。<img alt=\"\" height=\"682\" src=\"http://pic.huodongjia.com/event/2015-08-10/event134339.jpg\" width=\"1080\">老板是一个从事建筑行业的人，从店里的装修及每一件摆设，都包含着老板对80年代的回忆与执着：旧式的缝纫机，老式电话，公仔书和黑白电视、火水灯、公仔纸、暖水瓶等等，书架中的小说漫画，童年的红领巾，李小龙的经典海报，这些仿佛在叙说着80年代的故事。<img alt=\"\" height=\"616\" src=\"http://pic.huodongjia.com/event/2015-08-10/event134341.jpg\" width=\"1080\"><img alt=\"\" height=\"1100\" src=\"http://pic.huodongjia.com/event/2015-08-10/event134348.jpg\" width=\"764\">1980cafe除了环境特别外，店内的鸡尾酒也相对应那个年代的风云人物而特制的，让人一试难忘。店里主要的四款鸡尾酒分别是：海子、雷锋、李小龙、张国荣。配搭小吃有：特色黄牛肉、香蕉船、芥末青瓜、杏仁。这四款鸡尾酒就像它们的名字一样，带着各自代表人物或多或少的特性。让我们一起在酒中怀念我们的英雄偶像吧。<img alt=\"\" height=\"684\" src=\"http://pic.huodongjia.com/event/2015-08-10/event134346.jpg\" width=\"1080\">海子：以白朗姆为基酒，配以椰子味的利口酒，这款酒的特色是在杯边蘸上一圈白糖，喝一小口，最初味觉有点甜，喝到最后有椰奶的味道。酒体呈冰透的蓝色，让人不禁想起那蓝蓝的大海。<img alt=\"\" height=\"1100\" src=\"http://pic.huodongjia.com/event/2015-08-10/event134343.jpg\" width=\"775\">雷锋：以朗姆酒为基酒，配上绿薄荷。酒体是绿色和红色，与雷锋帽子的颜色一致。喝下去有冰凉的薄荷味。<img alt=\"\" height=\"1100\" src=\"http://pic.huodongjia.com/event/2015-08-10/event134342.jpg\" width=\"763\">李小龙：以龙舌兰为基酒，龙舌兰白金武士之称，与武打巨星李小龙相吻合。酒体为黄色，上面洒了些可可粉，让人不禁联想起李小龙那个穿着黄色黑间条衣服、深入人心的鲜明形像。酒味较浓，喝起来有点像中国的黄酒。<img alt=\"\" height=\"1100\" src=\"http://pic.huodongjia.com/event/2015-08-10/event134344.jpg\" width=\"765\">张国荣：由蓝橙、绿薄荷、樱桃白兰地、君度、香蕉利口酒五种酒调制而成，色彩缤纷。喝的时候点上火，用吸管一口气喝完，口感丰富，有层次，入口有点甜，然后是酸甜的味道，那是因为有菠萝汁和橙汁的缘故。就像张国荣的人生一样，多姿态多彩。<img alt=\"\" height=\"1100\" src=\"http://pic.huodongjia.com/event/2015-08-10/event134345.jpg\" width=\"767\">有人说，生活在大城市，人的感情越来越脆弱，人与人之间的感情越来越冷漠，在1980cafe，你可以找回久违的纯真与朴实，渐行渐远的八十年代记忆。<img alt=\"\" height=\"750\" src=\"http://pic.huodongjia.com/event/2015-08-10/event134347.jpg\" width=\"499\">​</img></img></img></img></img></img></img></img></img></p><p><strong>地址：</strong></p><p>天河路六运二街21号</p><p><strong>电话：</strong></p><p>020-85165459</p><p><strong>营业时间：</strong></p><p>10:00-22:00</p><p><strong>微博：</strong></p><p>@1980cafe-wine</p></body>",
+
+"phone": "020-85165459"
+
+},
+{
+
+"shop": [
+
+],
+
+"name": "Meow1306猫小窝",
+
+"more": [
+{
+
+"id": 132131,
+
+"name": "鸟亭",
+
+"tag": "乐活,惬意,餐吧,小酒馆",
+
+"title": "“新东京”迷失",
+
+"position": "39.953952,116.453788",
+
+"classify_type": 0,
+
+"address": "朝阳区新源西里中街8号新源西里社区内",
+
+"city": "北京",
+
+"img": "http://pic.huodongjia.com/event/2015-11-14/event150386.jpg"
+
+},
+{
+
+"id": 132062,
+
+"name": "U-House（有间房子）",
+
+"tag": "惬意,旅舍",
+
+"title": "有间房，舒适与氛围兼得",
+
+"position": "30.252065,120.117028",
+
+"classify_type": 0,
+
+"address": "西湖区灵隐支路白乐桥269号",
+
+"city": "杭州",
+
+"img": "http://pic.huodongjia.com/event/2015-10-22/event146317.jpg"
+
+}
+],
+
+"tag": "赏味,有趣,惬意,餐吧",
+
+"title": "明亮的小窝里，喵星人在眺望",
+
+"position": "113.329868,23.133738",
+
+"img": "http://pic.huodongjia.com/event/2015-10-14/event143213.jpg",
+
+"shop_id": 131798,
+
+"id": 131798,
+
+"detail": "这里简直是超级亮堂，占据了高空的优势，打通了明亮的空间，透明的落地玻璃窗，整个小馆干淨温馨，柔和的灯光和背景音乐相得益彰。猫们在空旷的空间里或奔跑或歇息，客人在一旁聊聊天，吃吃饭，逗逗猫，很和谐。",
+
+"shareURL": "http://api.xiaorizi.me/app/share-131798.html",
+
+"share_url": "http://api.xiaorizi.me/app/share-131798.html",
+
+"classify_type": 0,
+
+"shop_time": "",
+
+"address": "天河区天河路365号天俊閣1306公寓内",
+
+"city": "广州",
+
+"content": "<body><p>不是所有的小店都能够在临街找到适合它的位置，有的小店一进门就有一种家的感觉，而这样的小店还真适合让你去找找看。这家Meow1306藏身于一个商住楼里面，地点不算难找，如果你有心。</p><p><img alt=\"\" height=\"415\" src=\"http://pic.huodongjia.com/event/2015-10-14/event143217.jpg\" width=\"640\"></img></p><p><img alt=\"\" height=\"419\" src=\"http://pic.huodongjia.com/event/2015-10-14/event143215.jpg\" width=\"640\">​</img></p><p>因为特意造访至此的人，多半是爱猫的人，因此一家有猫猫的餐馆可能出现的异味，飞毛等等情况也该已经有一定的心理准备，然而这一切预感不会发生。</p><p><img alt=\"\" height=\"414\" src=\"http://pic.huodongjia.com/event/2015-10-14/event143220.jpg\" width=\"640\"></img></p><p>这里简直是超级亮堂，占据了高空的优势，打通了明亮的空间，透明的落地玻璃窗，整个小馆干淨温馨，柔和的灯光和背景音乐相得益彰。猫们在空旷的空间里或奔跑或歇息，客人在一旁聊聊天，吃吃饭，逗逗猫，很和谐。</p><p><img alt=\"\" height=\"428\" src=\"http://pic.huodongjia.com/event/2015-10-14/event143218.jpg\" width=\"640\"></img></p><p>如果你选坐在靠窗的位置，夜景一定是你不可错过的美好，不论是和情侣约会，还是和朋友长谈。小吃饮品不算多，但样样都可以看到店主的用心。</p><p><img alt=\"\" height=\"414\" src=\"http://pic.huodongjia.com/event/2015-10-14/event143219.jpg\" width=\"640\"></img></p><p>两位店主都是超级nice的铲屎官，喜欢和客人聊了很多养猫的趣闻，在这种环境下度过午后时光不仅是愉快的，更是舒适安心的。</p><p><img alt=\"\" height=\"414\" src=\"http://pic.huodongjia.com/event/2015-10-14/event143222.jpg\" width=\"640\"></img></p><p><strong>Meow1306猫小窝</strong></p><p><strong>地址： </strong>天河区天河路365号天俊閣1306公寓内(天河体育中心地铁站A出口（家乐缘）处，石牌桥D出口)</p><p><strong>电话： </strong>18588828730,18589266263</p><p><strong>营业时间： </strong>11:30-22:00,周一公休</p><p>图片来源网络</p></body>",
+
+"phone": "18588828730,18589266263"
+
+},
+{
+
+"shop": [
+
+],
+
+"name": "拾光映画私人影院",
+
+"more": [
+{
+
+"id": 132234,
+
+"name": "沙漏时光青年旅舍",
+
+"tag": "温润,惬意,旅舍",
+
+"title": "青旅，一座城市原本的样子",
+
+"position": "29.564392,106.588337",
+
+"classify_type": 0,
+
+"address": "渝中区解放碑新华路万吉广场A栋大厅左边南楼11室_7号 ",
+
+"city": "重庆",
+
+"img": "http://pic.huodongjia.com/event/2015-10-30/event148240.jpg"
+
+},
+{
+
+"id": 132172,
+
+"name": "港町咖啡",
+
+"tag": "幸福,惬意,咖啡馆",
+
+"title": "集装箱里的美味",
+
+"position": "24.443732,118.09417",
+
+"classify_type": 0,
+
+"address": "思明区 沙坡尾60号艺术西区内(近中华儿女美术馆)  ",
+
+"city": "厦门",
+
+"img": "http://pic.huodongjia.com/event/2015-10-27/event147452.jpg"
+
+}
+],
+
+"tag": "有趣,惬意,艺术空间",
+
+"title": "拾起那光影中的感动",
+
+"position": "113.338852,23.1343",
+
+"img": "http://pic.huodongjia.com/event/2015-11-05/event148747.jpg",
+
+"shop_id": 132267,
+
+"id": 132267,
+
+"detail": "一部电影，重拾时光，将映画代入回忆，将美好铺就光影。",
+
+"shareURL": "http://api.xiaorizi.me/app/share-132267.html",
+
+"share_url": "http://api.xiaorizi.me/app/share-132267.html",
+
+"classify_type": 0,
+
+"shop_time": "",
+
+"address": "天河区天河路592号百脑汇大厦A座20楼2001(星巴克楼上)",
+
+"city": "广州",
+
+"content": "<body><p>或许是时光太过匆匆，所有的美好都转眼即逝，人们甚至来不及伤春悲秋，一切都恍如隔世。</p><p><img alt=\"\" height=\"425\" src=\"http://pic.huodongjia.com/event/2015-11-05/event148749.jpg\" width=\"640\"><img alt=\"\" height=\"425\" src=\"http://pic.huodongjia.com/event/2015-11-05/event148748.jpg\" width=\"640\"></img></img></p><p>所以人们发明了电影，一种以光影对抗时光的方式，一种把幻想和记忆融合的表达。</p><p>绿色的墙，黄色的地板，洁白的灯光，当一切都融入在一个空间的时候，置身其中，仿佛就是一个镜头。</p><p><img alt=\"\" height=\"700\" src=\"http://pic.huodongjia.com/event/2015-11-05/event148744.jpg\" width=\"465\"></img></p><p>拾光映画私人影院，让每一个人在别具一格的房间里，独享属于自己的影视光阴，拥有属于自己的观影体验。</p><p>一切的美，一切的好，剧情，故事，情感，思考，所有的一切将呈现在这个空间内。</p><p><img alt=\"\" height=\"425\" src=\"http://pic.huodongjia.com/event/2015-11-05/event148745.jpg\" width=\"640\"></img></p><p><img alt=\"\" height=\"425\" src=\"http://pic.huodongjia.com/event/2015-11-05/event148751.jpg\" width=\"640\"></img></p><p><img alt=\"\" height=\"425\" src=\"http://pic.huodongjia.com/event/2015-11-05/event148750.jpg\" width=\"640\"></img></p><p>在这里，风格不同的影像和风格不同的房间，带给人不同于普通电影院的享受。</p><p>坐着看，躺着看，卧着看，看浮光掠影，看世间百态，看星辰大海。</p><p><img alt=\"\" height=\"425\" src=\"http://pic.huodongjia.com/event/2015-11-05/event148752.jpg\" width=\"640\"></img></p><p>织田信长吟唱着：“人生五十年，如梦又似幻”，那么在光影的世界里，就是幻中求幻了。</p><p>一部电影，重拾时光，将映画代入回忆，将美好铺就光影。</p><p><img alt=\"\" height=\"425\" src=\"http://pic.huodongjia.com/event/2015-11-05/event148746.jpg\" width=\"640\"></img></p><p><strong>地址：</strong> 天河区天河路592号百脑汇大厦A座20楼2001(星巴克楼上)</p><p><strong>营业时间：</strong> 周一到周五 :12:00—00:00       周末、节假日:10:00—1:00</p><p><strong>联系电话：</strong> 13302290538</p><p>图片来源于网络</p><p></p></body>",
+
+"phone": "13302290538"
+
+},
+{
+
+"shop": [
+
+],
+
+"name": "Hi百货",
+
+"more": [
+{
+
+"id": 132035,
+
+"name": "吴门琴禅",
+
+"tag": "雅韵,琴馆",
+
+"title": "修其清静贞正，而籍琴以明心见性",
+
+"position": "32.012529,118.791701",
+
+"classify_type": 0,
+
+"address": "秦淮区晨光1865创意产业园凡德艺术街区A2-308吴门琴禅会馆",
+
+"city": "南京",
+
+"img": "http://pic.huodongjia.com/event/2015-10-22/event146100.jpg"
+
+},
+{
+
+"id": 131916,
+
+"name": "游乐场咖啡酒吧",
+
+"tag": "乐活,纯质,小酒馆",
+
+"title": "长夜漫漫寻音乐与酒",
+
+"position": "23.134171,113.332678",
+
+"classify_type": 0,
+
+"address": "天河区体育西横街168号之二",
+
+"city": "广州",
+
+"img": "http://pic.huodongjia.com/event/2015-10-17/event144707.jpg"
+
+}
+],
+
+"tag": "幸福,有趣,纯质,生活馆",
+
+"title": "搜罗奇珍异宝的百货",
+
+"position": "113.32619,23.134517",
+
+"img": "http://pic.huodongjia.com/event/2015-11-05/event148775.jpg",
+
+"shop_id": 132271,
+
+"id": 132271,
+
+"detail": "Hi百货就像一艘载满世界各地货物的商船，乘着古老的季风远道而来。在这个聚集了众多买手推荐的商品的百货，即使逛一圈都能发现不少生活灵感。",
+
+"shareURL": "http://api.xiaorizi.me/app/share-132271.html",
+
+"share_url": "http://api.xiaorizi.me/app/share-132271.html",
+
+"classify_type": 0,
+
+"shop_time": "",
+
+"address": "天河路228号正佳广场4楼",
+
+"city": "广州",
+
+"content": "<body><p>在正佳广场的四楼中庭，你就能看到Hi红色的Logo。作为高端精品百货店，Hi百货集中了包括英国、德国、西班牙、匈牙利等来自全球数十个国家、地区设计师各式品类的商品。Hi百货和其他百货不同之处在于它的商品都是通过买手团队精心挑选。<img alt=\"\" height=\"715\" src=\"http://pic.huodongjia.com/event/2015-11-05/event148772.jpg\" width=\"1080\">从星巴克旁边走进去就是Hi百货了，空间设计以水泥、金属、旧木为主要材质，吊顶特地采用黑色的钢架，并在上面装置暖黄色的灯光。无论是在环境上还是服务上Hi百货都营造一种自由舒适的氛围，在Hi百货犹如置身于宜家家居一样，店员不会走过来向你介绍商品，也不会禁止你拍照。<img alt=\"\" height=\"715\" src=\"http://pic.huodongjia.com/event/2015-11-07/event148879.JPG\" width=\"1080\">​Hi百货拥有很大的室内空间，按功能分为Hi Books、Hi Cafe、Hi Touch、Hi Stage、Hi Class等10个区域。走进门先看到的是书吧，在图书区店内还专门设有看书的座椅，许多人就这样随意的坐在木地板上翻阅。看累了还可以到旁边的café里喝杯咖啡，体验意大利pizza或是英式下午茶，或各种精致的美食甜品。<img alt=\"\" height=\"715\" src=\"http://pic.huodongjia.com/event/2015-11-05/event148773.jpg\" width=\"1080\">除了店外歌莉娅的花艺外，在店内还摆放着小盆的绿色植物，你也可以把肉呼呼的它们买走。<img alt=\"\" height=\"715\" src=\"http://pic.huodongjia.com/event/2015-11-05/event148774.jpg\" width=\"1080\">我最喜欢的是Hi百货的零食区，在这里可以买到品种更全更小众的零食。比如比弗果园，它没有人为的色素和防腐剂，是一种新鲜采摘水果制成的碳酸饮料，在英国有着很不错的销售业绩。在Hi百货里可以一次性挑到很多种口味。<img alt=\"\" height=\"715\" src=\"http://pic.huodongjia.com/event/2015-11-05/event148776.jpg\" width=\"1080\">Hi百货有着舒适的购物环境，不仅可以挑到独特新奇的物件还可以静静的阅读、品咖啡，绝对是物质和精神的双重享受。在这里世界各处的艺术、设计、生活都没有了围墙，除了购买商品你还可以亲身去体验手工的乐趣。<img alt=\"\" height=\"715\" src=\"http://pic.huodongjia.com/event/2015-11-05/event148777.jpg\" width=\"1080\"></img></img></img></img></img></img></p><p></p><p><strong>店铺地址：</strong>广东省广州市广州市天河区正佳广场四楼中庭</p><p><strong>营业时间：</strong>周一至周四、周日 11:00-22:00 ；周五至周六 11:00-11:30</p><p><strong>联系电话：</strong>020-88505330</p><p></p><p></p></body>",
+
+"phone": "020-85505330"
+
+},
+{
+
+"shop": [
+
+],
+
+"name": "Roseonly",
+
+"more": [
+{
+
+"id": 131976,
+
+"name": "德芭与彩虹（汉口店）",
+
+"tag": "书画,赏味,有趣,纯质,书吧,餐吧",
+
+"title": "温暖的书店，送给失眠的你",
+
+"position": "30.613215,114.317689",
+
+"classify_type": 0,
+
+"address": "江岸区芦沟桥路56号（武汉天地内8号楼）",
+
+"city": "武汉",
+
+"img": "http://pic.huodongjia.com/event/2015-10-20/event145413.jpg"
+
+},
+{
+
+"id": 132084,
+
+"name": "问渠茶馆",
+
+"tag": "赏味,观演,茶坊",
+
+"title": "慢慢来问渠",
+
+"position": "32.018134,118.793934",
+
+"classify_type": 0,
+
+"address": " 秦淮区箍桶巷区内(近老门东历史文化街)",
+
+"city": "南京",
+
+"img": "http://pic.huodongjia.com/event/2015-11-24/event152735.jpg"
+
+}
+],
+
+"tag": "幸福,雅韵,花房",
+
+"title": "一生只送一个人",
+
+"position": "113.331583,23.133895",
+
+"img": "http://pic.huodongjia.com/event/2015-11-21/event152127.jpg",
+
+"shop_id": 132505,
+
+"id": 132505,
+
+"detail": "世界上有千千万万朵玫瑰，而那个小王子只要他的那朵傲娇玫瑰",
+
+"shareURL": "http://api.xiaorizi.me/app/share-132505.html",
+
+"share_url": "http://api.xiaorizi.me/app/share-132505.html",
+
+"classify_type": 0,
+
+"shop_time": "",
+
+"address": "天河区天河路383号太古汇商场B2楼M08号商铺",
+
+"city": "广州",
+
+"content": "<body><p>Roseonly花店与其他花店明显不同。Roseonly店内并没有如同普通花店一样挤满各类鲜花绿叶，而是仅仅摆放着一些精致的礼物盒，花都经过处理整齐摆放在其中。</p><p><img alt=\"\" height=\"406\" src=\"http://pic.huodongjia.com/event/2015-11-21/event152123.jpg\" width=\"653\"><img alt=\"\" height=\"399\" src=\"http://pic.huodongjia.com/event/2015-11-21/event152121.jpg\" width=\"699\"></img></img></p><p>店内本身就是灰白冷色系的极简装饰风格，在灰与白之中，静静摆放着各色鲜艳的花朵，令人印象深刻。</p><p><img alt=\"\" height=\"431\" src=\"http://pic.huodongjia.com/event/2015-11-21/event152128.jpg\" width=\"699\"><img alt=\"\" height=\"631\" src=\"http://pic.huodongjia.com/event/2015-11-21/event152126.jpg\" width=\"525\"></img></img></p><p>Roseonly，最令人难忘的是它所推崇的，“一生只送一人”。手机号码只能注册一次，花只能送一个人，这份珍贵，让很多人感动。</p><p><img alt=\"\" height=\"700\" src=\"http://pic.huodongjia.com/event/2015-11-21/event152129.jpg\" width=\"525\"></img></p><p>世界上有千千万万朵玫瑰，而那个小王子只要他的那朵傲娇玫瑰。或许，这是所有人的选择吧。</p><p><img alt=\"\" height=\"544\" src=\"http://pic.huodongjia.com/event/2015-11-21/event152124.jpg\" width=\"640\"></img></p><p><strong>地址：</strong> 天河区天河路383号太古汇商场B2楼M08号商铺</p><p><strong>营业时间：</strong> 10:00-22:00</p><p><strong>联系电话：</strong> 020-38682303</p><p>图片来源于网路</p></body>",
+
+"phone": "020-38682303"
+
+},
+{
+
+"shop": [
+
+],
+
+"name": "yohokeon起航生态馆",
+
+"more": [
+{
+
+"id": 132299,
+
+"name": "FIT复古自行车",
+
+"tag": "酷炫,生活馆,工作室",
+
+"title": "最FIT的生活方式",
+
+"position": "31.252726,121.498685",
+
+"classify_type": 0,
+
+"address": "虹口区长治路133号",
+
+"city": "上海",
+
+"img": "http://pic.huodongjia.com/event/2015-11-09/event149209.jpg"
+
+},
+{
+
+"id": 132554,
+
+"name": "指间工坊工作室",
+
+"tag": "手作,有趣,纯质",
+
+"title": "开在指尖上的艺术",
+
+"position": "34.265381,108.903969",
+
+"classify_type": 0,
+
+"address": "莲湖区丰镐东路喜来登酒店对面蓝天小区1号楼南平房",
+
+"city": "西安",
+
+"img": "http://pic.huodongjia.com/event/2015-11-20/event151867.jpeg"
+
+}
+],
+
+"tag": "幸福,有趣,花房",
+
+"title": "花的摆放，源自于对生活的态度",
+
+"position": "113.329633,23.134482",
+
+"img": "http://pic.huodongjia.com/event/2015-12-24/event161564.jpg",
+
+"shop_id": 133378,
+
+"id": 133378,
+
+"detail": "通过对花卉的定格，表达一种意境来体验生命的真实与灿烂。",
+
+"shareURL": "http://api.xiaorizi.me/app/share-133378.html",
+
+"share_url": "http://api.xiaorizi.me/app/share-133378.html",
+
+"classify_type": 0,
+
+"shop_time": "",
+
+"address": "广州市天河路365号天俊阁大厦205",
+
+"city": "广州",
+
+"content": "<body><p>YOHO起航DIY多肉艺术插花-插花艺术起源于粉丝们对花卉的热爱，通过对花卉的定格，表达一种意境来体验生命的真实与灿烂。</p><p><img alt=\"\" height=\"426\" src=\"http://pic.huodongjia.com/event/2015-12-24/event161561.jpg\" width=\"640\"></img></p><p>起航于社区的KEON庄园现结合传统的插花加入多肉植物，开启一篇多肉艺术插花画廊KeonGallery展示期，来到YOHO起航生态坊，当您亲身体验一次，您会发现，自己可以成为一位最潮的起航多肉花艺设计大师。 </p><p><img alt=\"\" height=\"401\" src=\"http://pic.huodongjia.com/event/2015-12-24/event161568.jpg\" width=\"640\"><img alt=\"\" height=\"625\" src=\"http://pic.huodongjia.com/event/2015-12-24/event161567.jpg\" width=\"525\"></img></img></p><p>在这里，YohoKeon沙龙:以肉肉们的名义,展开不同肉肉类型的沙龙,我们得以聚会、交流，顺便转换和放松一下紧绷的脑筋。 </p><p><img alt=\"\" height=\"426\" src=\"http://pic.huodongjia.com/event/2015-12-24/event161565.jpg\" width=\"640\"><img alt=\"\" height=\"700\" src=\"http://pic.huodongjia.com/event/2015-12-24/event161566.jpg\" width=\"525\"></img></img></p><p>为平时上班忙碌的年轻父母提供一个超温馨的亲子空间，享受与孩子合作的快乐时光；在轻松氛围里分享做手作景观的乐趣，促进团队的凝聚力，拉近同事（客户）之间的距离，还可以作为员工福利。</p><p><img alt=\"\" height=\"407\" src=\"http://pic.huodongjia.com/event/2015-12-24/event161562.jpg\" width=\"640\"><img alt=\"\" height=\"625\" src=\"http://pic.huodongjia.com/event/2015-12-24/event161567.jpg\" width=\"525\"></img></img></p><p>辛苦工作之余，找个轻松温馨的地方亲手修建小世界，让思绪暂离尘嚣，度过一晌时光，一种超酷的休闲。</p><p><img alt=\"\" height=\"400\" src=\"http://pic.huodongjia.com/event/2015-12-24/event161563.jpg\" width=\"669\"></img></p><p><strong>地址：</strong> 天河区天河路365号天俊阁205室</p><p><strong>联系电话：</strong> 020-38801032</p><p><strong>营业时间：</strong> 10:00-19:00</p><p>图片来源于网络</p></body>",
+
+"phone": "020-38801032"
+
+}
+],
+
+"code": 1
+
+}

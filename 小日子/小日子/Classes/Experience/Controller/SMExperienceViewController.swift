@@ -53,7 +53,7 @@ class SMExperienceViewController: BaseViewController {
     //MARK:-  加载数据
     func LoadData() {
         weak var weakSelf = self
-        let time = dispatch_time(DISPATCH_TIME_NOW,(Int64)(2 * NSEC_PER_SEC))
+        let time = dispatch_time(DISPATCH_TIME_NOW,(Int64)(1 * NSEC_PER_SEC))
         dispatch_after(time, dispatch_get_main_queue()) { () -> Void in
             SMExperienDataModel.loadExperienceData({ (data, error) -> () in
                 if error != nil {

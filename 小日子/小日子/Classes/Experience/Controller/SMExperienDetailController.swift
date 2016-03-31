@@ -30,6 +30,7 @@ class SMExperienDetailController: UIViewController {
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         navigationController?.navigationBar.hidden = false
+        SVProgressHUD.dismiss()
     }
     
     //MARK: - 设置子控件

@@ -26,7 +26,7 @@ class BaseViewController: UIViewController {
         leftItemBtn!.titleLabel?.font = navItemFont
         var currentCity = NSUserDefaults.standardUserDefaults().objectForKey(cityKey) as? String
         if currentCity == nil {
-            currentCity = "北京"
+            currentCity = "广州"
         }
         leftItemBtn!.setTitle(currentCity, forState: .Normal)
         leftItemBtn!.setTitleColor(UIColor.blackColor(), forState: .Normal)

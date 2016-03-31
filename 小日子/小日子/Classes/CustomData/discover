@@ -1,0 +1,326 @@
+{
+
+"hot": "小洲村,天河路,体育西路,江南西路,烟墩路",
+
+"msg": "request success.",
+
+
+
+"list": [
+{
+
+"id": 234,
+
+"classify_type": 0,
+
+"tags": [
+{
+
+"id": 7182,
+
+"name": "书吧",
+
+"img": "http://pic.huodongjia.com/event/2015-12-28/event161896.JPG"
+
+},
+{
+
+"id": 7236,
+
+"name": "餐吧",
+
+"img": "http://pic.huodongjia.com/event/2015-10-14/event143457.jpg"
+
+},
+{
+
+"id": 7278,
+
+"name": "咖啡馆",
+
+"img": "http://pic.huodongjia.com/event/2015-07-02/event129773.jpg"
+
+},
+{
+
+"id": 7279,
+
+"name": "花房",
+
+"img": "http://pic.huodongjia.com/event/2015-12-28/event161869.jpg"
+
+},
+{
+
+"id": 7281,
+
+"name": "生活馆",
+
+"img": "http://pic.huodongjia.com/event/2015-06-18/event128436.jpg"
+
+},
+{
+
+"id": 7282,
+
+"name": "旅舍",
+
+"img": "http://pic.huodongjia.com/event/2015-12-17/event160283.jpg"
+
+},
+{
+
+"id": 7283,
+
+"name": "小酒馆",
+
+"img": "http://pic.huodongjia.com/event/2015-10-17/event144707.jpg"
+
+},
+{
+
+"id": 7291,
+
+"name": "甜品铺",
+
+"img": "http://pic.huodongjia.com/event/2015-10-01/event141088.jpg"
+
+},
+{
+
+"id": 7294,
+
+"name": "衣饰馆",
+
+"img": "http://pic.huodongjia.com/event/2015-06-11/event127798.jpg"
+
+},
+{
+
+"id": 7303,
+
+"name": "艺术空间",
+
+"img": "http://pic.huodongjia.com/event/2015-10-20/event145390.jpg"
+
+},
+{
+
+"id": 7304,
+
+"name": "茶坊",
+
+"img": "http://pic.huodongjia.com/event/2015-08-25/event135754.jpg"
+
+},
+{
+
+"id": 7310,
+
+"name": "杂货铺",
+
+"img": "http://pic.huodongjia.com/event/2016-02-08/event170821.jpg"
+
+},
+{
+
+"id": 7368,
+
+"name": "工作室",
+
+"img": "http://pic.huodongjia.com/event/2015-09-26/event140829.jpg"
+
+},
+{
+
+"id": 7379,
+
+"name": "手作坊",
+
+"img": "http://pic.huodongjia.com/event/2016-02-29/event173287.jpg"
+
+},
+{
+
+"id": 7402,
+
+"name": "文化空间",
+
+"img": "http://pic.huodongjia.com/event/2015-08-10/event134332.jpg"
+
+}
+],
+
+"title": "闲时光 · 发现 · 惊喜"
+
+},
+{
+
+"id": 235,
+
+"classify_type": 0,
+
+"tags": [
+{
+
+"id": 1252,
+
+"name": "花艺",
+
+"img": "http://pic.huodongjia.com/event/2015-07-21/event132083.jpg"
+
+},
+{
+
+"id": 1743,
+
+"name": "手作",
+
+"img": "http://pic.huodongjia.com/event/2015-11-13/event150251.jpg"
+
+},
+{
+
+"id": 2245,
+
+"name": "乐活",
+
+"img": "http://pic.huodongjia.com/event/2015-07-28/event132640.jpg"
+
+},
+{
+
+"id": 2270,
+
+"name": "私厨",
+
+"img": "http://pic.huodongjia.com/event/2016-02-24/event172432.jpg"
+
+},
+{
+
+"id": 5230,
+
+"name": "温润",
+
+"img": "http://pic.huodongjia.com/event/2015-10-13/event143099.jpg"
+
+},
+{
+
+"id": 5231,
+
+"name": "幸福",
+
+"img": "http://pic.huodongjia.com/event/2016-03-01/event173486.jpg"
+
+},
+{
+
+"id": 5232,
+
+"name": "赏味",
+
+"img": "http://pic.huodongjia.com/event/2015-06-27/event129345.jpg"
+
+},
+{
+
+"id": 5233,
+
+"name": "有趣",
+
+"img": "http://pic.huodongjia.com/event/2015-07-31/event133128.jpg"
+
+},
+{
+
+"id": 5243,
+
+"name": "纯质",
+
+"img": "http://pic.huodongjia.com/event/2015-11-05/event148791.jpg"
+
+},
+{
+
+"id": 5265,
+
+"name": "雅韵",
+
+"img": "http://pic.huodongjia.com/event/2016-03-03/event173932.jpg"
+
+},
+{
+
+"id": 5269,
+
+"name": "惬意",
+
+"img": "http://pic.huodongjia.com/event/2015-06-11/event127765.jpg"
+
+},
+{
+
+"id": 5324,
+
+"name": "料理",
+
+"img": "http://pic.huodongjia.com/event/2015-05-13/event122991.jpg"
+
+},
+{
+
+"id": 5326,
+
+"name": "酷炫",
+
+"img": "http://pic.huodongjia.com/event/2015-12-11/event159174.jpg"
+
+},
+{
+
+"id": 6973,
+
+"name": "购物",
+
+"img": "http://pic.huodongjia.com/event/2015-10-05/event141343.jpg"
+
+},
+{
+
+"id": 6973,
+
+"name": "购物",
+
+"img": "http://pic.huodongjia.com/event/2015-10-05/event141343.jpg"
+
+},
+{
+
+"id": 6973,
+
+"name": "购物",
+
+"img": "http://pic.huodongjia.com/event/2015-10-05/event141343.jpg"
+
+},
+{
+
+"id": 7329,
+
+"name": "好住",
+
+"img": "http://pic.huodongjia.com/event/2015-08-07/event133998.jpg"
+
+}
+],
+
+"title": "涨知识 · 分享 · 丰盈"
+
+}
+],
+
+"code": 1
+
+}
