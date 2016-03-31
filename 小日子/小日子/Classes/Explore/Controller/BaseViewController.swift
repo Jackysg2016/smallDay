@@ -27,6 +27,8 @@ class BaseViewController: UIViewController {
         var currentCity = NSUserDefaults.standardUserDefaults().objectForKey(cityKey) as? String
         if currentCity == nil {
             currentCity = "广州"
+            NSUserDefaults.standardUserDefaults().setObject(currentCity, forKey: cityKey)
+            NSUserDefaults.standardUserDefaults().synchronize()
         }
         leftItemBtn!.setTitle(currentCity, forState: .Normal)
         leftItemBtn!.setTitleColor(UIColor.blackColor(), forState: .Normal)

@@ -21,6 +21,7 @@ class SMMeiTianDetailController: UIViewController {
         setupSubView()
         setupNavView()
         SVProgressHUD.showWithStatus("正在加载中")
+        webViewloadData()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -37,10 +38,9 @@ class SMMeiTianDetailController: UIViewController {
     
     //MARK: - 设置子控件
     func setupSubView() {
-
-       view.addSubview(webView)
        view.addSubview(tableView)
-       view.addSubview(topImageView)
+        view.addSubview(webView)
+        view.addSubview(topImageView)
        view.addSubview(tabScrollView)
        view.addSubview(coverView)
 
@@ -72,6 +72,48 @@ class SMMeiTianDetailController: UIViewController {
     //MARK:- 点击收藏
     func likeBtnClick() {
         likeBtn.selected = !likeBtn.selected
+    }
+    
+    func webViewloadData() {
+        var htmlSrt = meiTianModel?.content
+        
+        if htmlSrt != nil {
+            var titleStr: String?
+            
+            if meiTianModel?.title != nil {
+                titleStr = String(format: "<p style='font-size:20px;'> %@</p>", meiTianModel!.title!)
+            }
+            
+            if meiTianModel?.tag != nil {
+                titleStr = titleStr?.stringByAppendingFormat("<p style='font-size:13px; color: gray';>%@</p>", meiTianModel!.tag!)
+            }
+            
+            if titleStr != nil {
+                let newStr: NSMutableString = NSMutableString(string: htmlSrt!)
+                newStr.insertString(titleStr!, atIndex: 0)
+                htmlSrt = newStr as String
+            }
+            
+        }
+        let newStr = NSMutableString.changeHeigthAndWidthWithSrting(NSMutableString(string: htmlSrt!))
+        webView.loadHTMLString(newStr as String, baseURL: nil)
+        webView.hidden = false
+        
+        if meiTianModel?.more?.count > 0 {
+            webView.scrollView.addSubview(guessLikeView)
+            guessLikeView.hidden = false
+            for  moreModel  in (meiTianModel?.more)! {
+                let moreGuessView = SMMoreGuessLikeView.moreGuessLikeViewFromXib()
+                moreGuessView.moreModel = moreModel
+                webView.scrollView.addSubview(moreGuessView)
+                moreGuessLikeViewArray.append(moreGuessView)
+                
+            }
+        }else {
+            guessLikeView.hidden = true
+        }
+        
+
     }
     
     private lazy var isLoadFinsih = false
@@ -148,18 +190,6 @@ class SMMeiTianDetailController: UIViewController {
         return webView
     }()
     
-    //MARK:- 底部scrollView
-    lazy var detailScrollView: UIScrollView = {
-        let detailScrollView = UIScrollView(frame: self.view.bounds)
-        detailScrollView.contentSize = CGSizeMake(screenW * 2, 0)
-        detailScrollView.showsHorizontalScrollIndicator = false
-        detailScrollView.backgroundColor = viewBackgroundColor
-        detailScrollView.alwaysBounceVertical = true
-        detailScrollView.delegate = self
-        detailScrollView.pagingEnabled = true
-        return detailScrollView
-        
-    }()
     //MARK: - 右边的tableview
     lazy var tableView: UITableView = {
        let tableView = UITableView(frame: self.view.bounds, style: .Plain)
@@ -189,48 +219,9 @@ class SMMeiTianDetailController: UIViewController {
     var meiTianModel: SMMeiTianModel? {
         didSet {
 
-            detailScrollView.hidden = true
             if let imgStr = (meiTianModel?.img)  {
                 topImageView.sd_setImageWithURL(NSURL(string: imgStr), placeholderImage: UIImage(named: "quesheng"))
             }
-            var htmlSrt = meiTianModel?.content
-            
-            if htmlSrt != nil {
-                var titleStr: String?
-                
-                if meiTianModel?.title != nil {
-                    titleStr = String(format: "<p style='font-size:20px;'> %@</p>", meiTianModel!.title!)
-                }
-                
-                if meiTianModel?.tag != nil {
-                    titleStr = titleStr?.stringByAppendingFormat("<p style='font-size:13px; color: gray';>%@</p>", meiTianModel!.tag!)
-                }
-                
-                if titleStr != nil {
-                    let newStr: NSMutableString = NSMutableString(string: htmlSrt!)
-                    newStr.insertString(titleStr!, atIndex: 0)
-                    htmlSrt = newStr as String
-                }
-
-            }
-            let newStr = NSMutableString.changeHeigthAndWidthWithSrting(NSMutableString(string: htmlSrt!))
-            webView.loadHTMLString(newStr as String, baseURL: nil)
-            webView.hidden = false
-            
-            if meiTianModel?.more?.count > 0 {
-                webView.scrollView.addSubview(guessLikeView)
-                guessLikeView.hidden = false
-                for  moreModel  in (meiTianModel?.more)! {
-                    let moreGuessView = SMMoreGuessLikeView.moreGuessLikeViewFromXib()
-                    moreGuessView.moreModel = moreModel
-                    webView.scrollView.addSubview(moreGuessView)
-                    moreGuessLikeViewArray.append(moreGuessView)
-                    
-                }
-            }else {
-                guessLikeView.hidden = true
-            }
-            
         }
     }
 

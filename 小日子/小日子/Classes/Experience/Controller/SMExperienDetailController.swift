@@ -15,6 +15,7 @@ class SMExperienDetailController: UIViewController {
         super.viewDidLoad()
         view.clipsToBounds = true
         view.backgroundColor = viewBackgroundColor
+        self.automaticallyAdjustsScrollViewInsets = false
         setupSubView()
         setupNavView()
         SVProgressHUD.showWithStatus("正在加载中")
@@ -142,7 +143,7 @@ class SMExperienDetailController: UIViewController {
     lazy var webView: UIWebView = {
         let webView = UIWebView()
         webView.frame = self.view.bounds
-        webView.scrollView.contentInset = UIEdgeInsets(top: topImageHeight  , left: 0, bottom: 0, right: 0)
+        webView.scrollView.contentInset = UIEdgeInsets(top: topImageHeight   , left: 0, bottom: 0, right: 0)
         webView.scrollView.showsHorizontalScrollIndicator = false
         webView.backgroundColor = viewBackgroundColor
         webView.paginationBreakingMode = UIWebPaginationBreakingMode.Column//设置此属性，webView按行显示，默认为按页显示

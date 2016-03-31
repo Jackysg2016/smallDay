@@ -44,7 +44,7 @@ class SMDiscoverViewController: BaseViewController {
         layout.headerReferenceSize = CGSizeMake(screenW, 25)
 
         collectionView = UICollectionView(frame: CGRectMake(0, 104, screenW, screenH), collectionViewLayout: layout)
-        collectionView!.backgroundColor = UIColor.colorWithRGB(239, g: 239, b: 239, alpha: 1.0)
+        collectionView!.backgroundColor = viewBackgroundColor
         collectionView!.delegate = self
         collectionView!.dataSource = self
         collectionView!.alwaysBounceVertical = true
@@ -280,5 +280,12 @@ extension SMDiscoverViewController: UITableViewDataSource,UITableViewDelegate {
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 240
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let model = searchDataArray?.list?[indexPath.row]
+        let detailVc = SMMeiTianDetailController()
+        detailVc.meiTianModel = model
+        self.navigationController?.pushViewController(detailVc, animated: true)
     }
 }
