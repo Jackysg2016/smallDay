@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00EB0989C3B40A933332E1EB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B71C878F5221380971748042 /* libPods.a */; };
+		270427C11CAE142500753158 /* guide1.png in Resources */ = {isa = PBXBuildFile; fileRef = 270427B71CAE142500753158 /* guide1.png */; };
+		270427C21CAE142500753158 /* guide2.png in Resources */ = {isa = PBXBuildFile; fileRef = 270427B81CAE142500753158 /* guide2.png */; };
+		270427C31CAE142500753158 /* detail1.png in Resources */ = {isa = PBXBuildFile; fileRef = 270427B91CAE142500753158 /* detail1.png */; };
+		270427C41CAE142500753158 /* discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 270427BA1CAE142500753158 /* discover.png */; };
+		270427C51CAE142500753158 /* explore.png in Resources */ = {isa = PBXBuildFile; fileRef = 270427BB1CAE142500753158 /* explore.png */; };
+		270427C61CAE142500753158 /* near.png in Resources */ = {isa = PBXBuildFile; fileRef = 270427BC1CAE142500753158 /* near.png */; };
+		270427C71CAE142500753158 /* city.png in Resources */ = {isa = PBXBuildFile; fileRef = 270427BD1CAE142500753158 /* city.png */; };
+		270427C81CAE142500753158 /* mine.png in Resources */ = {isa = PBXBuildFile; fileRef = 270427BE1CAE142500753158 /* mine.png */; };
+		270427C91CAE142500753158 /* experience.png in Resources */ = {isa = PBXBuildFile; fileRef = 270427BF1CAE142500753158 /* experience.png */; };
+		270427CA1CAE142500753158 /* nearMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 270427C01CAE142500753158 /* nearMap.png */; };
 		2705B22E1CA3C6CD00E2490F /* SMNearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2705B22D1CA3C6CD00E2490F /* SMNearViewController.swift */; };
 		2705B2311CA3CC3200E2490F /* SMNearViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2705B22F1CA3CC3200E2490F /* SMNearViewCell.swift */; };
 		2705B2321CA3CC3200E2490F /* SMNearViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2705B2301CA3CC3200E2490F /* SMNearViewCell.xib */; };
@@ -140,6 +150,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		270427B71CAE142500753158 /* guide1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide1.png; sourceTree = "<group>"; };
+		270427B81CAE142500753158 /* guide2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide2.png; sourceTree = "<group>"; };
+		270427B91CAE142500753158 /* detail1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail1.png; sourceTree = "<group>"; };
+		270427BA1CAE142500753158 /* discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = discover.png; sourceTree = "<group>"; };
+		270427BB1CAE142500753158 /* explore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explore.png; sourceTree = "<group>"; };
+		270427BC1CAE142500753158 /* near.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = near.png; sourceTree = "<group>"; };
+		270427BD1CAE142500753158 /* city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city.png; sourceTree = "<group>"; };
+		270427BE1CAE142500753158 /* mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mine.png; sourceTree = "<group>"; };
+		270427BF1CAE142500753158 /* experience.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = experience.png; sourceTree = "<group>"; };
+		270427C01CAE142500753158 /* nearMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nearMap.png; sourceTree = "<group>"; };
 		2705B22D1CA3C6CD00E2490F /* SMNearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNearViewController.swift; sourceTree = "<group>"; };
 		2705B22F1CA3CC3200E2490F /* SMNearViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMNearViewCell.swift; sourceTree = "<group>"; };
 		2705B2301CA3CC3200E2490F /* SMNearViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMNearViewCell.xib; sourceTree = "<group>"; };
@@ -294,6 +314,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		270427B61CAE13F800753158 /* desImage */ = {
+			isa = PBXGroup;
+			children = (
+				270427B71CAE142500753158 /* guide1.png */,
+				270427B81CAE142500753158 /* guide2.png */,
+				270427B91CAE142500753158 /* detail1.png */,
+				270427BA1CAE142500753158 /* discover.png */,
+				270427BB1CAE142500753158 /* explore.png */,
+				270427BC1CAE142500753158 /* near.png */,
+				270427BD1CAE142500753158 /* city.png */,
+				270427BE1CAE142500753158 /* mine.png */,
+				270427BF1CAE142500753158 /* experience.png */,
+				270427C01CAE142500753158 /* nearMap.png */,
+			);
+			path = desImage;
+			sourceTree = "<group>";
+		};
 		2739058B1C9296920082F041 /* Library */ = {
 			isa = PBXGroup;
 			children = (
@@ -685,6 +722,7 @@
 		27E9C9CB1C91428200F1A76C /* 小日子 */ = {
 			isa = PBXGroup;
 			children = (
+				270427B61CAE13F800753158 /* desImage */,
 				276A46551C92649700C0B5D1 /* Classes */,
 				27E9C9D31C91428200F1A76C /* Assets.xcassets */,
 				27E9C9D81C91428200F1A76C /* Info.plist */,
@@ -837,10 +875,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				277FD3AE1CA90B70004CE1C6 /* SMExperienceCell.xib in Resources */,
+				270427C61CAE142500753158 /* near.png in Resources */,
+				270427CA1CAE142500753158 /* nearMap.png in Resources */,
 				279BFC511C9AA6130050C682 /* meiTians in Resources */,
+				270427C51CAE142500753158 /* explore.png in Resources */,
 				27539C321C966B840088720A /* Nears in Resources */,
 				2705B2321CA3CC3200E2490F /* SMNearViewCell.xib in Resources */,
+				270427C41CAE142500753158 /* discover.png in Resources */,
+				270427C71CAE142500753158 /* city.png in Resources */,
 				279B16161CA132A300FADB89 /* SMDetailTableHeaderView.xib in Resources */,
+				270427C11CAE142500753158 /* guide1.png in Resources */,
+				270427C31CAE142500753158 /* detail1.png in Resources */,
+				270427C91CAE142500753158 /* experience.png in Resources */,
 				27C49DFE1CAA7CAD007F8504 /* discover in Resources */,
 				27539C4F1C96A9C50088720A /* SMExploreWithTopTitleCell.xib in Resources */,
 				273905A31C9296920082F041 /* Info.plist in Resources */,
@@ -848,6 +894,7 @@
 				278327B61CA51D79009E15D2 /* SMNearCollectionViewCell.xib in Resources */,
 				27539C531C96BD1F0088720A /* SMExploreWithMidTitleCell.xib in Resources */,
 				27066B3E1CAD07AF002C57DC /* searchData in Resources */,
+				270427C21CAE142500753158 /* guide2.png in Resources */,
 				279B16221CA142A100FADB89 /* SMShareViewController.xib in Resources */,
 				279B16081CA0ED5200FADB89 /* SMGuessLikeView.xib in Resources */,
 				27066B441CAD0E40002C57DC /* SMDiscoverSearchCell.xib in Resources */,
@@ -855,6 +902,7 @@
 				27C49DF61CAA5445007F8504 /* SMSettingCell.xib in Resources */,
 				27C49DEE1CAA18F1007F8504 /* SMMineViewController.xib in Resources */,
 				27539C331C966B840088720A /* meiJis in Resources */,
+				270427C81CAE142500753158 /* mine.png in Resources */,
 				279B160C1CA0F39900FADB89 /* SMMoreGuessLikeView.xib in Resources */,
 				27E9C9D41C91428200F1A76C /* Assets.xcassets in Resources */,
 				27E6A1F61CABCEF800C1F908 /* SMDiscoverCollectionCell.xib in Resources */,
